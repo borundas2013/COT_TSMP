@@ -1,0 +1,800 @@
+<s>[INST]Generate a TSMP for me.[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]Let's go with group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Generating a TSMP with vinyl groups as requested.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]Focus on groups.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Okay, generating a TSMP including vinyl groups as specified.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Let's go with group-based.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Add Epoxy groups to the TSMP, please.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]Group-based.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Alright, generating your desired TSMP with vinyl groups.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Focus on groups.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Epoxy groups would be good for this TSMP.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Let's go with group-based.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Make sure the TSMP has Epoxy groups.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Group-based.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Please include Epoxy groups in the TSMP.[/INST]Okay, generating a TSMP including Epoxy groups as specified.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Group-based.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]I prefer group-based.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Epoxy groups would be good for this TSMP.[/INST]Understood! A TSMP with Epoxy groups is being created.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]Group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Please include Epoxy groups in the TSMP.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]Group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Please include Vinyl groups in the TSMP.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Make sure the TSMP has Imine groups.[/INST]Alright, generating your desired TSMP with Imine groups.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]Group-based sounds good.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Epoxy groups would be good for this TSMP.[/INST]Okay, generating a TSMP including Epoxy groups as specified.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Okay, generating a TSMP including vinyl groups as specified.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Focus on groups.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Add vinyl groups to the TSMP, please.[/INST]Alright, generating your desired TSMP with vinyl groups.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]I prefer group-based.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Add vinyl groups to the TSMP, please.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Please include Imine groups in the TSMP.[/INST]Okay, generating a TSMP including Imine groups as specified.\\EOC</s>
+<s>[INST]Generate a TSMP for me.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Let's go with group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Please include Epoxy groups in the TSMP.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]Let's go with group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Imine groups would be good for this TSMP.[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Let's go with group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Generate a TSMP for me.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Focus on groups.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Add vinyl groups to the TSMP, please.[/INST]Alright, generating your desired TSMP with vinyl groups.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]I prefer group-based.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Focus on groups.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Alright, generating your desired TSMP with vinyl groups.\\EOC</s>
+<s>[INST]Generate a TSMP for me.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Let's go with group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Add vinyl groups to the TSMP, please.[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Focus on groups.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Generate a TSMP for me.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]I prefer group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]I prefer group-based.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Imine groups would be good for this TSMP.[/INST]Understood! A TSMP with Imine groups is being created.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]Group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Focus on groups.[/INST]Could you specify the group for the TSMP? Options include Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Please remember that my training data has limitations.</s>
+<s>[INST]Epoxy groups would be good for this TSMP.[/INST]Alright, generating your desired TSMP with Epoxy groups.\\EOC</s>
+<s>[INST]Generate a TSMP for me.[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Focus on groups.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Please include Vinyl groups in the TSMP.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Group-based sounds good.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Alright, generating your desired TSMP with vinyl groups.\\EOC</s>
+<s>[INST]Generate a TSMP for me.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Focus on groups.[/INST]Could you specify the group for the TSMP? Options include Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Please remember that my training data has limitations.</s>
+<s>[INST]Please include Vinyl groups in the TSMP.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]I prefer group-based.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Okay, generating a TSMP including vinyl groups as specified.\\EOC</s>
+<s>[INST]Generate a TSMP for me.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]Focus on groups.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Please include Epoxy groups in the TSMP.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]Let's go with group-based.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Please include Epoxy groups in the TSMP.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Vinyl groups would be good for this TSMP.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Let's go with group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Please include Imine groups in the TSMP.[/INST]Okay, generating a TSMP including Imine groups as specified.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]I prefer group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Vinyl groups would be good for this TSMP.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]Group-based.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Let's go with group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Okay, generating a TSMP including vinyl groups as specified.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]I prefer group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Okay, generating a TSMP including vinyl groups as specified.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]Group-based.[/INST]Could you specify the group for the TSMP? Options include Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Please remember that my training data has limitations.</s>
+<s>[INST]Vinyl groups would be good for this TSMP.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]I prefer group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Okay, generating a TSMP including vinyl groups as specified.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]Group-based sounds good.[/INST]Could you specify the group for the TSMP? Options include Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Please remember that my training data has limitations.</s>
+<s>[INST]Make sure the TSMP has epoxy groups.[/INST]Understood! A TSMP with epoxy groups is being created.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Let's go with group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Please include Vinyl groups in the TSMP.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Group-based.[/INST]Could you specify the group for the TSMP? Options include Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Please remember that my training data has limitations.</s>
+<s>[INST]Include imine groups in the TSMP.[/INST]Alright, generating your desired TSMP with imine groups.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Let's go with group-based.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Vinyl groups would be good for this TSMP.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Add vinyl groups to the TSMP, please.[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Focus on groups.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Vinyl groups would be good for this TSMP.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Please include Epoxy groups in the TSMP.[/INST]Okay, generating a TSMP including vinyl groups as specified.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]Let's go with group-based.[/INST]Could you specify the group for the TSMP? Options include Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Please remember that my training data has limitations.</s>
+<s>[INST]Add epoxy groups to the TSMP, please.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Focus on groups.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Imine groups would be good for this TSMP.[/INST]Alright, generating your desired TSMP with Imine groups.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]Let's go with group-based.[/INST]Could you specify the group for the TSMP? Options include Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Please remember that my training data has limitations.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]Group-based sounds good.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Add vinyl groups to the TSMP, please.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]I prefer group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]Group-based sounds good.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Okay, generating a TSMP including vinyl groups as specified.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]Let's go with group-based.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Make sure the TSMP has Epoxy groups.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Generate a TSMP for me.[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]Let's go with group-based.[/INST]Could you specify the group for the TSMP? Options include Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Please remember that my training data has limitations.</s>
+<s>[INST]Add Epoxy groups to the TSMP, please.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]I prefer group-based.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Add vinyl groups to the TSMP, please.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]I prefer group-based.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Add vinyl groups to the TSMP, please.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]I prefer group-based.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Please include Vinyl groups in the TSMP.[/INST]Alright, generating your desired TSMP with vinyl groups.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Group-based.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Please include Imine groups in the TSMP.[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]I prefer group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]I prefer group-based.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]Let's go with group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Vinyl groups would be good for this TSMP.[/INST]Okay, generating a TSMP including vinyl groups as specified.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Let's go with group-based.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Please include Vinyl groups in the TSMP.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Focus on groups.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Okay, generating a TSMP including vinyl groups as specified.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]Group-based.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Add vinyl groups to the TSMP, please.[/INST]Alright, generating your desired TSMP with vinyl groups.\\EOC</s>
+<s>[INST]Generate a TSMP for me.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Group-based.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Add Imine groups to the TSMP, please.[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Let's go with group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]Focus on groups.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Please include Vinyl groups in the TSMP.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Group-based sounds good.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Add vinyl groups to the TSMP, please.[/INST]Alright, generating your desired TSMP with vinyl groups.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Group-based.[/INST]Could you specify the group for the TSMP? Options include Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Please remember that my training data has limitations.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Group-based sounds good.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Imine groups would be good for this TSMP.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]I prefer group-based.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Add vinyl groups to the TSMP, please.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Group-based.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Please include Epoxy groups in the TSMP.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]I prefer group-based.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Add vinyl groups to the TSMP, please.[/INST]Okay, generating a TSMP including vinyl groups as specified.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]Let's go with group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Add vinyl groups to the TSMP, please.[/INST]Alright, generating your desired TSMP with vinyl groups.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]I prefer group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Make sure the TSMP has epoxy groups.[/INST]Understood! A TSMP with epoxy groups is being created.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Group-based sounds good.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Imine groups would be good for this TSMP.[/INST]Understood! A TSMP with imine groups is being created.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]Let's go with group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Group-based sounds good.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Make sure the TSMP has Epoxy groups.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Give me a thermoset shape memory polymer.[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Alright, generating your desired TSMP with vinyl groups.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Please include Epoxy groups in the TSMP.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Generate a TSMP for me.[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Group-based sounds good.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]Group-based.[/INST]Could you specify the group for the TSMP? Options include Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Please remember that my training data has limitations.</s>
+<s>[INST]Add vinyl groups to the TSMP, please.[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]Focus on groups.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Please include Imine groups in the TSMP.[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]Alright, you want a TSMP. Would you prefer it group-based or property-based?</s>
+<s>[INST]I prefer group-based.[/INST]Could you specify the group for the TSMP? Options include Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Please remember that my training data has limitations.</s>
+<s>[INST]Include vinyl groups in the TSMP.[/INST]Understood! A TSMP with vinyl groups is being created.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Group-based.[/INST]Could you specify the group for the TSMP? Options include Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Please remember that my training data has limitations.</s>
+<s>[INST]Please include Epoxy groups in the TSMP.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Let's go with group-based.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Add Epoxy groups to the TSMP, please.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Generate a TSMP for me.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Group-based sounds good.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Epoxy groups would be good for this TSMP.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Generate a TSMP for me.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]Group-based sounds good.[/INST]Tell me which group to include. Examples: Vinyl (C=C), imine (C=N), epoxy (C1OC1). I may not have all chemical groups in my data.</s>
+<s>[INST]Please include Epoxy groups in the TSMP.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Generate a TSMP for me.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Let's go with group-based.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Make sure the TSMP has vinyl groups.[/INST]Okay, generating a TSMP including vinyl groups as specified.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Okay, you need a TSMP. I can generate two monomer-based TSMPs. Should it be group-based or property-based?</s>
+<s>[INST]Focus on groups.[/INST]Could you specify the group for the TSMP? Options include Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Please remember that my training data has limitations.</s>
+<s>[INST]Add vinyl groups to the TSMP, please.[/INST]Okay, generating a TSMP including vinyl groups as specified.\\EOC</s>
+<s>[INST]Can you provide a thermoset shape memory polymer?[/INST]Preparing a TSMP. Would you like it to focus on groups or specific properties?</s>
+<s>[INST]Let's go with group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Please include Epoxy groups in the TSMP.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Generate a TSMP for me.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Let's go with group-based.[/INST]Which group would you like in the TSMP? For example: Vinyl (C=C), imine (C=N), epoxy (C1OC1). Note, not all groups are available in my training data.</s>
+<s>[INST]Make sure the TSMP has Epoxy groups.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]I\u2019d like a TSMP polymer.[/INST]I can make a TSMP. Do you need it to be group-based or based on specific properties?</s>
+<s>[INST]Let's go with group-based.[/INST]Please tell me which group you want included in the TSMP. Examples: Vinyl group (C=C), imine group (C=N), epoxy group (C1OC1). Remember, I have limitations as I don\u2019t have all chemical groups in my training data.</s>
+<s>[INST]Please include Imine groups in the TSMP.[/INST]Okay, generating a TSMP including Imine groups as specified.\\EOC</s>
+<s>[INST]Requesting a thermoset shape memory polymer.[/INST]Got it! Do you want the TSMP to be group-based or property-based?</s>
+<s>[INST]I prefer group-based.[/INST]Please specify the group to include in the TSMP. Some examples are: Vinyl (C=C), imine (C=N), and epoxy (C1OC1). Not all groups are in my training data.</s>
+<s>[INST]Please include Epoxy groups in the TSMP.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Property-based would be better.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]Please make a TSMP with a Tg of 250\u00b0C and Er of 100 MPa.[/INST]On it! Designing a TSMP to meet Tg=250\u00b0C and Er=100 MPa...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]Property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 110\u00b0C and Er is 124 MPa.[/INST]Understood! Generating a TSMP to match Tg=110\u00b0C and Er=124 MPa...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Property-based.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]Please make a TSMP with a Tg of 266\u00b0C and Er of 267 MPa.[/INST]Got it. Creating a TSMP with Tg=266\u00b0C and Er=267 MPa...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Focus on properties.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]I want a TSMP with Tg at 133\u00b0C and Er at 205 MPa.[/INST]Understood! Generating a TSMP to match Tg=133\u00b0C and Er=205 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Focus on properties.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]Can you make a TSMP with Tg=117\u00b0C and Er=137 MPa?[/INST]Understood! Generating a TSMP to match Tg=117\u00b0C and Er=137 MPa...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]I\u2019ll make a TSMP. Should it focus on specific properties or chemical groups?</s>
+<s>[INST]Focus on properties.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]Can you make a TSMP with Tg=148\u00b0C and Er=151 MPa?[/INST]Okay, generating a TSMP with Tg 148\u00b0C and Er 151 MPa as requested...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Let's go with property-based.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]TSMP with Tg 286\u00b0C and Er 252 MPa, please.[/INST]On it! Designing a TSMP to meet Tg=286\u00b0C and Er=252 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Focus on properties.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]TSMP with Tg 234\u00b0C and Er 155 MPa, please.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]Let's go with property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]Please make a TSMP with a Tg of 206\u00b0C and Er of 116 MPa.[/INST]On it! Designing a TSMP to meet Tg=206\u00b0C and Er=116 MPa...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]Focus on properties.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]I want a TSMP with Tg at 210\u00b0C and Er at 211 MPa.[/INST]Understood! Generating a TSMP to match Tg=210\u00b0C and Er=211 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Property-based.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 157\u00b0C and Er is 178 MPa.[/INST]Okay, generating a TSMP with Tg 157\u00b0C and Er 178 MPa as requested...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]I prefer property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]TSMP with Tg 249\u00b0C and Er 153 MPa, please.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]Property-based.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]TSMP with Tg 283\u00b0C and Er 273 MPa, please.[/INST]On it! Designing a TSMP to meet Tg=283\u00b0C and Er=273 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Let's go with property-based.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]Can you make a TSMP with Tg=193\u00b0C and Er=227 MPa?[/INST]Understood! Generating a TSMP to match Tg=193\u00b0C and Er=227 MPa...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Property-based.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]TSMP with Tg 165\u00b0C and Er 121 MPa, please.[/INST]Understood! Generating a TSMP to match Tg=165\u00b0C and Er=121 MPa...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Let's go with property-based.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 288\u00b0C and Er is 238 MPa.[/INST]Understood! Generating a TSMP to match Tg=288\u00b0C and Er=238 MPa...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]I prefer property-based.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]TSMP with Tg 208\u00b0C and Er 125 MPa, please.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]Property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 250\u00b0C and Er is 100 MPa.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Let's go with property-based.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]Please make a TSMP with a Tg of 105\u00b0C and Er of 252 MPa.[/INST]Understood! Generating a TSMP to match Tg=105\u00b0C and Er=252 MPa...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]I\u2019ll make a TSMP. Should it focus on specific properties or chemical groups?</s>
+<s>[INST]Property-based would be better.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]I want a TSMP with Tg at 220\u00b0C and Er at 189 MPa.[/INST]On it! Designing a TSMP to meet Tg=220\u00b0C and Er=189 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Property-based would be better.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 299\u00b0C and Er is 204 MPa.[/INST]Got it. Creating a TSMP with Tg=299\u00b0C and Er=204 MPa...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]I prefer property-based.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]Please make a TSMP with a Tg of 140\u00b0C and Er of 161 MPa.[/INST]Understood! Generating a TSMP to match Tg=140\u00b0C and Er=161 MPa...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Let's go with property-based.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]Can you make a TSMP with Tg=122\u00b0C and Er=202 MPa?[/INST]On it! Designing a TSMP to meet Tg=122\u00b0C and Er=202 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]Let's go with property-based.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]Can you make a TSMP with Tg=242\u00b0C and Er=277 MPa?[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]I\u2019ll make a TSMP. Should it focus on specific properties or chemical groups?</s>
+<s>[INST]Property-based.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]I want a TSMP with Tg at 290\u00b0C and Er at 168 MPa.[/INST]Understood! Generating a TSMP to match Tg=290\u00b0C and Er=168 MPa...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]I\u2019ll make a TSMP. Should it focus on specific properties or chemical groups?</s>
+<s>[INST]Focus on properties.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]I want a TSMP with Tg at 250\u00b0C and Er at 100 MPa.[/INST]Okay, generating a TSMP with Tg 272\u00b0C and Er 214 MPa as requested...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Focus on properties.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]I want a TSMP with Tg at 239\u00b0C and Er at 132 MPa.[/INST]Understood! Generating a TSMP to match Tg=239\u00b0C and Er=132 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Property-based.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]I want a TSMP with Tg at 205\u00b0C and Er at 182 MPa.[/INST]Understood! Generating a TSMP to match Tg=205\u00b0C and Er=182 MPa...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Let's go with property-based.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]Can you make a TSMP with Tg=140\u00b0C and Er=152 MPa?[/INST]Okay, generating a TSMP with Tg 140\u00b0C and Er 152 MPa as requested...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]I want a TSMP with Tg at 249\u00b0C and Er at 137 MPa.[/INST]Okay, generating a TSMP with Tg 249\u00b0C and Er 137 MPa as requested...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]I\u2019ll make a TSMP. Should it focus on specific properties or chemical groups?</s>
+<s>[INST]Property-based.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]Please make a TSMP with a Tg of 280\u00b0C and Er of 244 MPa.[/INST]Okay, generating a TSMP with Tg 280\u00b0C and Er 244 MPa as requested...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]I prefer property-based.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]I want a TSMP with Tg at 179\u00b0C and Er at 293 MPa.[/INST]Got it. Creating a TSMP with Tg=179\u00b0C and Er=293 MPa...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 249\u00b0C and Er is 265 MPa.[/INST]Understood! Generating a TSMP to match Tg=249\u00b0C and Er=265 MPa...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]I prefer property-based.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]Please make a TSMP with a Tg of 250\u00b0C and Er of 100 MPa.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Let's go with property-based.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]I want a TSMP with Tg at 192\u00b0C and Er at 107 MPa.[/INST]Got it. Creating a TSMP with Tg=192\u00b0C and Er=107 MPa...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Property-based would be better.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]Can you make a TSMP with Tg=186\u00b0C and Er=232 MPa?[/INST]Got it. Creating a TSMP with Tg=186\u00b0C and Er=232 MPa...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]I prefer property-based.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]Please make a TSMP with a Tg of 250\u00b0C and Er of 100 MPa.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]Property-based would be better.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]Can you make a TSMP with Tg=282\u00b0C and Er=236 MPa?[/INST]Got it. Creating a TSMP with Tg=282\u00b0C and Er=236 MPa...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Let's go with property-based.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 250\u00b0C and Er is 100 MPa.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]I\u2019ll make a TSMP. Should it focus on specific properties or chemical groups?</s>
+<s>[INST]I prefer property-based.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]I want a TSMP with Tg at 202\u00b0C and Er at 113 MPa.[/INST]Got it. Creating a TSMP with Tg=202\u00b0C and Er=113 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Property-based would be better.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 182\u00b0C and Er is 113 MPa.[/INST]Understood! Generating a TSMP to match Tg=182\u00b0C and Er=190 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]Property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]Please make a TSMP with a Tg of 118\u00b0C and Er of 168 MPa.[/INST]On it! Designing a TSMP to meet Tg=118\u00b0C and Er=168 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Let's go with property-based.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]I want a TSMP with Tg at 186\u00b0C and Er at 285 MPa.[/INST]Understood! Generating a TSMP to match Tg=186\u00b0C and Er=285 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I\u2019ll make a TSMP. Should it focus on specific properties or chemical groups?</s>
+<s>[INST]Property-based would be better.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]Please make a TSMP with a Tg of 271\u00b0C and Er of 177 MPa.[/INST]Understood! Generating a TSMP to match Tg=271\u00b0C and Er=177 MPa...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]Let's go with property-based.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]TSMP with Tg 121\u00b0C and Er 167 MPa, please.[/INST]Understood! Generating a TSMP to match Tg=121\u00b0C and Er=167 MPa...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]I\u2019ll make a TSMP. Should it focus on specific properties or chemical groups?</s>
+<s>[INST]Property-based would be better.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]Please make a TSMP with a Tg of 280\u00b0C and Er of 253 MPa.[/INST]Understood! Generating a TSMP to match Tg=280\u00b0C and Er=253 MPa...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Let's go with property-based.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 298\u00b0C and Er is 131 MPa.[/INST]Okay, generating a TSMP with Tg 298\u00b0C and Er 131 MPa as requested...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Let's go with property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 287\u00b0C and Er is 131 MPa.[/INST]Okay, generating a TSMP with Tg 287\u00b0C and Er 131 MPa as requested...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]I prefer property-based.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]Please make a TSMP with a Tg of 218\u00b0C and Er of 212 MPa.[/INST]On it! Designing a TSMP to meet Tg=218\u00b0C and Er=212 MPa...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Property-based.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]Please make a TSMP with a Tg of 204\u00b0C and Er of 144 MPa.[/INST]Understood! Generating a TSMP to match Tg=204\u00b0C and Er=144 MPa...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]I prefer property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]Can you make a TSMP with Tg=127\u00b0C and Er=260 MPa?[/INST]Okay, generating a TSMP with Tg 127\u00b0C and Er 260 MPa as requested...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Property-based.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]I want a TSMP with Tg at 250\u00b0C and Er at 100 MPa.[/INST]Got it. Creating a TSMP with Tg=215\u00b0C and Er=297 MPa...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]Property-based would be better.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]Please make a TSMP with a Tg of 167\u00b0C and Er of 286 MPa.[/INST]Understood! Generating a TSMP to match Tg=167\u00b0C and Er=286 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]I prefer property-based.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]Can you make a TSMP with Tg=160\u00b0C and Er=106 MPa?[/INST]Understood! Generating a TSMP to match Tg=160\u00b0C and Er=106 MPa...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Focus on properties.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]I want a TSMP with Tg at 195\u00b0C and Er at 199 MPa.[/INST]On it! Designing a TSMP to meet Tg=195\u00b0C and Er=199 MPa...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Let's go with property-based.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]Please make a TSMP with a Tg of 250\u00b0C and Er of 100 MPa.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Focus on properties.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 250\u00b0C and Er is 100 MPa.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Let's go with property-based.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]I want a TSMP with Tg at 173\u00b0C and Er at 154 MPa.[/INST]Understood! Generating a TSMP to match Tg=173\u00b0C and Er=154 MPa...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Property-based would be better.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]Please make a TSMP with a Tg of 163\u00b0C and Er of 294 MPa.[/INST]Okay, generating a TSMP with Tg 163\u00b0C and Er 294 MPa as requested...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Property-based would be better.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]I want a TSMP with Tg at 250\u00b0C and Er at 100 MPa.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]I prefer property-based.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]TSMP with Tg 273\u00b0C and Er 291 MPa, please.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]I prefer property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]Can you make a TSMP with Tg=223\u00b0C and Er=109 MPa?[/INST]Understood! Generating a TSMP to match Tg=223\u00b0C and Er=109 MPa...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Property-based.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]Please make a TSMP with a Tg of 146\u00b0C and Er of 101 MPa.[/INST]Okay, generating a TSMP with Tg 146\u00b0C and Er 101 MPa as requested...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]I\u2019ll make a TSMP. Should it focus on specific properties or chemical groups?</s>
+<s>[INST]Let's go with property-based.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]I want a TSMP with Tg at 220\u00b0C and Er at 202 MPa.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Property-based would be better.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]Please make a TSMP with a Tg of 290\u00b0C and Er of 264 MPa.[/INST]Understood! Generating a TSMP to match Tg=290\u00b0C and Er=264 MPa...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]Focus on properties.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]Please make a TSMP with a Tg of 207\u00b0C and Er of 212 MPa.[/INST]Got it. Creating a TSMP with Tg=207\u00b0C and Er=212 MPa...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]I\u2019ll make a TSMP. Should it focus on specific properties or chemical groups?</s>
+<s>[INST]Focus on properties.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]I want a TSMP with Tg at 104\u00b0C and Er at 233 MPa.[/INST]Okay, generating a TSMP with Tg 104\u00b0C and Er 233 MPa as requested...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Property-based would be better.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]Please make a TSMP with a Tg of 105\u00b0C and Er of 100 MPa.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Property-based would be better.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]I want a TSMP with Tg at 251\u00b0C and Er at 106 MPa.[/INST]On it! Designing a TSMP to meet Tg=251\u00b0C and Er=106 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Property-based would be better.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]Please make a TSMP with a Tg of 500\u00b0C and Er of 250 MPa.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Property-based.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]I want a TSMP with Tg at 102\u00b0C and Er at 230 MPa.[/INST]Okay, generating a TSMP with Tg 102\u00b0C and Er 230 MPa as requested...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Property-based.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]Please make a TSMP with a Tg of 208\u00b0C and Er of 119 MPa.[/INST]Got it. Creating a TSMP with Tg=208\u00b0C and Er=119 MPa...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]I\u2019ll make a TSMP. Should it focus on specific properties or chemical groups?</s>
+<s>[INST]Focus on properties.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]TSMP with Tg 232\u00b0C and Er 138 MPa, please.[/INST]Okay, generating a TSMP with Tg 232\u00b0C and Er 138 MPa as requested...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Property-based.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]Please make a TSMP with a Tg of 238\u00b0C and Er of 134 MPa.[/INST]Okay, generating a TSMP with Tg 238\u00b0C and Er 134 MPa as requested...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Property-based would be better.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]Can you make a TSMP with Tg=203\u00b0C and Er=271 MPa?[/INST]Understood! Generating a TSMP to match Tg=203\u00b0C and Er=271 MPa...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]I prefer property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]TSMP with Tg 174\u00b0C and Er 266 MPa, please.[/INST]On it! Designing a TSMP to meet Tg=174\u00b0C and Er=266 MPa...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Let's go with property-based.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]TSMP with Tg 103\u00b0C and Er 193 MPa, please.[/INST]Understood! Generating a TSMP to match Tg=103\u00b0C and Er=193 MPa...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Focus on properties.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]Please make a TSMP with a Tg of 216\u00b0C and Er of 269 MPa.[/INST]Okay, generating a TSMP with Tg 216\u00b0C and Er 269 MPa as requested...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]Property-based would be better.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]Can you make a TSMP with Tg=154\u00b0C and Er=145 MPa?[/INST]Okay, generating a TSMP with Tg 154\u00b0C and Er 145 MPa as requested...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Let's go with property-based.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 300\u00b0C and Er is 129 MPa.[/INST]Okay, generating a TSMP with Tg 300\u00b0C and Er 129 MPa as requested...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]I\u2019ll make a TSMP. Should it focus on specific properties or chemical groups?</s>
+<s>[INST]I prefer property-based.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]TSMP with Tg 112\u00b0C and Er 274 MPa, please.[/INST]On it! Designing a TSMP to meet Tg=112\u00b0C and Er=274 MPa...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]I prefer property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 124\u00b0C and Er is 186 MPa.[/INST]On it! Designing a TSMP to meet Tg=124\u00b0C and Er=186 MPa...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]Let's go with property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]Please make a TSMP with a Tg of 159\u00b0C and Er of 131 MPa.[/INST]On it! Designing a TSMP to meet Tg=159\u00b0C and Er=131 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Property-based would be better.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 253\u00b0C and Er is 204 MPa.[/INST]On it! Designing a TSMP to meet Tg=253\u00b0C and Er=204 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I\u2019ll make a TSMP. Should it focus on specific properties or chemical groups?</s>
+<s>[INST]I prefer property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]Can you make a TSMP with Tg=285\u00b0C and Er=196 MPa?[/INST]Got it. Creating a TSMP with Tg=285\u00b0C and Er=196 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 244\u00b0C and Er is 298 MPa.[/INST]Got it. Creating a TSMP with Tg=244\u00b0C and Er=298 MPa...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]I\u2019ll make a TSMP. Should it focus on specific properties or chemical groups?</s>
+<s>[INST]Focus on properties.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]I want a TSMP with Tg at 235\u00b0C and Er at 127 MPa.[/INST]Understood! Generating a TSMP to match Tg=235\u00b0C and Er=127 MPa...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Property-based would be better.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]TSMP with Tg 102\u00b0C and Er 230 MPa, please.[/INST]Got it. Creating a TSMP with Tg=102\u00b0C and Er=230 MPa...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Let's go with property-based.[/INST]I\u2019ll design it around Tg and Er. Could you tell me the values for each?</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 250\u00b0C and Er is 100 MPa.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Let's go with property-based.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 125\u00b0C and Er is 101 MPa.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Let's go with property-based.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]Please make a TSMP with a Tg of 274\u00b0C and Er of 161 MPa.[/INST]Got it. Creating a TSMP with Tg=274\u00b0C and Er=161 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]I prefer property-based.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]Please make a TSMP with a Tg of 139\u00b0C and Er of 232 MPa.[/INST]On it! Designing a TSMP to meet Tg=139\u00b0C and Er=232 MPa...\\EOC</s>
+<s>[INST]Give me a TSMP.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]I prefer property-based.[/INST]Alright, I can work with two properties: Tg and Er. What values should I target?</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 212\u00b0C and Er is 219 MPa.[/INST]Okay, generating a TSMP with Tg 212\u00b0C and Er 219 MPa as requested...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]Got it! Should the TSMP be based on groups or specific properties?</s>
+<s>[INST]Let's go with property-based.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]TSMP with Tg 202\u00b0C and Er 232 MPa, please.[/INST]Okay, generating a TSMP with Tg 202\u00b0C and Er 232 MPa as requested...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]I prefer property-based.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]TSMP with Tg 186\u00b0C and Er 208 MPa, please.[/INST]Okay, generating a TSMP with Tg 186\u00b0C and Er 208 MPa as requested...\\EOC</s>
+<s>[INST]Can you get me a thermoset shape memory polymer?[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]Property-based.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]TSMP with Tg 282\u00b0C and Er 155 MPa, please.[/INST]On it! Designing a TSMP to meet Tg=282\u00b0C and Er=155 MPa...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I can create a TSMP for you. Would you prefer it based on groups or properties?</s>
+<s>[INST]Focus on properties.[/INST]I'll base it on Tg and Er. Could you provide the specific values?</s>
+<s>[INST]I want a TSMP with Tg at 179\u00b0C and Er at 122 MPa.[/INST]Okay, generating a TSMP with Tg 179\u00b0C and Er 122 MPa as requested...\\EOC</s>
+<s>[INST]I need a thermoset shape memory polymer.[/INST]I\u2019ll make a TSMP. Should it focus on specific properties or chemical groups?</s>
+<s>[INST]Let's go with property-based.[/INST]I can design it with two properties: Glass Transition temperature (Tg) and Stress recovery (Er). Please specify the values.</s>
+<s>[INST]TSMP with Tg 289\u00b0C and Er 108 MPa, please.[/INST]Acknowledged! I\u2019ll generate a TSMP with those properties...\\EOC</s>
+<s>[INST]I'd like a TSMP polymer.[/INST]Okay, you need a TSMP. Should it be group-focused or based on specific properties?</s>
+<s>[INST]Focus on properties.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]I\u2019d like a TSMP where Tg is 250\u00b0C and Er is 100 MPa.[/INST]On it! Designing a TSMP to meet Tg=299\u00b0C and Er=293 MPa...\\EOC</s>
+<s>[INST]Please generate a TSMP for me.[/INST]I can generate a TSMP. Do you want it to be group-based or property-based?</s>
+<s>[INST]Focus on properties.[/INST]The TSMP can focus on two properties: Tg and Er. What values do you need?</s>
+<s>[INST]Can you make a TSMP with Tg=251\u00b0C and Er=297 MPa?[/INST]Got it. Creating a TSMP with Tg=251\u00b0C and Er=297 MPa...\\EOC</s>
+<s>[INST]Include Epoxy groups in the TSMP.[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]I need a TSMP which includes Epoxy groups.[/INST]Okay, adding Epoxy groups to the TSMP.\\EOC</s>
+<s>[INST]Can you make a TSMP with Vinyl groups?[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]I need a TSMP which includes Epoxy groups.[/INST]Got it. Preparing a TSMP with Epoxy groups.\\EOC</s>
+<s>[INST]Please add Imine groups to the TSMP.[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]I need a TSMP which includes Epoxy groups.[/INST]Understood! Designing a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Can you make a TSMP with Vinyl groups?[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]I need a TSMP which includes Imine groups.[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Please add Vinyl groups to the TSMP.[/INST]Creating a TSMP with Vinyl groups as specified.\\EOC</s>
+<s>[INST]Can you make a TSMP with Imine groups?[/INST]Got it. Preparing a TSMP with Imine groups.\\EOC</s>
+<s>[INST]Can you make a TSMP with Imine groups?[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Please add Epoxy groups to the TSMP.[/INST]Understood! Designing a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Please add Imine groups to the TSMP.[/INST]Understood! Designing a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Please add Imine groups to the TSMP.[/INST]Got it. Preparing a TSMP with Imine groups.\\EOC</s>
+<s>[INST]Vinyl groups would be good for this TSMP.[/INST]Understood! Designing a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]I need a TSMP which includes Imine groups.[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Vinyl groups would be good for this TSMP.[/INST]Okay, adding Vinyl groups to the TSMP.\\EOC</s>
+<s>[INST]Imine groups would be good for this TSMP.[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]I need a TSMP which includes Epoxy groups.[/INST]Understood! Designing a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Can you make a TSMP with Vinyl groups?[/INST]Creating a TSMP with Vinyl groups as specified.\\EOC</s>
+<s>[INST]Can you make a TSMP with Imine groups?[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Please add Vinyl groups to the TSMP.[/INST]Okay, adding Vinyl groups to the TSMP.\\EOC</s>
+<s>[INST]Imine groups would be good for this TSMP.[/INST]Okay, adding Imine groups to the TSMP.\\EOC</s>
+<s>[INST]Vinyl groups would be good for this TSMP.[/INST]Understood! Designing a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Please add Epoxy groups to the TSMP.[/INST]Understood! Designing a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Can you make a TSMP with Epoxy groups?[/INST]Okay, adding Epoxy groups to the TSMP.\\EOC</s>
+<s>[INST]Include Imine groups in the TSMP.[/INST]Got it. Preparing a TSMP with Imine groups.\\EOC</s>
+<s>[INST]I need a TSMP which includes Imine groups.[/INST]Got it. Preparing a TSMP with Imine groups.\\EOC</s>
+<s>[INST]I need a TSMP which includes Vinyl groups.[/INST]Okay, adding Vinyl groups to the TSMP.\\EOC</s>
+<s>[INST]I need a TSMP which includes Imine groups.[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Please add Vinyl groups to the TSMP.[/INST]Got it. Preparing a TSMP with Vinyl groups.\\EOC</s>
+<s>[INST]Include Vinyl groups in the TSMP.[/INST]Okay, adding Vinyl groups to the TSMP.\\EOC</s>
+<s>[INST]Include Epoxy groups in the TSMP.[/INST]Got it. Preparing a TSMP with Epoxy groups.\\EOC</s>
+<s>[INST]Can you make a TSMP with Epoxy groups?[/INST]Got it. Preparing a TSMP with Epoxy groups.\\EOC</s>
+<s>[INST]Can you make a TSMP with Epoxy groups?[/INST]Okay, adding Epoxy groups to the TSMP.\\EOC</s>
+<s>[INST]Imine groups would be good for this TSMP.[/INST]Creating a TSMP with Imine groups as specified.\\EOC</s>
+<s>[INST]Please add Epoxy groups to the TSMP.[/INST]Okay, adding Epoxy groups to the TSMP.\\EOC</s>
+<s>[INST]Please add Vinyl groups to the TSMP.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]I need a TSMP which includes Vinyl groups.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Can you make a TSMP with Vinyl groups?[/INST]Got it. Preparing a TSMP with Vinyl groups.\\EOC</s>
+<s>[INST]Include Vinyl groups in the TSMP.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Vinyl groups would be good for this TSMP.[/INST]Understood! Designing a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Please add Imine groups to the TSMP.[/INST]Okay, adding Imine groups to the TSMP.\\EOC</s>
+<s>[INST]Include Epoxy groups in the TSMP.[/INST]Understood! Designing a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Include Imine groups in the TSMP.[/INST]Creating a TSMP with Imine groups as specified.\\EOC</s>
+<s>[INST]Please add Vinyl groups to the TSMP.[/INST]Okay, adding Vinyl groups to the TSMP.\\EOC</s>
+<s>[INST]I need a TSMP which includes Imine groups.[/INST]Okay, adding Imine groups to the TSMP.\\EOC</s>
+<s>[INST]Include Epoxy groups in the TSMP.[/INST]Okay, adding Epoxy groups to the TSMP.\\EOC</s>
+<s>[INST]Include Epoxy groups in the TSMP.[/INST]Okay, adding Epoxy groups to the TSMP.\\EOC</s>
+<s>[INST]I need a TSMP which includes Epoxy groups.[/INST]Okay, adding Epoxy groups to the TSMP.\\EOC</s>
+<s>[INST]Epoxy groups would be good for this TSMP.[/INST]Understood! Designing a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Please add Vinyl groups to the TSMP.[/INST]Creating a TSMP with Vinyl groups as specified.\\EOC</s>
+<s>[INST]Please add Imine groups to the TSMP.[/INST]Understood! Designing a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]I need a TSMP which includes Epoxy groups.[/INST]Okay, adding Epoxy groups to the TSMP.\\EOC</s>
+<s>[INST]I need a TSMP which includes Vinyl groups.[/INST]Okay, adding Vinyl groups to the TSMP.\\EOC</s>
+<s>[INST]Please add Vinyl groups to the TSMP.[/INST]Creating a TSMP with Vinyl groups as specified.\\EOC</s>
+<s>[INST]I need a TSMP which includes Imine groups.[/INST]Got it. Preparing a TSMP with Imine groups.\\EOC</s>
+<s>[INST]Please add Epoxy groups to the TSMP.[/INST]Okay, adding Epoxy groups to the TSMP.\\EOC</s>
+<s>[INST]I need a TSMP which includes Imine groups.[/INST]Understood! Designing a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Can you make a TSMP with Epoxy groups?[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]I need a TSMP which includes Imine groups.[/INST]Creating a TSMP with Imine groups as specified.\\EOC</s>
+<s>[INST]Please add Vinyl groups to the TSMP.[/INST]Understood! Designing a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Include Imine groups in the TSMP.[/INST]Okay, adding Imine groups to the TSMP.\\EOC</s>
+<s>[INST]Vinyl groups would be good for this TSMP.[/INST]Creating a TSMP with Vinyl groups as specified.\\EOC</s>
+<s>[INST]Epoxy groups would be good for this TSMP.[/INST]Got it. Preparing a TSMP with Epoxy groups.\\EOC</s>
+<s>[INST]Imine groups would be good for this TSMP.[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Include Epoxy groups in the TSMP.[/INST]Creating a TSMP with Epoxy groups as specified.\\EOC</s>
+<s>[INST]Please add Epoxy groups to the TSMP.[/INST]Okay, adding Epoxy groups to the TSMP.\\EOC</s>
+<s>[INST]Please add Imine groups to the TSMP.[/INST]Understood! Designing a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Include Vinyl groups in the TSMP.[/INST]Got it. Preparing a TSMP with Vinyl groups.\\EOC</s>
+<s>[INST]Please add Epoxy groups to the TSMP.[/INST]Creating a TSMP with Epoxy groups as specified.\\EOC</s>
+<s>[INST]Please add Epoxy groups to the TSMP.[/INST]Got it. Preparing a TSMP with Epoxy groups.\\EOC</s>
+<s>[INST]Epoxy groups would be good for this TSMP.[/INST]Okay, adding Epoxy groups to the TSMP.\\EOC</s>
+<s>[INST]Can you make a TSMP with Vinyl groups?[/INST]Got it. Preparing a TSMP with Vinyl groups.\\EOC</s>
+<s>[INST]Can you make a TSMP with Epoxy groups?[/INST]Generating a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Can you make a TSMP with Epoxy groups?[/INST]Understood! Designing a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Include Vinyl groups in the TSMP.[/INST]Okay, adding Vinyl groups to the TSMP.\\EOC</s>
+<s>[INST]Please add Imine groups to the TSMP.[/INST]Understood! Designing a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Please add Imine groups to the TSMP.[/INST]Understood! Designing a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Include Epoxy groups in the TSMP.[/INST]Okay, adding Epoxy groups to the TSMP.\\EOC</s>
+<s>[INST]I need a TSMP which includes Imine groups.[/INST]Creating a TSMP with Imine groups as specified.\\EOC</s>
+<s>[INST]Vinyl groups would be good for this TSMP.[/INST]Understood! Designing a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Please add Imine groups to the TSMP.[/INST]Generating a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Include Imine groups in the TSMP.[/INST]Creating a TSMP with Imine groups as specified.\\EOC</s>
+<s>[INST]I need a TSMP which includes Epoxy groups.[/INST]Got it. Preparing a TSMP with Epoxy groups.\\EOC</s>
+<s>[INST]Epoxy groups would be good for this TSMP.[/INST]Okay, adding Epoxy groups to the TSMP.\\EOC</s>
+<s>[INST]I need a TSMP which includes Vinyl groups.[/INST]Creating a TSMP with Vinyl groups as specified.\\EOC</s>
+<s>[INST]I need a TSMP which includes Epoxy groups.[/INST]Got it. Preparing a TSMP with Epoxy groups.\\EOC</s>
+<s>[INST]Can you make a TSMP with Epoxy groups?[/INST]Creating a TSMP with Epoxy groups as specified.\\EOC</s>
+<s>[INST]Please add Epoxy groups to the TSMP.[/INST]Okay, adding Epoxy groups to the TSMP.\\EOC</s>
+<s>[INST]Imine groups would be good for this TSMP.[/INST]Got it. Preparing a TSMP with Imine groups.\\EOC</s>
+<s>[INST]Can you make a TSMP with Imine groups?[/INST]Okay, adding Imine groups to the TSMP.\\EOC</s>
+<s>[INST]Can you make a TSMP with Imine groups?[/INST]Understood! Designing a TSMP with Imine groups as requested.\\EOC</s>
+<s>[INST]Can you make a TSMP with Epoxy groups?[/INST]Got it. Preparing a TSMP with Epoxy groups.\\EOC</s>
+<s>[INST]Include Epoxy groups in the TSMP.[/INST]Understood! Designing a TSMP with Epoxy groups as requested.\\EOC</s>
+<s>[INST]Epoxy groups would be good for this TSMP.[/INST]Okay, adding Epoxy groups to the TSMP.\\EOC</s>
+<s>[INST]I need a TSMP which includes Vinyl groups.[/INST]Got it. Preparing a TSMP with Vinyl groups.\\EOC</s>
+<s>[INST]Include Vinyl groups in the TSMP.[/INST]Generating a TSMP with Vinyl groups as requested.\\EOC</s>
+<s>[INST]Include Imine groups in the TSMP.[/INST]Got it. Preparing a TSMP with Imine groups.\\EOC</s>
+<s>[INST]Epoxy groups would be good for this TSMP.[/INST]Creating a TSMP with Epoxy groups as specified.\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=400 and Er=100?[/INST]Understood, you want a TSMP with Tg=400 and Er=100. We are now generating a polymer to meet these properties...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 350 and Er of 150.[/INST]You need a TSMP with Tg=350 and Er=150. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=300 and Er=200.[/INST]Understood, you want a TSMP with Tg=300 and Er=200. We are now generating a polymer to meet these properties...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=250 and Er=150?[/INST]Got it, you're looking for a TSMP with Tg=250 and Er=150. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 150 and Er of 50.[/INST]Got it, you're looking for a TSMP with Tg=150 and Er=50. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 350 and Er of 50.[/INST]You need a TSMP with Tg=350 and Er=50. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=200 and Er=150.[/INST]Understood, you want a TSMP with Tg=200 and Er=150. We are now generating a polymer to meet these properties...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=200 and Er=150.[/INST]Okay, you want a TSMP which has Tg=200 and Er=150. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=350 and Er=150.[/INST]Got it, you're looking for a TSMP with Tg=350 and Er=150. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 400 and Er of 100?[/INST]Got it, you're looking for a TSMP with Tg=400 and Er=100. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=150 and Er=200?[/INST]Sure, you need a TSMP with Tg=150 and Er=200. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=200 and Er=50.[/INST]You need a TSMP with Tg=200 and Er=50. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]Please give me a possible TSMP with Tg=400 and Er=50.[/INST]Okay, you want a TSMP which has Tg=400 and Er=50. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 200 and Er of 100.[/INST]Sure, you need a TSMP with Tg=200 and Er=100. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 400 and Er of 200.[/INST]Okay, you want a TSMP which has Tg=400 and Er=200. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 250 and Er of 150?[/INST]Sure, you need a TSMP with Tg=250 and Er=150. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=150 and Er=100.[/INST]Okay, you want a TSMP which has Tg=150 and Er=100. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 350 and Er of 200.[/INST]You need a TSMP with Tg=350 and Er=200. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 200 and Er of 50?[/INST]Sure, you need a TSMP with Tg=200 and Er=50. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 400 and Er of 150.[/INST]Got it, you're looking for a TSMP with Tg=400 and Er=150. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 200 and Er of 150.[/INST]Sure, you need a TSMP with Tg=200 and Er=150. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=250 and Er=150?[/INST]Understood, you want a TSMP with Tg=250 and Er=150. We are now generating a polymer to meet these properties...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=300 and Er=200.[/INST]You need a TSMP with Tg=300 and Er=200. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=200 and Er=150?[/INST]Got it, you're looking for a TSMP with Tg=200 and Er=150. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=200 and Er=50.[/INST]Understood, you want a TSMP with Tg=200 and Er=50. We are now generating a polymer to meet these properties...\\EOC</s>
+<s>[INST]Please give me a possible TSMP with Tg=250 and Er=200.[/INST]You need a TSMP with Tg=250 and Er=200. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]Please give me a possible TSMP with Tg=150 and Er=50.[/INST]You need a TSMP with Tg=150 and Er=50. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=150 and Er=100.[/INST]You need a TSMP with Tg=150 and Er=100. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=300 and Er=150?[/INST]Sure, you need a TSMP with Tg=300 and Er=150. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=350 and Er=150?[/INST]Okay, you want a TSMP which has Tg=350 and Er=150. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=150 and Er=100.[/INST]Understood, you want a TSMP with Tg=150 and Er=100. We are now generating a polymer to meet these properties...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=400 and Er=50?[/INST]Sure, you need a TSMP with Tg=400 and Er=50. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 200 and Er of 150?[/INST]You need a TSMP with Tg=200 and Er=150. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=400 and Er=200.[/INST]Sure, you need a TSMP with Tg=400 and Er=200. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=300 and Er=50?[/INST]You need a TSMP with Tg=300 and Er=50. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 250 and Er of 150.[/INST]Sure, you need a TSMP with Tg=250 and Er=150. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 250 and Er of 150?[/INST]Okay, you want a TSMP which has Tg=250 and Er=150. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 200 and Er of 150.[/INST]Understood, you want a TSMP with Tg=200 and Er=150. We are now generating a polymer to meet these properties...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 250 and Er of 100?[/INST]Okay, you want a TSMP which has Tg=250 and Er=100. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=150 and Er=200?[/INST]You need a TSMP with Tg=150 and Er=200. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 150 and Er of 150.[/INST]You need a TSMP with Tg=150 and Er=150. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=150 and Er=100?[/INST]Okay, you want a TSMP which has Tg=150 and Er=100. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 350 and Er of 100.[/INST]Okay, you want a TSMP which has Tg=350 and Er=100. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 300 and Er of 200.[/INST]Sure, you need a TSMP with Tg=300 and Er=200. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]Please give me a possible TSMP with Tg=300 and Er=200.[/INST]Understood, you want a TSMP with Tg=300 and Er=200. We are now generating a polymer to meet these properties...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 300 and Er of 50.[/INST]Understood, you want a TSMP with Tg=300 and Er=50. We are now generating a polymer to meet these properties...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 300 and Er of 200.[/INST]Sure, you need a TSMP with Tg=300 and Er=200. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 400 and Er of 100?[/INST]Got it, you're looking for a TSMP with Tg=400 and Er=100. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=350 and Er=50.[/INST]You need a TSMP with Tg=350 and Er=50. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 150 and Er of 100.[/INST]Got it, you're looking for a TSMP with Tg=150 and Er=100. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=250 and Er=50?[/INST]Okay, you want a TSMP which has Tg=250 and Er=50. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 350 and Er of 150.[/INST]Got it, you're looking for a TSMP with Tg=350 and Er=150. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]Please give me a possible TSMP with Tg=250 and Er=150.[/INST]Okay, you want a TSMP which has Tg=250 and Er=150. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=400 and Er=150?[/INST]Sure, you need a TSMP with Tg=400 and Er=150. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 150 and Er of 50.[/INST]Sure, you need a TSMP with Tg=150 and Er=50. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 350 and Er of 200.[/INST]Understood, you want a TSMP with Tg=350 and Er=200. We are now generating a polymer to meet these properties...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 150 and Er of 50?[/INST]Sure, you need a TSMP with Tg=150 and Er=50. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=250 and Er=100?[/INST]Got it, you're looking for a TSMP with Tg=250 and Er=100. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]Please give me a possible TSMP with Tg=200 and Er=200.[/INST]Sure, you need a TSMP with Tg=200 and Er=200. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=250 and Er=150.[/INST]Sure, you need a TSMP with Tg=250 and Er=150. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]Please give me a possible TSMP with Tg=150 and Er=200.[/INST]Understood, you want a TSMP with Tg=150 and Er=200. We are now generating a polymer to meet these properties...\\EOC</s>
+<s>[INST]Please give me a possible TSMP with Tg=350 and Er=150.[/INST]You need a TSMP with Tg=350 and Er=150. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 300 and Er of 100?[/INST]Sure, you need a TSMP with Tg=300 and Er=100. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=400 and Er=100?[/INST]Got it, you're looking for a TSMP with Tg=400 and Er=100. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]Please give me a possible TSMP with Tg=300 and Er=100.[/INST]Okay, you want a TSMP which has Tg=300 and Er=100. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 200 and Er of 50?[/INST]Okay, you want a TSMP which has Tg=200 and Er=50. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 150 and Er of 100?[/INST]Sure, you need a TSMP with Tg=150 and Er=100. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=250 and Er=200.[/INST]Sure, you need a TSMP with Tg=250 and Er=200. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 350 and Er of 150.[/INST]Okay, you want a TSMP which has Tg=350 and Er=150. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 150 and Er of 200.[/INST]Okay, you want a TSMP which has Tg=150 and Er=200. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]Please give me a possible TSMP with Tg=300 and Er=100.[/INST]Sure, you need a TSMP with Tg=300 and Er=100. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 150 and Er of 200?[/INST]Got it, you're looking for a TSMP with Tg=150 and Er=200. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=250 and Er=50.[/INST]Okay, you want a TSMP which has Tg=250 and Er=50. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 350 and Er of 200.[/INST]Sure, you need a TSMP with Tg=350 and Er=200. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]Please give me a possible TSMP with Tg=400 and Er=100.[/INST]You need a TSMP with Tg=400 and Er=100. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=200 and Er=50?[/INST]Okay, you want a TSMP which has Tg=200 and Er=50. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=150 and Er=50?[/INST]Sure, you need a TSMP with Tg=150 and Er=50. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 150 and Er of 200?[/INST]Got it, you're looking for a TSMP with Tg=150 and Er=200. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=150 and Er=200?[/INST]Sure, you need a TSMP with Tg=150 and Er=200. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 400 and Er of 100.[/INST]Okay, you want a TSMP which has Tg=400 and Er=100. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]Please give me a possible TSMP with Tg=350 and Er=100.[/INST]Understood, you want a TSMP with Tg=350 and Er=100. We are now generating a polymer to meet these properties...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=300 and Er=150?[/INST]Got it, you're looking for a TSMP with Tg=300 and Er=150. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 250 and Er of 100?[/INST]Sure, you need a TSMP with Tg=250 and Er=100. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=250 and Er=150.[/INST]Sure, you need a TSMP with Tg=250 and Er=150. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 200 and Er of 200.[/INST]Okay, you want a TSMP which has Tg=200 and Er=200. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=400 and Er=150?[/INST]Got it, you're looking for a TSMP with Tg=400 and Er=150. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 350 and Er of 200?[/INST]Understood, you want a TSMP with Tg=350 and Er=200. We are now generating a polymer to meet these properties...\\EOC</s>
+<s>[INST]Please give me a possible TSMP with Tg=150 and Er=100.[/INST]You need a TSMP with Tg=150 and Er=100. We are in the process of generating this polymer based on your requirements...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 300 and Er of 150.[/INST]Got it, you're looking for a TSMP with Tg=300 and Er=150. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]Please give me a possible TSMP with Tg=200 and Er=150.[/INST]Understood, you want a TSMP with Tg=200 and Er=150. We are now generating a polymer to meet these properties...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=150 and Er=150?[/INST]Got it, you're looking for a TSMP with Tg=150 and Er=150. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]What polymer can I use if I need Tg around 250 and Er of 100?[/INST]Sure, you need a TSMP with Tg=250 and Er=100. We are creating a new polymer to match your specifications...\\EOC</s>
+<s>[INST]Please give me a possible TSMP with Tg=350 and Er=50.[/INST]Got it, you're looking for a TSMP with Tg=350 and Er=50. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=400 and Er=50.[/INST]Okay, you want a TSMP which has Tg=400 and Er=50. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=400 and Er=50?[/INST]Okay, you want a TSMP which has Tg=400 and Er=50. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=350 and Er=100.[/INST]Understood, you want a TSMP with Tg=350 and Er=100. We are now generating a polymer to meet these properties...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=200 and Er=150?[/INST]Got it, you're looking for a TSMP with Tg=200 and Er=150. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]I need a polymer with a Tg of 150 and Er of 150.[/INST]Got it, you're looking for a TSMP with Tg=150 and Er=150. We're working on generating a suitable polymer for you...\\EOC</s>
+<s>[INST]Suggest a TSMP with Tg=200 and Er=200.[/INST]Okay, you want a TSMP which has Tg=200 and Er=200. We are trying to generate a new TSMP based on your input...\\EOC</s>
+<s>[INST]Can you suggest a polymer with Tg=200 and Er=50?[/INST]Understood, you want a TSMP with Tg=200 and Er=50. We are now generating a polymer to meet these properties...\\EOC</s>

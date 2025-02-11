@@ -1,0 +1,1002 @@
+[
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=52.2 and Er=1.5?",
+        "responses": "Understood, you want a TSMP with Tg=52.2 and Er=1.5. A polymer is being generated to meet your requirements... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C, C=CC(=O)OCCCC."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=51.4 and Er=5.62?",
+        "responses": "Understood, you want a TSMP with Tg=51.4 and Er=5.62. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C, C=CC(=O)OCCCC."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=49.9 and Er=11.51?",
+        "responses": "Understood, you want a TSMP with Tg=49.9 and Er=11.51. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C, C=CC(=O)OCCCC."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=54.8 and Er=2.42?",
+        "responses": "Understood, you want a TSMP with Tg=54.8 and Er=2.42. We are crafting a polymer to match your provided specifications... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O, C=CC(=O)OCCCC."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=55.4 and Er=5.55?",
+        "responses": "Understood, you want a TSMP with Tg=55.4 and Er=5.55. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O, C=CC(=O)OCCCC."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=53.5 and Er=11.54?",
+        "responses": "Understood, you want a TSMP with Tg=53.5 and Er=11.54. Generating a polymer that matches the requested properties... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O, C=CC(=O)OCCCC."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=20.0 and Er=3.0?",
+        "responses": "Understood, you want a TSMP with Tg=20.0 and Er=3.0. Generating a polymer that matches the requested properties... Generated polymer: C=Cc1ccccc1, C=COC(=O)CCCCCC(C)(C)C, C=Cc1cccc(C=C)c1."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=48.0 and Er=1.128?",
+        "responses": "Understood, you want a TSMP with Tg=48.0 and Er=1.128. A polymer is being generated to meet your requirements... Generated polymer: C=CC(=O)OC(C)(C)C, C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=57.0 and Er=2.9?",
+        "responses": "Understood, you want a TSMP with Tg=57.0 and Er=2.9. We are crafting a polymer to match your provided specifications... Generated polymer: C=CC(=O)OC(C)(C)C, C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=52.0 and Er=8.265?",
+        "responses": "Understood, you want a TSMP with Tg=52.0 and Er=8.265. A polymer is being generated to meet your requirements... Generated polymer: C=CC(=O)OC(C)(C)C, C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=53.31 and Er=2.19?",
+        "responses": "Understood, you want a TSMP with Tg=53.31 and Er=2.19. Generating a polymer that matches the requested properties... Generated polymer: C=C(C)C(=C)OCOCCOC(=O)C(=C)C, C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C, C=CC(=O)OC(C)(C)C."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=53.35 and Er=4.04?",
+        "responses": "Understood, you want a TSMP with Tg=53.35 and Er=4.04. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: C=C(C)C(=C)OCOCCOC(=O)C(=C)C, C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C, C=CC(=O)OC(C)(C)C."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=57.11 and Er=11.07?",
+        "responses": "Understood, you want a TSMP with Tg=57.11 and Er=11.07. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: C=C(C)C(=C)OCOCCOC(=O)C(=C)C, C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C, C=CC(=O)OC(C)(C)C."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=170.0 and Er=16.0?",
+        "responses": "Understood, you want a TSMP with Tg=170.0 and Er=16.0. A polymer is being generated to meet your requirements... Generated polymer: c1ccc3c(c1)c2ccccc2C3(c5ccc(OCCOCC4CO4)cc5)c7ccc(OCCOCC6CO6)cc7, Nc2ccc(S(=O)(=O)c1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=60.59 and Er=16.0?",
+        "responses": "Understood, you want a TSMP with Tg=60.59 and Er=16.0. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=86.64 and Er=29.0?",
+        "responses": "Understood, you want a TSMP with Tg=86.64 and Er=29.0. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=117.23 and Er=52.0?",
+        "responses": "Understood, you want a TSMP with Tg=117.23 and Er=52.0. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=68.0 and Er=17.0?",
+        "responses": "Understood, you want a TSMP with Tg=68.0 and Er=17.0. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=77.0 and Er=23.0?",
+        "responses": "Understood, you want a TSMP with Tg=77.0 and Er=23.0. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=96.0 and Er=34.0?",
+        "responses": "Understood, you want a TSMP with Tg=96.0 and Er=34.0. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=104.0 and Er=41.0?",
+        "responses": "Understood, you want a TSMP with Tg=104.0 and Er=41.0. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=117.0 and Er=52.0?",
+        "responses": "Understood, you want a TSMP with Tg=117.0 and Er=52.0. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=56.0 and Er=15.0?",
+        "responses": "Understood, you want a TSMP with Tg=56.0 and Er=15.0. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=64.0 and Er=18.0?",
+        "responses": "Understood, you want a TSMP with Tg=64.0 and Er=18.0. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=70.0 and Er=22.0?",
+        "responses": "Understood, you want a TSMP with Tg=70.0 and Er=22.0. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=79.0 and Er=23.0?",
+        "responses": "Understood, you want a TSMP with Tg=79.0 and Er=23.0. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=89.0 and Er=32.0?",
+        "responses": "Understood, you want a TSMP with Tg=89.0 and Er=32.0. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=99.0 and Er=44.0?",
+        "responses": "Understood, you want a TSMP with Tg=99.0 and Er=44.0. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=112.0 and Er=58.0?",
+        "responses": "Understood, you want a TSMP with Tg=112.0 and Er=58.0. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=141.0 and Er=30.0?",
+        "responses": "Understood, you want a TSMP with Tg=141.0 and Er=30.0. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC1(C)CC(N)CC(C)(CN)C1."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=150.0 and Er=81.0?",
+        "responses": "Understood, you want a TSMP with Tg=150.0 and Er=81.0. The polymer design process is now underway to fulfill your request... Generated polymer: C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2, nan."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=64.05 and Er=14.0?",
+        "responses": "Understood, you want a TSMP with Tg=64.05 and Er=14.0. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OC1CO1)cc2)c4ccc(OC3CO3)cc4, O=C(O)CC(CC(=O)O)C(=O)O."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=57.0 and Er=0.9?",
+        "responses": "Understood, you want a TSMP with Tg=57.0 and Er=0.9. The polymer design process is now underway to fulfill your request... Generated polymer: C=C(C)C(=O)OCCCC, CC(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O, C=C(C)C(=O)OCCOCCOCCOCCOCCOC(=O)C(C)=O."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=56.0 and Er=3.2?",
+        "responses": "Understood, you want a TSMP with Tg=56.0 and Er=3.2. Generating a polymer that matches the requested properties... Generated polymer: C=C(C)C(=O)OCCCC, CC(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O, C=C(C)C(=O)OCCOCCOCCOCCOCCOC(=O)C(C)=O."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=54.8 and Er=2.4?",
+        "responses": "Understood, you want a TSMP with Tg=54.8 and Er=2.4. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O, C=CC(=O)OCCCC."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=280.0 and Er=359.0?",
+        "responses": "Understood, you want a TSMP with Tg=280.0 and Er=359.0. The polymer design process is now underway to fulfill your request... Generated polymer: C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O, nan."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=93.29 and Er=18.11?",
+        "responses": "Understood, you want a TSMP with Tg=93.29 and Er=18.11. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=76.52 and Er=11.6?",
+        "responses": "Understood, you want a TSMP with Tg=76.52 and Er=11.6. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CCCCCCCCCCN."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=64.94 and Er=7.42?",
+        "responses": "Understood, you want a TSMP with Tg=64.94 and Er=7.42. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CCCCCCCCCCN."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=49.39 and Er=3.04?",
+        "responses": "Understood, you want a TSMP with Tg=49.39 and Er=3.04. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CCCCCCCCCCN."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=70.99 and Er=13.98?",
+        "responses": "Understood, you want a TSMP with Tg=70.99 and Er=13.98. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=47.78 and Er=9.78?",
+        "responses": "Understood, you want a TSMP with Tg=47.78 and Er=9.78. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=30.91 and Er=4.78?",
+        "responses": "Understood, you want a TSMP with Tg=30.91 and Er=4.78. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=57.99 and Er=4.01?",
+        "responses": "Understood, you want a TSMP with Tg=57.99 and Er=4.01. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=70.03 and Er=8.05?",
+        "responses": "Understood, you want a TSMP with Tg=70.03 and Er=8.05. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=78.89 and Er=8.78?",
+        "responses": "Understood, you want a TSMP with Tg=78.89 and Er=8.78. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=83.74 and Er=11.89?",
+        "responses": "Understood, you want a TSMP with Tg=83.74 and Er=11.89. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=44.0 and Er=9.25?",
+        "responses": "Understood, you want a TSMP with Tg=44.0 and Er=9.25. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=75.3 and Er=17.2?",
+        "responses": "Understood, you want a TSMP with Tg=75.3 and Er=17.2. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)COCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=31.4 and Er=4.5?",
+        "responses": "Understood, you want a TSMP with Tg=31.4 and Er=4.5. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=48.0 and Er=9.46?",
+        "responses": "Understood, you want a TSMP with Tg=48.0 and Er=9.46. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=72.0 and Er=14.34?",
+        "responses": "Understood, you want a TSMP with Tg=72.0 and Er=14.34. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=93.1 and Er=18.89?",
+        "responses": "Understood, you want a TSMP with Tg=93.1 and Er=18.89. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=238.0 and Er=7.6?",
+        "responses": "Understood, you want a TSMP with Tg=238.0 and Er=7.6. We are crafting a polymer to match your provided specifications... Generated polymer: Nc2ccc(Oc1ccc(N)cc1)cc2, CC(C)(c3ccc(Oc2ccc1c(=O)oc(=O)c1c2)cc3)c6ccc(Oc5ccc4c(=O)oc(=O)c4c5)cc6."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=236.0 and Er=7.3?",
+        "responses": "Understood, you want a TSMP with Tg=236.0 and Er=7.3. The polymer design process is now underway to fulfill your request... Generated polymer: Nc2ccc(Oc1ccc(N)cc1)cc2, CC(C)(c3ccc(Oc2ccc1c(=O)oc(=O)c1c2)cc3)c6ccc(Oc5ccc4c(=O)oc(=O)c4c5)cc6."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=234.0 and Er=6.1?",
+        "responses": "Understood, you want a TSMP with Tg=234.0 and Er=6.1. Generating a polymer that matches the requested properties... Generated polymer: Nc2ccc(Oc1ccc(N)cc1)cc2, CC(C)(c3ccc(Oc2ccc1c(=O)oc(=O)c1c2)cc3)c6ccc(Oc5ccc4c(=O)oc(=O)c4c5)cc6."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=231.0 and Er=5.8?",
+        "responses": "Understood, you want a TSMP with Tg=231.0 and Er=5.8. Generating a polymer that matches the requested properties... Generated polymer: Nc2ccc(Oc1ccc(N)cc1)cc2, CC(C)(c3ccc(Oc2ccc1c(=O)oc(=O)c1c2)cc3)c6ccc(Oc5ccc4c(=O)oc(=O)c4c5)cc6."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=229.0 and Er=4.8?",
+        "responses": "Understood, you want a TSMP with Tg=229.0 and Er=4.8. The polymer design process is now underway to fulfill your request... Generated polymer: Nc2ccc(Oc1ccc(N)cc1)cc2, CC(C)(c3ccc(Oc2ccc1c(=O)oc(=O)c1c2)cc3)c6ccc(Oc5ccc4c(=O)oc(=O)c4c5)cc6."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=47.0 and Er=19.89?",
+        "responses": "Understood, you want a TSMP with Tg=47.0 and Er=19.89. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(COCC1CO1)COCC2CO2, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=72.0 and Er=25.4?",
+        "responses": "Understood, you want a TSMP with Tg=72.0 and Er=25.4. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(COCC1CO1)COCC2CO2, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=80.0 and Er=23.46?",
+        "responses": "Understood, you want a TSMP with Tg=80.0 and Er=23.46. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(COCC1CO1)COCC2CO2, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=85.0 and Er=21.76?",
+        "responses": "Understood, you want a TSMP with Tg=85.0 and Er=21.76. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(COCC1CO1)COCC2CO2, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=92.0 and Er=32.98?",
+        "responses": "Understood, you want a TSMP with Tg=92.0 and Er=32.98. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(COCC1CO1)COCC2CO2, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=120.0 and Er=54.92?",
+        "responses": "Understood, you want a TSMP with Tg=120.0 and Er=54.92. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(COCC1CO1)COCC2CO2, CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5CN(c4ccccc4)COc5c6."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=51.0 and Er=39.04?",
+        "responses": "Understood, you want a TSMP with Tg=51.0 and Er=39.04. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=88.0 and Er=80.76?",
+        "responses": "Understood, you want a TSMP with Tg=88.0 and Er=80.76. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=140.0 and Er=171.97?",
+        "responses": "Understood, you want a TSMP with Tg=140.0 and Er=171.97. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=135.0 and Er=54.26?",
+        "responses": "Understood, you want a TSMP with Tg=135.0 and Er=54.26. The polymer design process is now underway to fulfill your request... Generated polymer: CCCCCCCCC1OC1CCCCCCCC(=O)OCC(COC(=O)CCCCCCCC2OC2CC3OC3CC4OC4CC)OC(=O)CCCCCCCC5OC5CC6OC6CC7OC7CC, CC2=CCC1C(=O)OC(=O)C1C2."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=36.5 and Er=10.04?",
+        "responses": "Understood, you want a TSMP with Tg=36.5 and Er=10.04. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N, NCCOCCOCCN."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=53.99 and Er=12.05?",
+        "responses": "Understood, you want a TSMP with Tg=53.99 and Er=12.05. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N, NCCOCCOCCN."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=61.6 and Er=16.69?",
+        "responses": "Understood, you want a TSMP with Tg=61.6 and Er=16.69. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N, NCCOCCOCCN."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=38.93 and Er=9.95?",
+        "responses": "Understood, you want a TSMP with Tg=38.93 and Er=9.95. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=57.77 and Er=10.39?",
+        "responses": "Understood, you want a TSMP with Tg=57.77 and Er=10.39. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=63.41 and Er=12.46?",
+        "responses": "Understood, you want a TSMP with Tg=63.41 and Er=12.46. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=66.4 and Er=10.06?",
+        "responses": "Understood, you want a TSMP with Tg=66.4 and Er=10.06. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=60.39 and Er=11.34?",
+        "responses": "Understood, you want a TSMP with Tg=60.39 and Er=11.34. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCOCCOCCN, COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCN."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=57.07 and Er=15.19?",
+        "responses": "Understood, you want a TSMP with Tg=57.07 and Er=15.19. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCOCCOCCN, COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)N."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=62.74 and Er=14.49?",
+        "responses": "Understood, you want a TSMP with Tg=62.74 and Er=14.49. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCOCCOCCN, COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=94.57 and Er=25.3?",
+        "responses": "Understood, you want a TSMP with Tg=94.57 and Er=25.3. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCOCCOCCN, COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)N."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=98.56 and Er=22.69?",
+        "responses": "Understood, you want a TSMP with Tg=98.56 and Er=22.69. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCOCCOCCN, COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=91.39 and Er=25.51?",
+        "responses": "Understood, you want a TSMP with Tg=91.39 and Er=25.51. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCOCCOCCN, COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=102.0 and Er=23.0?",
+        "responses": "Understood, you want a TSMP with Tg=102.0 and Er=23.0. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCOCCOCCN."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=96.0 and Er=24.3?",
+        "responses": "Understood, you want a TSMP with Tg=96.0 and Er=24.3. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCCOCCOCCCN."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=95.0 and Er=14.3?",
+        "responses": "Understood, you want a TSMP with Tg=95.0 and Er=14.3. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=93.0 and Er=14.1?",
+        "responses": "Understood, you want a TSMP with Tg=93.0 and Er=14.1. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=88.0 and Er=11.7?",
+        "responses": "Understood, you want a TSMP with Tg=88.0 and Er=11.7. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=76.0 and Er=6.3?",
+        "responses": "Understood, you want a TSMP with Tg=76.0 and Er=6.3. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=83.0 and Er=9.7?",
+        "responses": "Understood, you want a TSMP with Tg=83.0 and Er=9.7. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CCCCCCCCCN."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=73.0 and Er=8.3?",
+        "responses": "Understood, you want a TSMP with Tg=73.0 and Er=8.3. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CCCCCCCCCN."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=58.0 and Er=2.4?",
+        "responses": "Understood, you want a TSMP with Tg=58.0 and Er=2.4. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CCCCCCCCCN."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=87.0 and Er=5.1?",
+        "responses": "Understood, you want a TSMP with Tg=87.0 and Er=5.1. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CC(C)(C)N."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=81.0 and Er=7.4?",
+        "responses": "Understood, you want a TSMP with Tg=81.0 and Er=7.4. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CC(C)(C)N."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=62.0 and Er=6.4?",
+        "responses": "Understood, you want a TSMP with Tg=62.0 and Er=6.4. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CCCCCCCCCCCCCCCN."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=97.0 and Er=19.7?",
+        "responses": "Understood, you want a TSMP with Tg=97.0 and Er=19.7. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCOCCOCCN, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=72.0 and Er=14.5?",
+        "responses": "Understood, you want a TSMP with Tg=72.0 and Er=14.5. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCOCCOCCN, CC(N)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=102.0 and Er=26.4?",
+        "responses": "Understood, you want a TSMP with Tg=102.0 and Er=26.4. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCOCCOCCN, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=101.0 and Er=25.7?",
+        "responses": "Understood, you want a TSMP with Tg=101.0 and Er=25.7. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCOCCOCCN, CC(N)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=96.0 and Er=22.6?",
+        "responses": "Understood, you want a TSMP with Tg=96.0 and Er=22.6. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCOCCOCCN, CC(N)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=81.0 and Er=13.9?",
+        "responses": "Understood, you want a TSMP with Tg=81.0 and Er=13.9. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=83.0 and Er=14.8?",
+        "responses": "Understood, you want a TSMP with Tg=83.0 and Er=14.8. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=37.0 and Er=10.0?",
+        "responses": "Understood, you want a TSMP with Tg=37.0 and Er=10.0. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=54.0 and Er=12.1?",
+        "responses": "Understood, you want a TSMP with Tg=54.0 and Er=12.1. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=62.0 and Er=16.7?",
+        "responses": "Understood, you want a TSMP with Tg=62.0 and Er=16.7. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=66.0 and Er=16.9?",
+        "responses": "Understood, you want a TSMP with Tg=66.0 and Er=16.9. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=64.0 and Er=18.1?",
+        "responses": "Understood, you want a TSMP with Tg=64.0 and Er=18.1. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=63.0 and Er=18.3?",
+        "responses": "Understood, you want a TSMP with Tg=63.0 and Er=18.3. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, CC(N)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=99.0 and Er=24.9?",
+        "responses": "Understood, you want a TSMP with Tg=99.0 and Er=24.9. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=93.0 and Er=22.8?",
+        "responses": "Understood, you want a TSMP with Tg=93.0 and Er=22.8. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, CC(N)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=60.0 and Er=11.3?",
+        "responses": "Understood, you want a TSMP with Tg=60.0 and Er=11.3. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCN."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=57.0 and Er=15.2?",
+        "responses": "Understood, you want a TSMP with Tg=57.0 and Er=15.2. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)N."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=98.0 and Er=14.9?",
+        "responses": "Understood, you want a TSMP with Tg=98.0 and Er=14.9. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=63.0 and Er=14.5?",
+        "responses": "Understood, you want a TSMP with Tg=63.0 and Er=14.5. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=98.0 and Er=25.0?",
+        "responses": "Understood, you want a TSMP with Tg=98.0 and Er=25.0. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCN."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=95.0 and Er=25.3?",
+        "responses": "Understood, you want a TSMP with Tg=95.0 and Er=25.3. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)N."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=99.0 and Er=22.7?",
+        "responses": "Understood, you want a TSMP with Tg=99.0 and Er=22.7. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=91.0 and Er=25.5?",
+        "responses": "Understood, you want a TSMP with Tg=91.0 and Er=25.5. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N, COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=79.0 and Er=8.9?",
+        "responses": "Understood, you want a TSMP with Tg=79.0 and Er=8.9. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=113.0 and Er=16.2?",
+        "responses": "Understood, you want a TSMP with Tg=113.0 and Er=16.2. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(C4CCC(OCC(O)COC3CCC(C(C)(C)C2CCC(OCC1CO1)CC2)CC3)CC4)C6CCC(OCC5CO5)CC6, CC(=O)C1CCCCC1C(C)=O."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=121.8 and Er=16.93?",
+        "responses": "Understood, you want a TSMP with Tg=121.8 and Er=16.93. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(C4CCC(OCC(O)COC3CCC(C(C)(C)C2CCC(OCC1CO1)CC2)CC3)CC4)C6CCC(OCC5CO5)CC6, O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4, CC(=O)C1CCCCC1C(C)=O."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=127.86 and Er=18.1?",
+        "responses": "Understood, you want a TSMP with Tg=127.86 and Er=18.1. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(C4CCC(OCC(O)COC3CCC(C(C)(C)C2CCC(OCC1CO1)CC2)CC3)CC4)C6CCC(OCC5CO5)CC6, O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4, CC(=O)C1CCCCC1C(C)=O."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=135.46 and Er=18.51?",
+        "responses": "Understood, you want a TSMP with Tg=135.46 and Er=18.51. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(C4CCC(OCC(O)COC3CCC(C(C)(C)C2CCC(OCC1CO1)CC2)CC3)CC4)C6CCC(OCC5CO5)CC6, O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4, CC(=O)C1CCCCC1C(C)=O."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=142.51 and Er=19.8?",
+        "responses": "Understood, you want a TSMP with Tg=142.51 and Er=19.8. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(C4CCC(OCC(O)COC3CCC(C(C)(C)C2CCC(OCC1CO1)CC2)CC3)CC4)C6CCC(OCC5CO5)CC6, O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4, CC(=O)C1CCCCC1C(C)=O."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=37.0 and Er=25.1?",
+        "responses": "Understood, you want a TSMP with Tg=37.0 and Er=25.1. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, C#CCCc1ccccc1Cc4cccc(Cc3cccc(Cc2ccccc2CC#C)c3O)c4CCC#C."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=74.84 and Er=2.63?",
+        "responses": "Understood, you want a TSMP with Tg=74.84 and Er=2.63. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c4ccc(OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)cc4)c6ccc(OCC5CO5)cc6, Nc2ccc(Cc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=50.64 and Er=37.89?",
+        "responses": "Understood, you want a TSMP with Tg=50.64 and Er=37.89. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=70.38 and Er=44.22?",
+        "responses": "Understood, you want a TSMP with Tg=70.38 and Er=44.22. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=88.41 and Er=80.52?",
+        "responses": "Understood, you want a TSMP with Tg=88.41 and Er=80.52. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=121.46 and Er=95.41?",
+        "responses": "Understood, you want a TSMP with Tg=121.46 and Er=95.41. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=140.34 and Er=129.76?",
+        "responses": "Understood, you want a TSMP with Tg=140.34 and Er=129.76. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=74.84 and Er=3.73?",
+        "responses": "Understood, you want a TSMP with Tg=74.84 and Er=3.73. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OC1CO1)cc2)c4ccc(OC3CO3)cc4, CCCCCCCCCCCCN, NCc1cccc(CN)c1."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=92.81 and Er=1.87?",
+        "responses": "Understood, you want a TSMP with Tg=92.81 and Er=1.87. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, Nc2ccc(Cc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=109.58 and Er=4.72?",
+        "responses": "Understood, you want a TSMP with Tg=109.58 and Er=4.72. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, Nc2ccc(Cc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=90.3 and Er=1.53?",
+        "responses": "Understood, you want a TSMP with Tg=90.3 and Er=1.53. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, Nc1cccc(N)c1."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=110.42 and Er=5.22?",
+        "responses": "Understood, you want a TSMP with Tg=110.42 and Er=5.22. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, Nc2ccc(Cc1ccc(N)cc1)cc2, Nc1cccc(N)c1."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=101.6 and Er=3.77?",
+        "responses": "Understood, you want a TSMP with Tg=101.6 and Er=3.77. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, Nc2ccc(Cc1ccc(N)cc1)cc2, Nc1cccc(N)c1."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=170.0 and Er=43.0?",
+        "responses": "Understood, you want a TSMP with Tg=170.0 and Er=43.0. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, nan."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=160.0 and Er=30.0?",
+        "responses": "Understood, you want a TSMP with Tg=160.0 and Er=30.0. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=156.0 and Er=24.0?",
+        "responses": "Understood, you want a TSMP with Tg=156.0 and Er=24.0. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C/C=C\\CC(=O)OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)C(=O)OCC(O)COc6ccc(C(C)(C)c5ccc(OCC4CO4)cc5)cc6."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=165.0 and Er=30.0?",
+        "responses": "Understood, you want a TSMP with Tg=165.0 and Er=30.0. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=145.0 and Er=16.0?",
+        "responses": "Understood, you want a TSMP with Tg=145.0 and Er=16.0. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C/C=C\\CC(=O)OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)C(=O)OCC(O)COc6ccc(C(C)(C)c5ccc(OCC4CO4)cc5)cc6."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=132.0 and Er=15.0?",
+        "responses": "Understood, you want a TSMP with Tg=132.0 and Er=15.0. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C/C=C\\CC(=O)OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)C(=O)OCC(O)COc6ccc(C(C)(C)c5ccc(OCC4CO4)cc5)cc6."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=129.0 and Er=14.0?",
+        "responses": "Understood, you want a TSMP with Tg=129.0 and Er=14.0. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C/C=C\\CC(=O)OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)C(=O)OCC(O)COc6ccc(C(C)(C)c5ccc(OCC4CO4)cc5)cc6."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=165.0 and Er=30.0?",
+        "responses": "Understood, you want a TSMP with Tg=165.0 and Er=30.0. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=156.0 and Er=24.0?",
+        "responses": "Understood, you want a TSMP with Tg=156.0 and Er=24.0. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C/C=C\\CC(=O)OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)C(=O)OCC(O)COc6ccc(C(C)(C)c5ccc(OCC4CO4)cc5)cc6."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=210.0 and Er=84.0?",
+        "responses": "Understood, you want a TSMP with Tg=210.0 and Er=84.0. The polymer design process is now underway to fulfill your request... Generated polymer: c3cc(N(CC1CO1)CC2CO2)ccc3OCC4CO4, nan."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=175.0 and Er=55.0?",
+        "responses": "Understood, you want a TSMP with Tg=175.0 and Er=55.0. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: c3cc(N(CC1CO1)CC2CO2)ccc3OCC4CO4, CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=163.0 and Er=38.0?",
+        "responses": "Understood, you want a TSMP with Tg=163.0 and Er=38.0. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: c3cc(N(CC1CO1)CC2CO2)ccc3OCC4CO4, CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C/C=C\\CC(=O)OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)C(=O)OCC(O)COc6ccc(C(C)(C)c5ccc(OCC4CO4)cc5)cc6."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=210.0 and Er=59.0?",
+        "responses": "Understood, you want a TSMP with Tg=210.0 and Er=59.0. The polymer design process is now underway to fulfill your request... Generated polymer: c3cc(N(CC1CO1)CC2CO2)ccc3Cc6ccc(N(CC4CO4)CC5CO5)cc6, nan."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=196.0 and Er=59.0?",
+        "responses": "Understood, you want a TSMP with Tg=196.0 and Er=59.0. We are crafting a polymer to match your provided specifications... Generated polymer: c3cc(N(CC1CO1)CC2CO2)ccc3Cc6ccc(N(CC4CO4)CC5CO5)cc6, CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=187.0 and Er=45.0?",
+        "responses": "Understood, you want a TSMP with Tg=187.0 and Er=45.0. The polymer design process is now underway to fulfill your request... Generated polymer: c3cc(N(CC1CO1)CC2CO2)ccc3Cc6ccc(N(CC4CO4)CC5CO5)cc6, CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C/C=C\\CC(=O)OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)C(=O)OCC(O)COc6ccc(C(C)(C)c5ccc(OCC4CO4)cc5)cc6."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=196.0 and Er=41.0?",
+        "responses": "Understood, you want a TSMP with Tg=196.0 and Er=41.0. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, nan."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=72.4 and Er=5.12?",
+        "responses": "Understood, you want a TSMP with Tg=72.4 and Er=5.12. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, O=C(O)CC(O)(CC(=O)O)C(=O)O, O=C(O)CCCCCCCCC(=O)O."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=45.0 and Er=1.96?",
+        "responses": "Understood, you want a TSMP with Tg=45.0 and Er=1.96. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, O=C(O)CCCCCCCCC(=O)O."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=65.2 and Er=8.05?",
+        "responses": "Understood, you want a TSMP with Tg=65.2 and Er=8.05. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, O=C(O)CCCCCCCCC(=O)O."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=73.08 and Er=7.92?",
+        "responses": "Understood, you want a TSMP with Tg=73.08 and Er=7.92. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, O=C(O)CCCCCCCCC(=O)O."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=77.3 and Er=6.84?",
+        "responses": "Understood, you want a TSMP with Tg=77.3 and Er=6.84. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, O=C(O)CCCC(=O)O."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=40.6 and Er=0.38?",
+        "responses": "Understood, you want a TSMP with Tg=40.6 and Er=0.38. A polymer is being generated to meet your requirements... Generated polymer: Nc2ccc(SSc1ccc(N)cc1)cc2, C1OC1COC3COC4C(OC2CO2)COC34."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=37.3 and Er=0.38?",
+        "responses": "Understood, you want a TSMP with Tg=37.3 and Er=0.38. The polymer design process is now underway to fulfill your request... Generated polymer: Nc2ccc(Cc1ccc(N)cc1)cc2, C1OC1COC3COC4C(OC2CO2)COC34."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=80.73 and Er=11.48?",
+        "responses": "Understood, you want a TSMP with Tg=80.73 and Er=11.48. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCCOCC1CO1)cc2)c4ccc(OCCOCC3CO3)cc4, O=C1OC(=O)C2CCCCC12."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=95.0 and Er=9.99?",
+        "responses": "Understood, you want a TSMP with Tg=95.0 and Er=9.99. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCCOCC1CO1)cc2)c4ccc(OCCOCC3CO3)cc4, CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4, O=C1OC(=O)C2CCCCC12."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=66.99 and Er=7.46?",
+        "responses": "Understood, you want a TSMP with Tg=66.99 and Er=7.46. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCCOCC1CO1)cc2)c4ccc(OCCOCC3CO3)cc4, CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4, O=C1OC(=O)C2CCCCC12."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=53.74 and Er=6.97?",
+        "responses": "Understood, you want a TSMP with Tg=53.74 and Er=6.97. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCCOCC1CO1)cc2)c4ccc(OCCOCC3CO3)cc4, CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4, O=C1OC(=O)C2CCCCC12."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=46.01 and Er=6.81?",
+        "responses": "Understood, you want a TSMP with Tg=46.01 and Er=6.81. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCCOCC1CO1)cc2)c4ccc(OCCOCC3CO3)cc4, CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4, O=C1OC(=O)C2CCCCC12."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=58.65 and Er=9.93?",
+        "responses": "Understood, you want a TSMP with Tg=58.65 and Er=9.93. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(COc3ccc(C(C)(C)c2ccc(OCC(C)OCC1CO1)cc2)cc3)OCC4CO4, CC(CN)CCCN."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=178.0 and Er=38.03?",
+        "responses": "Understood, you want a TSMP with Tg=178.0 and Er=38.03. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: Cc3cc(c2cc(C)c(OCC1CO1)c(C(C)(C)C)c2)cc(C(C)(C)C)c3OCC4CO4, Nc2ccc(Cc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=169.0 and Er=29.97?",
+        "responses": "Understood, you want a TSMP with Tg=169.0 and Er=29.97. A polymer is being generated to meet your requirements... Generated polymer: Cc3cc(c2cc(C)c(OCC1CO1)c(C(C)(C)C)c2)cc(C(C)(C)C)c3OCC4CO4, Cc3cc(c2cc(C)c(OCC1CO1)c(C)c2)cc(C)c3OCC4CO4, Nc2ccc(Cc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=160.0 and Er=21.15?",
+        "responses": "Understood, you want a TSMP with Tg=160.0 and Er=21.15. The polymer design process is now underway to fulfill your request... Generated polymer: Cc3cc(c2cc(C)c(OCC1CO1)c(C)c2)cc(C)c3OCC4CO4, Nc2ccc(Cc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=113.262 and Er=5.22?",
+        "responses": "Understood, you want a TSMP with Tg=113.262 and Er=5.22. The polymer design process is now underway to fulfill your request... Generated polymer: N#COc3ccc(CC2CCCC(Cc1ccc(OC#N)cc1)C2)cc3, CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=138.26 and Er=12.41?",
+        "responses": "Understood, you want a TSMP with Tg=138.26 and Er=12.41. We are crafting a polymer to match your provided specifications... Generated polymer: N#COc3ccc(CC2CCCC(Cc1ccc(OC#N)cc1)C2)cc3, CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=149.03 and Er=7.83?",
+        "responses": "Understood, you want a TSMP with Tg=149.03 and Er=7.83. A polymer is being generated to meet your requirements... Generated polymer: N#COc3ccc(CC2CCCC(Cc1ccc(OC#N)cc1)C2)cc3, CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=135.0 and Er=33.0?",
+        "responses": "Understood, you want a TSMP with Tg=135.0 and Er=33.0. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCNCCN."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=155.0 and Er=41.0?",
+        "responses": "Understood, you want a TSMP with Tg=155.0 and Er=41.0. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCNCCN, Nc2ccc(Cc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=171.252 and Er=43.0?",
+        "responses": "Understood, you want a TSMP with Tg=171.252 and Er=43.0. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, Nc2ccc(Cc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=132.0 and Er=28.0?",
+        "responses": "Understood, you want a TSMP with Tg=132.0 and Er=28.0. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCNCCN, CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5CN(c4ccccc4)COc5c6."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=133.0 and Er=23.0?",
+        "responses": "Understood, you want a TSMP with Tg=133.0 and Er=23.0. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, NCCNCCN, Nc2ccc(Cc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=158.0 and Er=30.0?",
+        "responses": "Understood, you want a TSMP with Tg=158.0 and Er=30.0. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, Nc2ccc(Cc1ccc(N)cc1)cc2, CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5CN(c4ccccc4)COc5c6."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=5.29 and Er=1.4?",
+        "responses": "Understood, you want a TSMP with Tg=5.29 and Er=1.4. We are crafting a polymer to match your provided specifications... Generated polymer: O=C=Nc2ccc(Cc1ccc(N=C=O)cc1)cc2, COCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(C)=O, CCC(CO)(CO)CO."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=51.86 and Er=3.85?",
+        "responses": "Understood, you want a TSMP with Tg=51.86 and Er=3.85. The polymer design process is now underway to fulfill your request... Generated polymer: O=C=Nc2ccc(Cc1ccc(N=C=O)cc1)cc2, COCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(C)=O, CCC(CO)(CO)CO."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=19.482 and Er=1.61?",
+        "responses": "Understood, you want a TSMP with Tg=19.482 and Er=1.61. We are crafting a polymer to match your provided specifications... Generated polymer: O=C=Nc2ccc(Cc1ccc(N=C=O)cc1)cc2, COCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(C)=O, CCC(CO)(CO)CO."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=87.78 and Er=4.96?",
+        "responses": "Understood, you want a TSMP with Tg=87.78 and Er=4.96. A polymer is being generated to meet your requirements... Generated polymer: O=C=Nc2ccc(Cc1ccc(N=C=O)cc1)cc2, COCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(C)=O, CCC(CO)(CO)CO."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=46.551 and Er=4.3?",
+        "responses": "Understood, you want a TSMP with Tg=46.551 and Er=4.3. We are crafting a polymer to match your provided specifications... Generated polymer: O=C=Nc2ccc(Cc1ccc(N=C=O)cc1)cc2, COCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(C)=O, CCC(CO)(CO)CO."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=110.89 and Er=6.56?",
+        "responses": "Understood, you want a TSMP with Tg=110.89 and Er=6.56. The polymer design process is now underway to fulfill your request... Generated polymer: O=C=Nc2ccc(Cc1ccc(N=C=O)cc1)cc2, COCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(C)=O, CCC(CO)(CO)CO."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=57.34 and Er=5.74?",
+        "responses": "Understood, you want a TSMP with Tg=57.34 and Er=5.74. We are crafting a polymer to match your provided specifications... Generated polymer: O=C=Nc2ccc(Cc1ccc(N=C=O)cc1)cc2, COCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(C)=O, CCC(CO)(CO)CO."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=129.3 and Er=10.28?",
+        "responses": "Understood, you want a TSMP with Tg=129.3 and Er=10.28. The polymer design process is now underway to fulfill your request... Generated polymer: O=C=Nc2ccc(Cc1ccc(N=C=O)cc1)cc2, COCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(C)=O, CCC(CO)(CO)CO."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=67.396 and Er=14.83?",
+        "responses": "Understood, you want a TSMP with Tg=67.396 and Er=14.83. The polymer design process is now underway to fulfill your request... Generated polymer: O=C=Nc2ccc(Cc1ccc(N=C=O)cc1)cc2, COCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(C)=O, CCC(CO)(CO)CO."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=132.2 and Er=12.87?",
+        "responses": "Understood, you want a TSMP with Tg=132.2 and Er=12.87. Generating a polymer that matches the requested properties... Generated polymer: O=C=Nc2ccc(Cc1ccc(N=C=O)cc1)cc2, COCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(C)=O, CCC(CO)(CO)CO."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=65.97 and Er=15.3?",
+        "responses": "Understood, you want a TSMP with Tg=65.97 and Er=15.3. A polymer is being generated to meet your requirements... Generated polymer: O=C=Nc2ccc(Cc1ccc(N=C=O)cc1)cc2, COCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(=O)OCCCCOC(=O)CCCCC(C)=O, CCC(CO)(CO)CO."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=35.0 and Er=12.0?",
+        "responses": "Understood, you want a TSMP with Tg=35.0 and Er=12.0. A polymer is being generated to meet your requirements... Generated polymer: C=CC(=O)OC(C)(C)C, C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=33.99 and Er=15.8?",
+        "responses": "Understood, you want a TSMP with Tg=33.99 and Er=15.8. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS, C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=33.0 and Er=19.0?",
+        "responses": "Understood, you want a TSMP with Tg=33.0 and Er=19.0. A polymer is being generated to meet your requirements... Generated polymer: CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS, C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=34.0 and Er=17.0?",
+        "responses": "Understood, you want a TSMP with Tg=34.0 and Er=17.0. We are crafting a polymer to match your provided specifications... Generated polymer: C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1, C=CCOCC(CO)(COCC=C)COCC=C."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=125.0 and Er=2.08?",
+        "responses": "Understood, you want a TSMP with Tg=125.0 and Er=2.08. A polymer is being generated to meet your requirements... Generated polymer: C=C(C)C(=O)OC, nan."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=125.3 and Er=2.34?",
+        "responses": "Understood, you want a TSMP with Tg=125.3 and Er=2.34. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: C=C(C)C(=O)OC, C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=120.57 and Er=3.04?",
+        "responses": "Understood, you want a TSMP with Tg=120.57 and Er=3.04. The polymer design process is now underway to fulfill your request... Generated polymer: C=C(C)C(=O)OC, C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=131.59 and Er=5.79?",
+        "responses": "Understood, you want a TSMP with Tg=131.59 and Er=5.79. The polymer design process is now underway to fulfill your request... Generated polymer: C=C(C)C(=O)OC, C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=135.79 and Er=11.67?",
+        "responses": "Understood, you want a TSMP with Tg=135.79 and Er=11.67. Generating a polymer that matches the requested properties... Generated polymer: C=C(C)C(=O)OC, C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=144.47 and Er=30.89?",
+        "responses": "Understood, you want a TSMP with Tg=144.47 and Er=30.89. The polymer design process is now underway to fulfill your request... Generated polymer: C=C(C)C(=O)OC, C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=51.8 and Er=2.656?",
+        "responses": "Understood, you want a TSMP with Tg=51.8 and Er=2.656. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: C=CCOC(CC)(CO)CO, OCCCCO, CC(CN=C=O)CC(C)(C)CCN=C=O."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=59.7 and Er=2.31?",
+        "responses": "Understood, you want a TSMP with Tg=59.7 and Er=2.31. The polymer design process is now underway to fulfill your request... Generated polymer: C=CCOC(CC)(CO)CO, CC(C)(CO)CO, CC(CN=C=O)CC(C)(C)CCN=C=O."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=68.3 and Er=2.75?",
+        "responses": "Understood, you want a TSMP with Tg=68.3 and Er=2.75. We are crafting a polymer to match your provided specifications... Generated polymer: C=CCOC(CC)(CO)CO, OCC1CCC(CO)CC1, CC(CN=C=O)CC(C)(C)CCN=C=O."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=56.51 and Er=17.48?",
+        "responses": "Understood, you want a TSMP with Tg=56.51 and Er=17.48. The polymer design process is now underway to fulfill your request... Generated polymer: C=CCOC(CC)(CO)CO, O=C=NCCCCCCN=C=O, O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=68.84 and Er=19.4?",
+        "responses": "Understood, you want a TSMP with Tg=68.84 and Er=19.4. The polymer design process is now underway to fulfill your request... Generated polymer: C=CCOC(CC)(CO)CO, O=C=NC2CCC(CC1CCC(N=C=O)CC1)CC2, O=C=NCCCCCCN=C=O."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=57.0 and Er=17.44?",
+        "responses": "Understood, you want a TSMP with Tg=57.0 and Er=17.44. We are crafting a polymer to match your provided specifications... Generated polymer: CCO[Si](CCCN(CCOC(=O)CCO)CCOC(=O)CCO)(OCC)OCC, CC1(C)CC(N=C=O)CC(C)(N=C=O)C1."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=51.1 and Er=14.26?",
+        "responses": "Understood, you want a TSMP with Tg=51.1 and Er=14.26. A polymer is being generated to meet your requirements... Generated polymer: CCO[Si](CCCN(CCOC(=O)CCO)CCOC(=O)CCO)(OCC)OCC, CC1(C)CC(N=C=O)CC(C)(N=C=O)C1, OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=46.71 and Er=8.64?",
+        "responses": "Understood, you want a TSMP with Tg=46.71 and Er=8.64. A polymer is being generated to meet your requirements... Generated polymer: CCO[Si](CCCN(CCOC(=O)CCO)CCOC(=O)CCO)(OCC)OCC, CC1(C)CC(N=C=O)CC(C)(N=C=O)C1, OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=34.57 and Er=2.87?",
+        "responses": "Understood, you want a TSMP with Tg=34.57 and Er=2.87. We are crafting a polymer to match your provided specifications... Generated polymer: CCO[Si](CCCN(CCOC(=O)CCO)CCOC(=O)CCO)(OCC)OCC, CC1(C)CC(N=C=O)CC(C)(N=C=O)C1, OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=52.2 and Er=1.5?",
+        "responses": "Understood, you want a TSMP with Tg=52.2 and Er=1.5. The polymer design process is now underway to fulfill your request... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C, C=CC(=O)OC(C)(C)C."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=51.4 and Er=5.62?",
+        "responses": "Understood, you want a TSMP with Tg=51.4 and Er=5.62. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C, C=CC(=O)OC(C)(C)C."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=49.9 and Er=11.51?",
+        "responses": "Understood, you want a TSMP with Tg=49.9 and Er=11.51. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C, C=CC(=O)OC(C)(C)C."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=54.8 and Er=2.42?",
+        "responses": "Understood, you want a TSMP with Tg=54.8 and Er=2.42. We are crafting a polymer to match your provided specifications... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O, C=CC(=O)OC(C)(C)C."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=55.4 and Er=5.55?",
+        "responses": "Understood, you want a TSMP with Tg=55.4 and Er=5.55. We are crafting a polymer to match your provided specifications... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O, C=CC(=O)OC(C)(C)C."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=53.5 and Er=11.54?",
+        "responses": "Understood, you want a TSMP with Tg=53.5 and Er=11.54. The polymer design process is now underway to fulfill your request... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O, C=CC(=O)OC(C)(C)C."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=48.0 and Er=1.2?",
+        "responses": "Understood, you want a TSMP with Tg=48.0 and Er=1.2. Generating a polymer that matches the requested properties... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O, C=CC(=O)OCCCC."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=57.0 and Er=2.9?",
+        "responses": "Understood, you want a TSMP with Tg=57.0 and Er=2.9. We are crafting a polymer to match your provided specifications... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O, C=CC(=O)OCCCC."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=52.0 and Er=8.5?",
+        "responses": "Understood, you want a TSMP with Tg=52.0 and Er=8.5. A polymer is being generated to meet your requirements... Generated polymer: C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O, C=CC(=O)OCCCC."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=125.5 and Er=7.78?",
+        "responses": "Understood, you want a TSMP with Tg=125.5 and Er=7.78. We are crafting a polymer to match your provided specifications... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, Nc2ccc(Cc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=140.0 and Er=13.42?",
+        "responses": "Understood, you want a TSMP with Tg=140.0 and Er=13.42. A polymer is being generated to meet your requirements... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, Nc2ccc(Cc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=137.42 and Er=14.33?",
+        "responses": "Understood, you want a TSMP with Tg=137.42 and Er=14.33. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4, Nc2ccc(Cc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=126.8 and Er=16.34?",
+        "responses": "Understood, you want a TSMP with Tg=126.8 and Er=16.34. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4, Nc2ccc(Cc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=121.2 and Er=17.07?",
+        "responses": "Understood, you want a TSMP with Tg=121.2 and Er=17.07. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4, Nc2ccc(Cc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=86.3 and Er=8.6?",
+        "responses": "Understood, you want a TSMP with Tg=86.3 and Er=8.6. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCCOCC1CO1)cc2)c4ccc(OCCOCC3CO3)cc4, CC1(C)CC(N)CC(C)(CN)C1."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=75.12 and Er=6.37?",
+        "responses": "Understood, you want a TSMP with Tg=75.12 and Er=6.37. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCCOCC1CO1)cc2)c4ccc(OCCOCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CC1(C)CC(N)CC(C)(CN)C1."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=70.28 and Er=5.85?",
+        "responses": "Understood, you want a TSMP with Tg=70.28 and Er=5.85. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCCOCC1CO1)cc2)c4ccc(OCCOCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CC1(C)CC(N)CC(C)(CN)C1."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=63.09 and Er=5.48?",
+        "responses": "Understood, you want a TSMP with Tg=63.09 and Er=5.48. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c2ccc(OCCOCC1CO1)cc2)c4ccc(OCCOCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CC1(C)CC(N)CC(C)(CN)C1."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=57.33 and Er=5.02?",
+        "responses": "Understood, you want a TSMP with Tg=57.33 and Er=5.02. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c2ccc(OCCOCC1CO1)cc2)c4ccc(OCCOCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N, CC1(C)CC(N)CC(C)(CN)C1."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=47.23 and Er=5.03?",
+        "responses": "Understood, you want a TSMP with Tg=47.23 and Er=5.03. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCCOCC1CO1)cc2)c4ccc(OCCOCC3CO3)cc4, CC(N)COCC(C)OCC(C)OCC(C)N."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=171.89 and Er=12.33?",
+        "responses": "Understood, you want a TSMP with Tg=171.89 and Er=12.33. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: c2cc(OCC1CO1)ccc2Cc4ccc(OCC3CO3)cc4, CCc1cc(C)c(N)c(CC)c1N."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=99.08 and Er=38.4?",
+        "responses": "Understood, you want a TSMP with Tg=99.08 and Er=38.4. The polymer design process is now underway to fulfill your request... Generated polymer: CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=88.0 and Er=76.59?",
+        "responses": "Understood, you want a TSMP with Tg=88.0 and Er=76.59. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=140.0 and Er=122.63?",
+        "responses": "Understood, you want a TSMP with Tg=140.0 and Er=122.63. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6, CC(C)(COCC1CO1)COCC2CO2."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=187.0 and Er=24.0?",
+        "responses": "Understood, you want a TSMP with Tg=187.0 and Er=24.0. We are crafting a polymer to match your provided specifications... Generated polymer: Nc2cccc(S(=O)(=O)c1cccc(N)c1)c2, CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=219.0 and Er=28.0?",
+        "responses": "Understood, you want a TSMP with Tg=219.0 and Er=28.0. A polymer is being generated to meet your requirements... Generated polymer: Nc2ccc(S(=O)(=O)c1ccc(N)cc1)cc2, CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=39.0 and Er=2.62?",
+        "responses": "Understood, you want a TSMP with Tg=39.0 and Er=2.62. A polymer is being generated to meet your requirements... Generated polymer: C=CCOC(CC)(CO)CO, OCCOCCO, CC(CN=C=O)CC(C)(C)CCN=C=O."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=44.0 and Er=3.31?",
+        "responses": "Understood, you want a TSMP with Tg=44.0 and Er=3.31. The polymer design process is now underway to fulfill your request... Generated polymer: C=CCOC(CC)(CO)CO, OCCCCO, CC(CN=C=O)CC(C)(C)CCN=C=O."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=80.48 and Er=20.09?",
+        "responses": "Understood, you want a TSMP with Tg=80.48 and Er=20.09. Generating a polymer that matches the requested properties... Generated polymer: C=CCOC(CC)(CO)CO, O=C=NC2CCC(CC1CCC(N=C=O)CC1)CC2, O=C=NCCCCCCN=C=O."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=104.45 and Er=16.29?",
+        "responses": "Understood, you want a TSMP with Tg=104.45 and Er=16.29. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: C=CCOC(CC)(CO)CO, O=C=NC2CCC(CC1CCC(N=C=O)CC1)CC2, O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=141.0 and Er=27.32?",
+        "responses": "Understood, you want a TSMP with Tg=141.0 and Er=27.32. Generating a polymer that matches the requested properties... Generated polymer: C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C, O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=203.0 and Er=37.46?",
+        "responses": "Understood, you want a TSMP with Tg=203.0 and Er=37.46. Generating a polymer that matches the requested properties... Generated polymer: C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3, O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=50.0 and Er=54.0?",
+        "responses": "Understood, you want a TSMP with Tg=50.0 and Er=54.0. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O, CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS, C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=279.0 and Er=60.0?",
+        "responses": "Understood, you want a TSMP with Tg=279.0 and Er=60.0. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: C=CCc4ccc(OCC1CO1)c(c2cc(CC=C)ccc2OCC3CO3)c4, Nc2ccc(S(=O)(=O)c1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=231.0 and Er=40.0?",
+        "responses": "Understood, you want a TSMP with Tg=231.0 and Er=40.0. Generating a polymer that matches the requested properties... Generated polymer: CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4, Nc2ccc(S(=O)(=O)c1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=111.0 and Er=125.0?",
+        "responses": "Understood, you want a TSMP with Tg=111.0 and Er=125.0. A polymer is being generated to meet your requirements... Generated polymer: c3cc(N(CC1CC1)CC2CO2)ccc3OCC4CO4, O=C1CCCC(=O)O1."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=143.0 and Er=188.0?",
+        "responses": "Understood, you want a TSMP with Tg=143.0 and Er=188.0. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: c3cc(N(CC1CC1)CC2CO2)ccc3OCC4CO4, O=C1CCCC(=O)O1."
+    },
+    {
+        "prompt": "Can you provide a polymer that has Tg=132.0 and Er=298.0?",
+        "responses": "Understood, you want a TSMP with Tg=132.0 and Er=298.0. A polymer is being generated to meet your requirements... Generated polymer: c3cc(N(CC1CO1)CC2CO2)ccc3Cc6ccc(N(CC4CO4)CC5CO5)cc6, O=C1CCCC(=O)O1."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=121.0 and Er=72.0?",
+        "responses": "Understood, you want a TSMP with Tg=121.0 and Er=72.0. We are crafting a polymer to match your provided specifications... Generated polymer: c3cc(N(CC1CO1)CC2CO2)ccc3Cc6ccc(N(CC4CO4)CC5CO5)cc6, O=C1CCCC(=O)O1."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=159.85 and Er=14.54?",
+        "responses": "Understood, you want a TSMP with Tg=159.85 and Er=14.54. The polymer design process is now underway to fulfill your request... Generated polymer: c2cc(OCC1CO1)ccc2Cc4ccc(OCC3CO3)cc4, Nc2ccc(SSc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Would you be able to generate a polymer with Tg=151.49 and Er=21.25?",
+        "responses": "Understood, you want a TSMP with Tg=151.49 and Er=21.25. We are crafting a polymer to match your provided specifications... Generated polymer: c2cc(OCC1CO1)ccc2Cc4ccc(OCC3CO3)cc4, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN, Nc2ccc(SSc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Can you offer a polymer featuring Tg=147.78 and Er=21.85?",
+        "responses": "Understood, you want a TSMP with Tg=147.78 and Er=21.85. A polymer is being generated to meet your requirements... Generated polymer: c2cc(OCC1CO1)ccc2Cc4ccc(OCC3CO3)cc4, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN, Nc2ccc(SSc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Is it possible to suggest a polymer with Tg=136.6 and Er=28.35?",
+        "responses": "Understood, you want a TSMP with Tg=136.6 and Er=28.35. Generating a polymer that matches the requested properties... Generated polymer: c2cc(OCC1CO1)ccc2Cc4ccc(OCC3CO3)cc4, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN, Nc2ccc(SSc1ccc(N)cc1)cc2."
+    },
+    {
+        "prompt": "Could you recommend a polymer with Tg=135.7 and Er=36.57?",
+        "responses": "Understood, you want a TSMP with Tg=135.7 and Er=36.57. We are working on creating a polymer with the specified Tg and Er values... Generated polymer: c2cc(OCC1CO1)ccc2Cc4ccc(OCC3CO3)cc4, NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN."
+    }
+]

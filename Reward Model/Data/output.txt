@@ -1,0 +1,450 @@
+
+-----------------1---------------------------------
+['O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4', 'CC(CN)CCCN']
+--------------------------------------------------
+None,C.C.C.C.C.C.C.C.C.CCCOOC=COCO.O.O
+C.C.C=C=CCCOCC.CC.CC=CO.O.O.O=CO,None
+C.C.C.C.C=C=CCCOO.C=CC.CCOCC.CO,C.C.C.C.C.CC.CC.CCCCCOOCCCO.O
+C.C.C.C.C=CCCC.CCO.CO.OC=CCCCO,C.C.C.C.C.C.C.C.C.C.CC=C=CCO.CCO.O.O
+C.C.C=C=CCCOCC.C=COCCO.CC=CO.CC=O,C.C.C.C.C.C.C.C.CC.O.O.OCC=C=CCOCCCO
+
+-----------------2---------------------------------
+['C=C(C)C(=O)OC', 'C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O']
+--------------------------------------------------
+C.C.C.C.C.C.CCCCO.CO.O,C.C.C.C.C.CCCCOOCCO
+C.C.C.C.C.C.C.C=CCC=CCCC.CC.O.O.O.O,C.C.C.C.C.C.C.C.CCC.CCCCCOCO.O.O
+C.CCCCOOCC,CCCCOOCCC
+C.C.C.C.CCCCOOC,None
+C.C.C.C.C.C.CC.CCC=CCCC.CCCCC,C.C.C.C.C.C.C.C.C.C.C.CCCCCCCCC
+
+-----------------3---------------------------------
+['C=CCc4ccc(OCC1CO1)c(c2cc(CC=C)ccc2OCC3CO3)c4', 'NCCCOCCOCCCN']
+--------------------------------------------------
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC=CCCCCCC.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCCC=CCCOC.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC=CCCC.COC.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCCCCC.CO.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCCCCCCCCC.O.O.O
+
+-----------------4---------------------------------
+['C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C', 'O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS']
+--------------------------------------------------
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C=C(C)C=O.CC.CC.CC.CC.CO.CO.CO.CO.COCCO.O.O.O.O.O.O.O.O.O.O.O.O.O.O,None
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C=CCCO.CC.CC.CC.CCOCCO.CO.CO.CO.CO.CO.COCCOCCOC.O.O.O.O.O.O.O.O.O.O,None
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C=CC.CC.CC.CC.CC.CC.CCO.CCO.CO.CO.O.O.O.O.O.O.OCCOCCO.OCCOCCOCCOCO.OCO,None
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CCCCO.CCOCCO.CCOCCO.CCOCCOCCO.CO.CO.CO.CO.O.O.O.O.O.O.O.O.O,None
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCO.CCO.CCOCO.CCOCO.CO.CO.CO.COCCOC.O.O.O.O.O.O.O.O.OCCOCCO,None
+
+-----------------5---------------------------------
+['C=CC(=O)OC(C)(C)C', 'C=COC(=O)CCCCCC(C)(C)C']
+--------------------------------------------------
+None,C.C.C.CC.CCC.CCOC.CO.O.O
+None,C.C.C.C.CCC.CCCCC.CO
+C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCCC.CCCCC.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.CCC.O
+C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCC.CO.CO.COC.COOCCO.O.O,None
+C.C.C.C.CC.CC.CCCCO.CO.O.O,C.C.C.C.C.C.CCCCOOCCOC.O
+
+-----------------6---------------------------------
+['CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4', 'NCCCOCCOCCCN']
+--------------------------------------------------
+C.C.C.C.C.C.C.C1=CCCCC1.CC.CCC.CCCCCC.CCCCCC1=C=C=CC=C1OC.CCCO.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCCC=CCCCCCC.O.O.O.O
+C.C.C.C.C.C.C.C.C.C.C.C=CCCCC.CCCC1=C=C=C(C)C(OC)=C1.CCO.CO.CO.O.O.O.OCCO,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC=CCCC.CCC(CO)C(C)O.O.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCCCCCCO.O.O.O.O.O
+C.C.C.C.C.C.C.C.C.CC.CC=CO.CCC.CCCCC.CCO.CO.COC1=CC=C=C=C1.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC=CCC(C)C.CO.O.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCC.CCC.CCC(C)C(C)C.CO.O.O.O.O.O
+
+-----------------7---------------------------------
+['C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O', 'C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C']
+--------------------------------------------------
+C.C.C.C.C.C.C.C.C.CC.CCC.CCO.CO.CO.CO.COC.COOC.O.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.CCCCO.CCO.CO.COC.COCCO.O.O.O.O.O.O
+C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCO.CCO.CO.CO.O.O.O.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCO.CO.CO.CO.CO.CO.COC.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CCC.CO.CO.CO.CO.O
+C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCO.CCO.COOC.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CO.CO.COCCO.O.O.O.O
+C.C.C.C.C.C.C.CC.CCC.CCCO.CCO.CO.CO.COOC.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CO.CO.O.O.O.O.O.O
+
+-----------------8---------------------------------
+['O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4', 'C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O']
+--------------------------------------------------
+None,None
+C=CCC.CC1CCOC=C=CCCCCCCC2=C=C=C(CCO)C=C21,None
+C.C.C.C=C=C=CCCC.CC.CCO.CCO.CCOC=COC,None
+C.C.C.CC.CCCCCC(=C=C=CCCO)CCCCOCC.CCCO,None
+C.C.C=C=C=C.CC.CCC=COCC.CCCC.CCCO.CCO,None
+
+-----------------9---------------------------------
+['C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O', 'C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O']
+--------------------------------------------------
+C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.CCO.CCOC.CCOC.CCOC.CO.CO.CO.COC.O.O.O.O.O.O.O.O=C=COCCO.OCCO,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCC.CO.CO.CO.COC.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCC.CO.CO.CO.COCCOOC.O.O.O.O.O.O.O.O.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.CCOC.CO.CO.CO.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CCC.CCC.CCCO.CCO.CCO.CCOC.O.O.O.O.O.OCCO,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCCCO.CCCOC.CO.O.O.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCC.CCCCO.CCOCCO.O.O.O.O.O.O.O.O.O.O.O.O.O.O
+
+-----------------10---------------------------------
+['Nc2ccc(Oc1ccc(N)cc1)cc2', 'COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCN']
+--------------------------------------------------
+C.C.C=C=C=C=COCC,CCCCC.CCCCO
+None,C.C.C.C.C.C.C.CC.CCC.CO.O.O
+C.C.C=CC1C=C=CCC1C,C.C.CC.CCC.CCCC
+C.C=CCCO.CCC,CCC.CCCC.CO
+None,C.CCC.CCC.CO
+
+-----------------11---------------------------------
+['c2cc(OCC1CO1)ccc2Cc4ccc(OCC3CO3)cc4', 'Nc2cccc(S(=O)(=O)c1cccc(N)c1)c2']
+--------------------------------------------------
+C.C.C.C=C=CC(CCCC)COCC.C=CC.C=CO.CO,C.C.C.C.C.C.C.C.CC.CC=CC=CCCCCCO.O.O
+C.C=C=C=C.C=CC.C=CO.CCC.CCC.OC=C=CCCOCCO,C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC=C=C=CCCOCC.O.O.O
+C.C.C=C=CC(C=CC)C(C#CCO)CCC=C.CC.O.O,C.C.C.C.C.C.C.C.C.C.C.CC=CCCC.COC.O.O
+C.C.C=C=C.C=C=C(C=CO)C(CC=CC)COCC.CC.O,C.C.C.C.C.C.CC.CC.CC=C=C=CC.CCCCO.O.O
+C.C.C=C=C.C=C=C=CC(C)C(C)=CC.CC.CCO.O.O,C.C.C.C.C.C.CCC.CCCC=CCCCCCO.O.O
+
+-----------------12---------------------------------
+['C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3', 'C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C']
+--------------------------------------------------
+None,C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.CCC.CCCCCCCC.CCCCO.CO.O.O
+C.C.C.C.C.C=C=CC1=C=C=C=C=C1OCC=CC=CCO.CC.CCC1CC1C.CCCOCC.CO,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CC.CC=CCCCCOC.CCC.O.O.O
+C.C.C.C=C=C.CC.CCCCCCC.CCCCCCO.O.OCC=CCCCCc1ccccc1,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CCCCCCCCCCC.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.CC.CC.CC=CCOOC.CCC.CCCC.CCCOC.CCO.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CC.CC.CCCCCCCCC.CCO.O.O.O
+
+-----------------13---------------------------------
+['CC(COc3ccc(C(C)(C)c2ccc(OCC(C)OCC1CO1)cc2)cc3)OCC4CO4', 'CC(CN)CCCN']
+--------------------------------------------------
+C.C.C.C.C.C=C=C(C=C=C(C)O)NCC=CC.CCC.CCC(N)O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCC=NC.CO.N.O.O.O
+C.C.C.C.C.C.C.C.C=C(C)O.C=CCN1OC=C(C)C=C1C(C)C.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC=NOCCC.O.O.O
+C.C.C=C=C(C=C=C(C)CC)OC=CCC.CC.CC.CCC.CCCO.CN.O.O.O.O,None
+C.C.C.C.C.C=C(CC=C=CC)C1=CCC(CO)OC1C.CC.CC.CC.CCC.CO.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCCC=CCCCCC.O.O.O.O
+C.C.CC.CCC.CCC.CCC.CCC1CC=C(C2=CC(C)=C=C=C2)C(C)C1.CCCO.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCC=C=CCCCCC.O.O
+
+-----------------14---------------------------------
+['C=CCc4ccc(OCC1CO1)c(c2cc(CC=C)ccc2OCC3CO3)c4', 'CC(CN)CCCN']
+--------------------------------------------------
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC=C=CCCCCC.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCC=C=CCCOC.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC=C=CCCOCCC.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC=C=CCCOCCC.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCCCCCCOC.O.O
+
+-----------------15---------------------------------
+['Cc3cc(c2cc(C)c(OCC1CO1)c(C(C)(C)C)c2)cc(C(C)(C)C)c3OCC4CO4', 'CCC(COCC(C)COCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N']
+--------------------------------------------------
+None,C.C.C.C.C.C.C.C.C.CC.CC.CC.CC.CC.CC.CC.CCC.CO.CO.O.O
+None,C.C.C.CC.CC.CC.CCC.CCCC.CCOC.CCOC1CC1COC.CO.O
+None,C.C.C.C.C.CC.CC.CC.CC.CC.CC.CCCCCCC.CCO.COO.O.O
+None,C.C.C.C.C.C.C.CC.CC.CCC.CCCCCCC.CO.COOCC(C)C.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.CCC.CCCC.CCO.CO.COC.O
+
+-----------------16---------------------------------
+['Cc3cc(c2cc(C)c(OCC1CO1)c(C)c2)cc(C)c3OCC4CO4', 'Nc2ccc(S(=O)(=O)c1ccc(N)cc1)cc2']
+--------------------------------------------------
+None,C.C.C.C.C.C.C.C.C.C.C.CC(C)=CC=CCC1CC1.CO.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.CCC=C=CCCCCO.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCCC=CCCC.CO.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.CCCC=CCC1CC1.CO.OCO
+None,C.C.C.C.C.C.C.C.C.CC.CCCC=CCCCC.CCO.O.O.O
+
+-----------------17---------------------------------
+['CC(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O', 'C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1']
+--------------------------------------------------
+C.C.C.C.C.C.C.C.C.CC.CC.CCC(C)O.CCCCC.CCCCCC.O.O,C.C.C.C.C.C.C.C.C.CC.CC.CC.CCCCC.CCCCC.CCO.CO.O
+C.C.C.C.C.C.CC.CC.CCC.CCC=CCCC(C)C.CCCCCCC.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC=CCC.CCCCC.CO
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CCCC.CCCC.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCCCC.CCOCC.CO
+C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCC.CCC.CCO.O.O,C.C.C.C.C.C.C.C.CC.CC.CC.CC.CCCCC.CCOCC.CO.O
+CC.CC.CC=CCC=CC.CCC.CCOCCOC(C)O.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCOC.O.O.O.O.O.O
+
+-----------------18---------------------------------
+['C=COC(=O)CCCCCC(C)(C)C', 'CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS']
+--------------------------------------------------
+C.C.C.C.C.CCC.CCOC.O.O,None
+C.C.C.C.C.C.CC.CCCCCCCC.O.O,C.C.C.C.C.C.CCCC=CCCCCC.O.O
+C.C.C.C.C.C.C.C.C.C.CCC.CCCCO,None
+C.C.C.C.C.C.C.C.C.C.CC.CC.CCCCCCCC.O.O,C.C.C.C.C.C.C.C.CCC.CCCC=CCCCCC.CO.O
+C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCCCOCC.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCCCCOCCCC.O
+
+-----------------19---------------------------------
+['C=CC(=O)OC(C)(C)C', 'O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS']
+--------------------------------------------------
+None,CCC.CCCO.CO
+None,C.CC.CCC.CO.O
+None,CCC.CCCCO.CO
+C.C.C.C.C.CCCCC1=C=C=CCC(C)C(C)CC1,C.C.C.C.C.C.C.C.C.C.CC.CCC.CCCCC
+None,C.CCC.CCCCO.O
+
+-----------------20---------------------------------
+['C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O', 'CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS']
+--------------------------------------------------
+C.C.CC.CC.CC.CCCN.CCCO.CCOC.CO.O.O.O.O.O.O,C.C.C.C.C.C.CC.CC.CC.CCCOO.COCC=O.N=O.O.O.O.O
+C.C.C.C.C=CCO.CC.CC.CCOCC(C)C(C)CC(O)NC(O)CC.CO.O.O,C.C.C.C.C.C.C.C.C.CC.CC.CC.CC.CCCOO.CCOCC.N=O.O.O.O
+C.C.C.C=CCO.CC.CC.CCCO.CN(CCCO)CNCCO.CO.CO.O.O,None
+C.C.C.C=CCO.CC.CCC(O)NCCO.CCCO.CO.CO.CO.O.O.O.O.O,None
+None,C.C.C.C.C.C.C.C.C.C=O.CC.CC.CC.CC.CC.CCCOO.COC.O.O.O
+
+-----------------21---------------------------------
+['CC(C)(c4ccc(OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)cc4)c6ccc(OCC5CO5)cc6', 'NCCCOCCOCCCN']
+--------------------------------------------------
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCCC=CCCOCC.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCCCC.CCOC.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCCCCCCOC.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCCCCCCOC.CO.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC=CC=CCCOC.O.O.O.O
+
+-----------------22---------------------------------
+['CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4', 'COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCN']
+--------------------------------------------------
+C.C.C.C.C.C.C.C.C.C.C.C.C=CCC.CC.CC.CC.O,C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CCC.CO
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCO.CCOC.O.O.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCOOCCO.CO.O.O.O
+None,C.C.C.C.C.C.C.C.C.CC.CC.CC.CCCCOO.CO.O.O.O
+None,C.C.C.C.C.C.C.C.CC.CC.CC.CC.CCC.CCCC.CCCOC.CO.CO.O.O.O
+
+-----------------23---------------------------------
+['c3cc(N(CC1CO1)CC2CO2)ccc3Cc6ccc(N(CC4CO4)CC5CO5)cc6', 'O=C1CCCC(=O)O1']
+--------------------------------------------------
+C.C.C.C.C.C.C.C.C.CC.CC.CC.CCC.CCC.CCCCC.CCCOC.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CCCCCCO.CO.O.O
+C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.CCCC.CCCC.CCCCCCCO.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCCCCCCCOCC.CCCCCO.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCCCOCCCO.O.O.O.O.O.O.O
+C.C.C.C.C.C.C.C.C.CC.CC.CCO.CO.CO.O.O.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.CCC.CO.O.O.O.O.O.O.OCCO
+C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCC.CO.CO.CO.CO.O.O.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CO.CO.CO.O.O.O.O.OCCOCCO
+
+-----------------24---------------------------------
+['C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C', 'C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O']
+--------------------------------------------------
+C.C.C.C.C.C.C.C.C.C.C.C.C.C=O.CCC.CO.CO.CO.CO.CO.O.O.O.O.OCCO,None
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C=O.CCC.CCOC.CO.CO.COC.O.O.O.O.O.O.O.O.O.O.OCCO.OCCOCCO,None
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C=CC.CC.CC.CCOC.CO.CO.CO.O.O.O.O.O.O.O.O.O.O.O.O.O=CO,None
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC(=O)OC.CCO.CO.CO.CO.COC.O.O.O.O.O.O.O.O.O.O.O.O.O.O,None
+C.C.C.C.C.C.C.C.C.C.C.C.C=C(C)C(=O)OC.C=O.CC.CCC.CCO.CO.CO.CO.COC.COCCOC.O.O.O.O.O.OCCOCCOCCOCCO,None
+
+-----------------25---------------------------------
+['c1ccc3c(c1)c2ccccc2C3(c5ccc(OCCOCC4CO4)cc5)c7ccc(OCCOCC6CO6)cc7', 'NCc1cccc(CN)c1']
+--------------------------------------------------
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC=CCCC.O.O.O.O
+C.C.C.C.C=C=C=C=CCCCC.C=CC.O.OC=CCCCCCOCCO.OCCCC=CCCCCO,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCCC=CCCCCC.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCC=C=CCCOC.O.O.O.O
+C.C.C.C.C.C=C=C=C=CCCCC.C=CC.CC=C=CCCCCCCC.CC=CCCCC.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC=C=CCCC.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCCCCCCC
+
+-----------------1---------------------------------
+['C=C(C)C(=O)OCCOCCOCCOCCOCCOC(=O)C(C)=O', 'O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS']
+--------------------------------------------------
+C.C.C.C.C.C.C.C.C.C.C.CC.CCCC.CCCC=C=C=CCCC.CCOCO.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.CCCCC.O.O.O
+None,C.C.C.CC.CC.CCOC.O
+C.C.C.C.C.C.C.C.CC.CC.CC.CCC=C=C=CCCC.CCCO.O.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.CCCC.O.O.O.O.O.O
+C.C.C.C.C.C.C.C.C.C.C.C.C=CCC=C=CCCCCC.CC.CC.CC.CCCO.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCCCCCC.O.O
+C.C.C.C.C.C.C.C.CC.CC.CC.CC.CCC.CCCC=C=CCCCCC.CCCO.CCO.CO.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCC.CCC.CCCC.CO.O.O.O
+
+-----------------2---------------------------------
+['C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C', 'CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS']
+--------------------------------------------------
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCO.CO.CO.CO.CO.COC.O.O.O.O.O
+C.C#CC.C=O.CC.CC.CCOC.CCOC.CCOCCOCO.CO.COCC=O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CO.CO.CO.CO.COC.O.O.O.O.O.O
+C=C(C)C(=O)OCCOC.CC.CC.CCOCCOC.CO.CO.COCC=O.O.OCCOCO,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CO.CO.CO.O.O.O.O.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCC.CCO.CO.CO.CO.COC.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCO.CCO.CO.CO.CO.COC.O.O.O.O.O
+
+-----------------3---------------------------------
+['CC(C)(c2ccc(OC1CO1)cc2)c4ccc(OC3CO3)cc4', 'O=C(O)CC(CC(=O)O)C(=O)O']
+--------------------------------------------------
+C.C.C.C.C.C.C.C.C.C.C.C.C=CCCOCCC.CC.CC.CO.CO.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.CCC.CO.CO.O.O.O.O.O
+C.C.C.C.C.C.C.C.C=CCCCOCCC.CCCC.CCOC.CO.CO.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCCCC.CCCO.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CO.O.O.O.O.OCCCCCO
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCC.CCCCO.CO.CO.CO.O.O.O.O.O
+C.C.C.C.C.C.C.C.C.C.C.C.C=CCC=CCCCCC.CC.CC.CCC.CO.CO.CO.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.CCCCC.O.O.O.O
+
+-----------------4---------------------------------
+['C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3', 'C=COC(=O)CCCCCC(C)(C)C']
+--------------------------------------------------
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CO.O.O
+C.C.C.C.C.C.C.C.C.CC.CC.CCC.CCC=CC=C=C=CCCC.CCCCCC.CO.O.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCCCC.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.O.O.O
+C.C.C.C.C.C.C.C.C.C.C.C.C=COCCC.CC.CC.CC.CC.CC.CCC.CCCC.CO.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCC.CCCCCOC.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCOC.CO.O.O.O
+
+-----------------5---------------------------------
+['C=CCOC(CC)(CO)CO', 'CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS']
+--------------------------------------------------
+C.C.CC.CCCC.O,CC.CCCCOCC
+C.C=CCOOCCC,CC.CCC.CCOO
+C.CCC=COCC,C.CC.CCC.CO
+C.CCCC.CCCO.O.O,C.CC.CCCCOOC.O
+C.C.C.CC.CCC.CCCO,C.C.CC.CCC.CCCOC
+
+-----------------6---------------------------------
+['C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C', 'C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1']
+--------------------------------------------------
+C.C.C.C.C.C.C=C(C)C(=O)OCCOCCO.CCO.CCOCCOCC.CO.CO.CO.COCCO.O,C.CC.CC.CC.CC.CC.CC.CC.CCC.CCOC.CO.CO.CO.CO.CO.COC.O.O.O.O.O.O
+C.C.C.C.C.C=C=C.C=O.CC.CO.COC=COCCOCCOCCOCCO.OCCOCO,C.C.C.C.C.CC.CC.CC.CCC.CCOCC.CO.CO.CO.COC.COC.O.O.O.OCO
+None,None
+None,None
+C.C.C.C.C.C.C.C.C.C=C(C)C(=O)O.CCO.CCOC.CCOCCOCC.CO.CO.COCCOC.O.O.O.O.O.O,None
+
+-----------------7---------------------------------
+['C=C(C)C(=C)OCOCCOC(=O)C(=C)C', 'C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O']
+--------------------------------------------------
+C.C.C.C.C.C=CC.CC.CCO.CO.O,None
+C.C.C=CC.CC.CC.CCO.CO.O.O,None
+C.C.C.C.C=CCC=COCOCC.O.O,None
+C.C.C.C.C=COCOC.CCC.CO.O,None
+C.C.C.C.C.C.C=CCCCOC.O.O.O,None
+
+-----------------8---------------------------------
+['CC(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O', 'C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1']
+--------------------------------------------------
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CC.CCC.CCCCCO.CCCOCC.CCO.CO.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C=CC.CC.CC.CC.CC.CC.CCO.CO.O.O.O.O.O.O
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CCC.CCCCCOC.CCOCCO.CO.CO.O.O.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CC.CC.CCO.CO.CO.CO.CO.O.O.O.O.O.O
+C.C.C.C.C.C.C.C.C.CC.CC.CC.CCO.CCO.CCO.CCOCC.CCOCCO.CO.CO.O.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.CO.CO.CO.CO.CO.CO.COC.O.O.O.O.O.O
+C.C.C.C.C.C.C.C.C.C.C.C.C=CC.CC.CC.CC.CCCCCO.CCO.CCO.CO.CO.CO.CO.O.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CCO.CO.CO.CO.CO.O.O.O.O.O.O.O
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCCC.CCO.CCO.CO.CO.COOC.O.O.O.O.OCCO,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCO.CO.CO.CO.CO.CO.CO.COC.O.O.O.O
+
+-----------------9---------------------------------
+['C=CCc4ccc(OCC1CO1)c(c2cc(CC=C)ccc2OCC3CO3)c4', 'CC(C)(C)N']
+--------------------------------------------------
+C.CCC=C=C=CCCC,C.C.CCC.CCCCC
+C.C.C.C.C.C.CC=CC=CCCCCC.CCCCC.O.O,C.C.C.C.C.C.C.C.C.C.CC.CCC.CCCCC.CO.O
+C.C.C.C.C.C.C.C.C.CC.CC.CC.CC.CC=CCOCCC.CO.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CO.O.O
+None,C.C.C.C.C.C.C.CC.CC.CC.CC.CCO.CO.O
+None,C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.CO.CO.O.O
+
+-----------------10---------------------------------
+['c2cc(OCC1CO1)ccc2Cc4ccc(OCC3CO3)cc4', 'CCC(COCC(C)COCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N']
+--------------------------------------------------
+C.C.CC.CC.CC.O.OCCCCC1=C=CC(O)=CC1,C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.O.O.O
+None,C.C.C.C.C.C.C.C.CC.CC.CC.CCC.CO.O.O.O.O
+C.C=C=C=CC=C=CC(C)=CCC.CCC(C)O.CCCO,C.C.C.C.C.C.C.CC.CCC.CCCC.O.OCC1CC1
+C.C.C=C=CC.CC.CC.O.O.OC1=CCC=C=C1.OCCO,C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.O.O.O.O.O
+C.C=C=CCC=CC.CC.CCC.CCC=C=O.CCCO.O.O,C.C.C.C.C.C.C.C.CCC.CCCC.CCCO.CO.CO.O
+
+-----------------11---------------------------------
+['CC(C)(c4ccc(OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)cc4)c6ccc(OCC5CO5)cc6', 'CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N']
+--------------------------------------------------
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCC.CCO.O.O.O.O.O.O
+C.C.C.C1=CCC=CC1.C1CCCCC1.CCC.CCC.CCCO.CCOC1=C=C=C(C2=CC=C(OC)CC2)C=C1.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CC.CC.O.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CC.CCCC.CCCO.O.O.O.O.OCCO
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CC(C)O.CCC.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CCCC.O.O.O.O.O.O.OCCO
+
+-----------------12---------------------------------
+['C=CCOCC(CO)(COCC=C)COCC=C', 'O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS']
+--------------------------------------------------
+C.C.C.C.C.C.C.CC.CC=C=CO.CO.O,None
+C.C.C.C.C.C.C.C.C.C=CCO.O.O.O.O,None
+C.C.C.C.C.C.C.C.CCCO.CO.O.O.O,None
+None,None
+C.C.C.C.C.C.C.CC.CC.CC=C=CNCO,None
+
+-----------------13---------------------------------
+['CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4', 'CC(N)COCC(C)OCC(C)OCC(C)N']
+--------------------------------------------------
+None,C.C.C.C.C.C.C.C.C.C.CC.CC.CCCCC.CCO.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCCCC.CO.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCCC.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.CC.CCCCCC.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CCC.O.O.O.O
+
+-----------------14---------------------------------
+['CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4', 'CCCCCCCCCCN']
+--------------------------------------------------
+C.C.C.C.C.C.C.C.C.C.C.C.CCC.CCCCO.CCCO.CO.O.O.O.O.OCCO,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CO.O.O.O.O.O.O.O.O
+C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.CCOCC.CCOCC.CCOOC.O.O.O.O.O.O.OCCO,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CO.CO.O.O.O.O.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCCCO.COC.O.O.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCC.CO.O.O
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C=CC=C.CC.CC.CC.CCC.CCCCCCO.CCCCO.CCO.CO.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CC.CC.CO.CO.CO.O.O.O.O.O
+
+-----------------15---------------------------------
+['C=CC(=O)OCCCC', 'CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS']
+--------------------------------------------------
+C.C.C.CC=CCOCCC.O,None
+C.C.C.C.C.CCOCOOC.O,C.C.C.C.CCO.CO.COOC
+C.C.C.C.C.C.CCCCOCC,C.C.C.C.C.CC.CC.CC.CO
+C.C.C.C.C.C.CCCC=CCCCC.CCO.O,C.C.C.C.C.C.C.CC.CC.CCC.CCC.O.O
+C.C.CC=CCCCCC,C.CC.CCCCCCC
+
+-----------------16---------------------------------
+['C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C', 'C=Cc1cccc(C=C)c1']
+--------------------------------------------------
+C.C.C.C.C.C.C.C=C=CCO.CC.CC.CCO.CCOC.CO.CO.O.O.O.O.OCO,None
+C.C.C.C.C.C.C.C=CC.CC.CC.CCOC.CO.CO.COC.O.O.O.O.OCCOCO,None
+C.C.C.C.CC.CC.CCO.CCOC.CO.CO.COC1CC=COC1.O.O.OO,None
+C.C.C.C.C.C.C.C.C.C.C.C=CCCO.CC.CC.CCOC.CO.CO.O.O.O.O.O.O.O,None
+C.C.C.C.C.C.C=C=C.CC.CC.CCOCCOCCO.CO.CO.O.O.O.OCCOCO,None
+
+-----------------17---------------------------------
+['C=C(C)C(=C)OCOCCOC(=O)C(=C)C', 'O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS']
+--------------------------------------------------
+C.C.C.C.C.C=COC.C=COCCCCCCC.CCC.CCCC.O,None
+C.C.C.C.C.C=CCCC.CCO.O,None
+C.C.C.C.C.C.C.C.C=CCCC.CO.O,None
+C.C.C.C=C=CC=COCCCCO.CC.CCCC,None
+C.C.C.C.C.C.CCC.CCCCO.O.O,None
+
+-----------------18---------------------------------
+['C1OC1COC3COC4C(OC2CO2)COC34', 'COCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCN']
+--------------------------------------------------
+None,C.C.CC.CC.CCC.O
+C.C.C.CCC=COCCC,C.C.CC.CC.CCC.CO
+C.C.C.CC=COC=CCC.O,C.C.C.C.CC.CCC.CO.O
+C=CC=CO.CCC,C.C.C.C.C.CC.O
+None,C.C.C.C.CC.CC.CC.CCO.CO.O
+
+-----------------19---------------------------------
+['CC(C)(c4ccc(OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)cc4)c6ccc(OCC5CO5)cc6', 'CC(N)COCC(C)OCC(C)OCC(C)N']
+--------------------------------------------------
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCO.CCOCO.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.O.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.CO.O.O.O.O.O.O
+C.C.C.C.C.C1=C=CCCC=1.C1CCCCC1.CC.CC.CCCC1=C=CC(C)CC1.CCO.COC1=C=CC2C=C12.O.O.O.O,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.O.O.O.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCC.CCO.O.O.O.O.O
+
+-----------------20---------------------------------
+['C=CC(=O)OCCCC', 'C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1']
+--------------------------------------------------
+C.C.C.C.C.C.C.CC.CCCC=CCCCC,C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CC
+C.C.C.C.C.C.CCCC.CCCC=C=C=CCCC.O,C.C.C.C.C.C.C.C.C.C=CC.CC.CC.CC.CC.O
+C.C.C.C.C.C.CCC.CCCC=C=CCCC,C.C.C.C.C.C.C.C.C.CC.CC.CCCCC
+C.C.C.C.C.C.CCCC=C=CCCC,C.C.C.C.C.C.CC.CC.CC.CCC
+C.C.C.CCCCOCCC,C.C.C=CC.CCCC.CO
+
+-----------------21---------------------------------
+['C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C', 'C=CC(=O)OCCCC']
+--------------------------------------------------
+C.C.C.C.C.C.C.C.C.C.C.CC.CCCC=CC=CCCC.CCCCCC,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CC
+C.C.C.C.C.C.C.C=C=CCC=C=CC.CC.CC.CCCC.CO.CO,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CCCC.CO.O
+C.C.C.C.C.C.C.C.CCC.CCC.CCCC.CCCC=C=C=CCCC,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CC.CCCC
+C.C.C.C.C.C.CCC=CC=CCCC.O,C.C.C.CC.CC.CC.CCC.CCC.O
+C.C.C.C.C.C.C.CC.CC.CC.CC.CC.CC=C=C=CCCC.CCC.CCOC,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCCCC.O
+
+-----------------22---------------------------------
+['C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C', 'C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1']
+--------------------------------------------------
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C=CC.CC.CC.CC.CC.CCO.CCO.CCOC.CCOC.CO.CO.CO.CO.O.O.O.O.O.O.O.O.O.OCCO,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C=C.CC.CC.CC.CC.CCO.CCO.CO.CO.CO.CO.CO.CO.CO.CO.CO.COC.COCCO.O.O.O.O.O
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C=C(C)C=O.CC.CC.CCO.CCO.CO.CO.COC.O.O.O.O.O.O.O.O.O.O.OCCO,C.C.C.C.C.C.C.C=C.C=O.CC.CC.CC.CC.CC.CC.CO.CO.CO.CO.CO.CO.CO.CO.COCC=O.COCCO.O.O.O.O.O
+C.C.C.C.C.C.C.C.C.C.C.C.C=C(C)CO.CC.CC.CCO.CCO.CCOC.CCOCCOCCOCC.CO.CO.CO.CO.COC.O.O.O.O.O.O.OCCO,C.C.C.C.C=C.CC.CC.CC.CC.CC.CC.CC.CC.CCO.CCO.CCOC.CO.CO.CO.CO.CO.CO.COC.COCCO.COCCO.O.O.O.O.O.O
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C=CC.CC.CC.CC.CCO.CCO.CCOCCOC.CO.CO.CO.CO.O.O.O.O.O.O.O.O.O.O.O,None
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C=CC.CC.CC.CC.CC.CCO.CCO.CCO.CCOCCO.CO.CO.CO.O.O.O.O.O.O.O.O.O.O.OCCO,None
+
+-----------------23---------------------------------
+['C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O', 'CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS']
+--------------------------------------------------
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CN.NO.O.O.O.O.O.OO
+None,C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CO.CO.NO.O.O.O.OO
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CCC.CN.CO.NO.O.O.O.OO
+C=C.C=C=CO.CC.CC.CC1NC(O)N(C)C(O)N1CCO.CCCC.CO.O,C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CCC.CN.N.NO.O.O.O.OO
+C.C=C=CO.CC.CC.CCOC.CN=C(O)N=COCCO.CO.O.O.O,C.C.C.C.C.C.C.C.C.C.C.CC.CC.CO.N.NO.O.O.O.OCO.OO
+
+-----------------24---------------------------------
+['C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2', 'C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C']
+--------------------------------------------------
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CC.CC.CCC.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C=CC.CC.CC.CCC.CO.O.O.O
+CC.CCC.CCC=C=C=C=C=C=CCCC=CCCCC.CCOCCCCCCCC=C1CC1C,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CCC.CCC.CCCCC.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.O.O.O
+None,C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CC.CC.CCC.O
+
+-----------------25---------------------------------
+['C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C', 'O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS']
+--------------------------------------------------
+C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CCC.CO.CO.COCCO.O.O.O.O.O.O.O.OCCO,None
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C=C(C)CO.CC.CC.CC.CC.CC.CCOC.CCOCCO.CO.CO.CO.O.O.O.O.O.O.O.O.O.O.O.O.O,None
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CC(C)C=O.CCO.CCOC.CO.CO.COC.O.O.O.O.O.O.O.O.O.O.O.O.O.O,None
+C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CC.CC.CC.CC(C)CO.CCO.CCOCC.CO.CO.CO.CO.CO.CO.CO.O.O.O.O.O.O.O.O.OCCO,None
+C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.C.CC.CC.CCO.CCOC.CCOCCO.CO.CO.CO.CO.CO.COC.O.O.O.O.O.O.O.O.O.O,None
