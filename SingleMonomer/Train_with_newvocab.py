@@ -6,9 +6,11 @@ import random
 import keras
 import os
 import json
+from collections import defaultdict
 from Sample_Predictor import *
 from rdkit import Chem, DataStructs
-from rdkit.Chem import AllChem
+from rdkit.Chem import AllChem, rdMolDescriptors
+from rdkit.Chem.Scaffolds import MurckoScaffold
 
 
 
@@ -53,7 +55,7 @@ def custom_loss(y_true, y_pred):
         tf.keras.losses.sparse_categorical_crossentropy(y_true, y_pred, from_logits=False)
     )
 
-     # Helper function to decode predictions to SMILES
+    # Helper function to decode predictions to SMILES
     def decode_predictions(pred_tensor):
         print(pred_tensor.shape)
         pred_indices = tf.argmax(pred_tensor, axis=-1)
@@ -105,7 +107,134 @@ def custom_loss(y_true, y_pred):
             except:
                 validity_scores.append(1.0)
         return tf.constant(validity_scores, dtype=tf.float32), valid_smiles
+    def calculate_scaffold_entropy(y_pred):
+        """Calculate molecular scaffold diversity using entropy"""
+        smiles_list = decode_predictions(y_pred)
+        scaffolds = defaultdict(int)
+        total_mols = 0
+        
+        for smiles in smiles_list:
+            if smiles != "":
+                try:
+                    mol = Chem.MolFromSmiles(smiles)
+                    if mol is not None:
+                        # Get Murcko scaffold
+                        scaffold = MurckoScaffold.GetScaffoldForMol(mol)
+                        if scaffold is not None:
+                            scaffold_smiles = Chem.MolToSmiles(scaffold, canonical=True)
+                            scaffolds[scaffold_smiles] += 1
+                            total_mols += 1
+                except:
+                    continue
     
+        if total_mols == 0:
+            return tf.constant(1.0, dtype=tf.float32)  # Maximum loss when no valid molecules
+    
+        # Calculate entropy of scaffold distribution
+        probs = [count/total_mols for count in scaffolds.values()]
+        
+        # Add small epsilon to prevent log(0)
+        epsilon = 1e-10
+        entropy = tf.reduce_sum([-p * tf.math.log(p + epsilon) for p in probs])
+        
+        # Add epsilon to denominator to prevent division by zero
+        max_possible_entropy = tf.math.log(tf.cast(len(scaffolds), tf.float32) + epsilon)
+        
+        # Ensure we don't divide by zero
+        if max_possible_entropy > epsilon:
+            normalized_entropy = entropy / max_possible_entropy
+        else:
+            normalized_entropy = tf.constant(0.0, dtype=tf.float32)
+            
+        # Ensure the result is between 0 and 1
+        normalized_entropy = tf.clip_by_value(normalized_entropy, 0.0, 1.0)
+        
+        return 1.0 - normalized_entropy  # Convert entropy to loss: high entropy -> low loss
+
+    def calculate_size_distribution(y_pred):
+        """Calculate molecular size diversity using entropy"""
+        smiles_list = decode_predictions(y_pred)
+        sizes = defaultdict(int)
+        total_mols = 0
+        
+        for smiles in smiles_list:
+            if smiles != "":
+                try:
+                    mol = Chem.MolFromSmiles(smiles)
+                    if mol is not None:
+                        # Get heavy atom count (exclude hydrogens)
+                        size = mol.GetNumHeavyAtoms()
+                        if size > 0:
+                            sizes[size] += 1
+                            total_mols += 1
+                except:
+                    continue
+    
+        if total_mols == 0:
+            return tf.constant(1.0, dtype=tf.float32)  # Maximum loss when no valid molecules
+    
+        # Calculate entropy of size distribution
+        probs = [count/total_mols for count in sizes.values()]
+        
+        # Add small epsilon to prevent log(0)
+        epsilon = 1e-10
+        entropy = tf.reduce_sum([-p * tf.math.log(p + epsilon) for p in probs])
+        
+        # Add epsilon to denominator to prevent division by zero
+        max_possible_entropy = tf.math.log(tf.cast(len(sizes), tf.float32) + epsilon)
+        
+        # Ensure we don't divide by zero
+        if max_possible_entropy > epsilon:
+            normalized_entropy = entropy / max_possible_entropy
+        else:
+            normalized_entropy = tf.constant(0.0, dtype=tf.float32)
+            
+        # Ensure the result is between 0 and 1
+        normalized_entropy = tf.clip_by_value(normalized_entropy, 0.0, 1.0)
+        
+        return 1.0 - normalized_entropy  # Convert entropy to loss: high entropy -> low loss
+
+    def calculate_ring_diversity(y_pred):
+        """Calculate ring system diversity using entropy"""
+        smiles_list = decode_predictions(y_pred)
+        ring_systems = defaultdict(int)
+        total_mols = 0
+        
+        for smiles in smiles_list:
+            if smiles != "":
+                try:
+                    mol = Chem.MolFromSmiles(smiles)
+                    if mol is not None:
+                        # Get ring information
+                        n_rings = Chem.rdMolDescriptors.CalcNumRings(mol)
+                        ring_systems[n_rings] += 1
+                        total_mols += 1
+                except:
+                    continue
+    
+        if total_mols == 0:
+            return tf.constant(1.0, dtype=tf.float32)  # Maximum loss when no valid molecules
+    
+        # Calculate entropy of ring distribution
+        probs = [count/total_mols for count in ring_systems.values()]
+        
+        # Add small epsilon to prevent log(0)
+        epsilon = 1e-10
+        entropy = tf.reduce_sum([-p * tf.math.log(p + epsilon) for p in probs])
+        
+        # Add epsilon to denominator to prevent division by zero
+        max_possible_entropy = tf.math.log(tf.cast(len(ring_systems), tf.float32) + epsilon)
+        
+        # Ensure we don't divide by zero
+        if max_possible_entropy > epsilon:
+            normalized_entropy = entropy / max_possible_entropy
+        else:
+            normalized_entropy = tf.constant(0.0, dtype=tf.float32)
+            
+        # Ensure the result is between 0 and 1
+        normalized_entropy = tf.clip_by_value(normalized_entropy, 0.0, 1.0)
+        
+        return 1.0 - normalized_entropy  # Convert entropy to loss: high entropy -> low loss
     
     def check_groups(pred_tensor, group_smarts_list):
         validity_scores, smiles_list = check_validity(pred_tensor)
@@ -143,10 +272,16 @@ def custom_loss(y_true, y_pred):
                     continue
         return tf.constant(group_scores, dtype=tf.float32),validity_scores
     
+    # reconstruction_weight = 1.0
+    # validity_weight = 0.6
+    # group_weight = 0.8
+    # diversity_weight = 0.8
     reconstruction_weight = 1.0
     validity_weight = 0.6
-    group_weight = 0.8
-    diversity_weight = 0.8
+    group_weight = 0.4
+    scaffold_weight = 0.7
+    size_weight = 0.5
+    ring_weight = 0.5
 
     group_loss_score,validity_scores = check_groups(y_pred,Constants.GROUP_VOCAB.keys())
 
@@ -155,14 +290,27 @@ def custom_loss(y_true, y_pred):
     group_loss = tf.reduce_mean(group_loss_score)
     diversity_loss = tf.reduce_mean(diversity_loss(y_pred,y_true))
 
-    print('\nReconstruction Loss: ',reconstruction_loss.numpy())
-    print('Validity Loss: ',validity_loss.numpy())
-    print('Group Loss: ',group_loss.numpy())
-    print('Diversity Loss: ',diversity_loss.numpy())
-    total_loss = (reconstruction_weight * reconstruction_loss + 
-                 validity_weight * validity_loss + 
+    scaffold_loss = calculate_scaffold_entropy(y_pred)
+    size_loss = calculate_size_distribution(y_pred)
+    ring_loss = calculate_ring_diversity(y_pred)
+
+    print('\nLoss Components:')
+    print(f'Reconstruction Loss: {reconstruction_loss.numpy():.4f}')
+    print(f'Validity Loss: {validity_loss.numpy():.4f}')
+    print(f'Group Loss: {group_loss.numpy():.4f}')
+    print(f'Scaffold Diversity Loss: {scaffold_loss:.4f}')
+    print(f'Size Diversity Loss: {size_loss:.4f}')
+    print(f'Ring Diversity Loss: {ring_loss:.4f}')
+    # total_loss = (reconstruction_weight * reconstruction_loss + 
+    #              validity_weight * validity_loss + 
+    #              group_weight * group_loss +
+    #              diversity_weight * diversity_loss)
+    total_loss = (reconstruction_weight * reconstruction_loss +
+                 validity_weight * validity_loss +
                  group_weight * group_loss +
-                 diversity_weight * diversity_loss)
+                 scaffold_weight * scaffold_loss +
+                 size_weight * size_loss +
+                 ring_weight * ring_loss)
  
     
     # Return only reconstruction loss for now to ensure stable training
@@ -191,7 +339,7 @@ class CustomLoss(tf.keras.losses.Loss):
         return cls(**config)
 
 smiles_list = read_smiles_from_file(Constants.TRAINING_FILE)
-#smiles_list = smiles_list[:128]
+smiles_list = smiles_list[:128]
 x_smiles, x_groups, decoder_input, y, vocab_size, max_length,smiles_vocab =\
       make_training_data(smiles_list, Constants.VOCAB_PATH, Constants.TOKENIZER_PATH)
 model = build_gru_model2(max_length, vocab_size, group_size=Constants.GROUP_SIZE)
@@ -202,17 +350,41 @@ print("Vocab Size: ",vocab_size)
 print("Max Length: ",max_length)
 
 model.compile(
-    optimizer="adam",
+    optimizer=tf.keras.optimizers.Adam(
+        learning_rate=0.001,
+        clipnorm=1.0
+    ),
     loss=CustomLoss(Constants.GROUP_VOCAB.keys(), smiles_vocab),
     run_eagerly=True
 )
-early_stopping = tf.keras.callbacks.EarlyStopping(
-    monitor='val_loss',
-    patience=5,
-    restore_best_weights=True
-)
+# early_stopping = tf.keras.callbacks.EarlyStopping(
+#     monitor='val_loss',
+#     patience=5,
+#     restore_best_weights=True
+# )
+
+callbacks = [
+    tf.keras.callbacks.EarlyStopping(
+        monitor='val_loss',
+        patience=5,
+        restore_best_weights=True
+    ),
+    tf.keras.callbacks.ReduceLROnPlateau(
+        monitor='val_loss',
+        factor=0.5,
+        patience=3,
+        min_lr=0.0001
+    ),
+    tf.keras.callbacks.ModelCheckpoint(
+        f"{Constants.MODEL_SAVED_DIR_NEW_MODEL}/model_checkpoint.keras",
+        monitor='val_loss',
+        save_best_only=True
+    )
+]
+
 model.fit(X_train, y_train, epochs=Constants.EPOCHS, 
-          batch_size=Constants.BATCH_SIZE,validation_split=0.2,callbacks=[early_stopping])
+          batch_size=Constants.BATCH_SIZE,validation_split=0.2,
+          callbacks=callbacks,shuffle=True)
 
 # After model training, save the model and vocabulary
 def save_model_and_vocab(model, smiles_vocab, save_dir=Constants.MODEL_SAVED_DIR_NEW_MODEL):
@@ -264,6 +436,3 @@ def load_and_retrain(save_dir=Constants.MODEL_SAVED_DIR_NEW_MODEL):
 save_model_and_vocab(model, smiles_vocab)
 model, smiles_vocab, model_params = load_and_retrain()
 generate_new_smiles(model, smiles_vocab, model_params)
-
-
-
