@@ -3,6 +3,7 @@ from rdkit import Chem
 from rdkit import DataStructs
 from transformers import PreTrainedTokenizerFast
 import keras
+import Constants
 
 @keras.saving.register_keras_serializable()
 class SMILESQualityMetrics(tf.keras.metrics.Metric):
@@ -15,7 +16,7 @@ class SMILESQualityMetrics(tf.keras.metrics.Metric):
         self.total_sequences = self.add_weight(name='total_sequences', initializer='zeros')
         
         # Load tokenizer
-        self.tokenizer = PreTrainedTokenizerFast.from_pretrained("code/vocab/smiles_tokenizer")
+        self.tokenizer = PreTrainedTokenizerFast.from_pretrained(Constants.TOKENIZER_PATH)
     
     def generate_smiles(self, logits):
         """Convert logits to SMILES strings"""

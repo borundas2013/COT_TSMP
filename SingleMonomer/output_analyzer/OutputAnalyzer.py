@@ -103,8 +103,8 @@ class OutputAnalyzer:
 
 def main():
     # Example usage
-    log_file_path = "output_analyzer/training_predictions.log"
-    output_file = "output_analyzer/valid_smiles_pairs.csv"
+    log_file_path = "output_analyzer/training_predictions4.log"
+    output_file = "output_analyzer/valid_smiles_pairs4.csv"
     
     try:
         analyzer = OutputAnalyzer(log_file_path)

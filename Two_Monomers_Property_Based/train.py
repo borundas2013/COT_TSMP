@@ -22,27 +22,6 @@ def get_project_root():
     #    root_dir = root_dir.parent
     return root_dir
 
-# def train_with_relationships(model, train_data, epochs=1):
-#     X, y = train_data
-   
-#     history = model.fit(
-#         x={
-#             'monomer1_input': X['monomer1_input'],
-#             'monomer2_input': X['monomer2_input'],
-#             'group_input': X['group_input'],
-#             'decoder_input1': X['decoder_input1'],
-#             'decoder_input2': X['decoder_input2']
-#         },
-#         y={
-#             'decoder1': y['monomer1_output'],
-#             'decoder2': y['monomer2_output']
-#         },
-#         epochs=epochs,
-#         batch_size=32,
-#         validation_split=0.2,
-
-#     )
-#     return history
 
 def train_with_relationships(model, train_data, val_data=None, epochs=1):
     X, y = train_data
@@ -50,8 +29,8 @@ def train_with_relationships(model, train_data, val_data=None, epochs=1):
     
     # Get number of GPUs
     num_gpus = len(tf.config.list_physical_devices('GPU'))
-    base_batch_size = 32
-    global_batch_size = base_batch_size * num_gpus
+    base_batch_size = 64
+    global_batch_size = 1##base_batch_size * num_gpus
     print(f"\nTraining Configuration:")
     print(f"Number of GPUs: {num_gpus}")
     print(f"Base batch size per GPU: {base_batch_size}")
@@ -153,7 +132,7 @@ if __name__ == "__main__":
                 model=new_model,
                 train_data=train_data,
                 val_data=val_data,
-                epochs=250
+                epochs=Constants.EPOCHS
             )
             
             print('Training completed successfully')

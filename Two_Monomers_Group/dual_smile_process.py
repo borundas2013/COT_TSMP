@@ -56,12 +56,7 @@ def count_functional_groups(smiles, smarts_pattern):
     return len(mol.GetSubstructMatches(Chem.MolFromSmarts(smarts_pattern)))
 def encode_functional_groups(monomer1_list, monomer2_list):
     # SMARTS patterns for different functional groups
-    epoxy_smarts = "[OX2]1[CX3][CX3]1"    # Epoxy group
-    imine_smarts = "[NX2]=[CX3]"          # Imine group
-    vinyl_smarts = "C=C"                  # Vinyl group
-    thiol_smarts = "CCS"                  # Thiol group
-    acryl_smarts = "C=C(C=O)"             # Acrylic group
-    
+   
     all_groups = []
     
     for m1, m2 in zip(monomer1_list, monomer2_list):
@@ -69,33 +64,34 @@ def encode_functional_groups(monomer1_list, monomer2_list):
         found_groups_m2 = []
         
         # Check for each group in monomer 1
-        if count_functional_groups(m1, epoxy_smarts) >= 2:
+        if count_functional_groups(m1, Constants.EPOXY_SMARTS) >= 2:
             found_groups_m1.append("C1OC1")
-        if count_functional_groups(m1, imine_smarts) >= 2:
+        elif count_functional_groups(m1, Constants.IMINE_SMARTS) >= 2:
             found_groups_m1.append("NC")
-        if count_functional_groups(m1, vinyl_smarts) >= 2:
-            found_groups_m1.append("C=C")
-        if count_functional_groups(m1, thiol_smarts) >= 2:
+        elif count_functional_groups(m1, Constants.THIOL_SMARTS) >= 2:
             found_groups_m1.append("CCS")
-        if count_functional_groups(m1, acryl_smarts) >= 2:
+        elif count_functional_groups(m1, Constants.ACRYL_SMARTS) >= 2:
             found_groups_m1.append("C=C(C=O)")
-        
+        elif count_functional_groups(m1, Constants.VINYL_SMARTS) >= 2:
+            found_groups_m1.append("C=C")
+        else:
+            found_groups_m1.append("No group")
         # Check for each group in monomer 2
-        if count_functional_groups(m2, epoxy_smarts) >= 2:
+        if count_functional_groups(m2, Constants.EPOXY_SMARTS) >= 2:
             found_groups_m2.append("C1OC1")
-        if count_functional_groups(m2, imine_smarts) >= 2:
+        elif count_functional_groups(m2, Constants.IMINE_SMARTS) >= 2:
             found_groups_m2.append("NC")
-        if count_functional_groups(m2, vinyl_smarts) >= 2:
-            found_groups_m2.append("C=C")
-        if count_functional_groups(m2, thiol_smarts) >= 2:
+        elif count_functional_groups(m2, Constants.THIOL_SMARTS) >= 2:
             found_groups_m2.append("CCS")
-        if count_functional_groups(m2, acryl_smarts) >= 2:
+        elif count_functional_groups(m2, Constants.ACRYL_SMARTS) >= 2:
             found_groups_m2.append("C=C(C=O)")
+        elif count_functional_groups(m2, Constants.VINYL_SMARTS) >= 2:
+            found_groups_m2.append("C=C")
+        else:
+            found_groups_m2.append("No group")
         
         # Combine groups from both monomers
         combined_groups = found_groups_m1 + found_groups_m2
-        if not combined_groups:
-            combined_groups.append('No group')
         
         all_groups.append(combined_groups)
     
@@ -106,6 +102,7 @@ def encode_functional_groups(monomer1_list, monomer2_list):
 
 def prepare_training_data(max_length, vocab,file_path):
     monomer1_list, monomer2_list = process_dual_monomer_data(file_path)
+    monomer1_list, monomer2_list = monomer1_list[:100], monomer2_list[:100]
     group_features = encode_functional_groups(monomer1_list, monomer2_list)
     tokens1 = tokenize_smiles(monomer1_list)
     tokens2 = tokenize_smiles(monomer2_list)
@@ -124,8 +121,10 @@ def prepare_training_data(max_length, vocab,file_path):
 
     decoder_input1 = np.array(decoder_input1)
     decoder_output1 = np.array(decoder_output1)
+    decoder_output1 = np.array(decoder_output1)
     decoder_input2 = np.array(decoder_input2)
     decoder_output2 = np.array(decoder_output2)
+    
     
     # Ensure group_features has the correct shape (batch_size, num_groups)
     if len(group_features.shape) > 2:
@@ -140,8 +139,11 @@ def prepare_training_data(max_length, vocab,file_path):
     print(f"decoder_input2 shape: {decoder_input2[:, :-1].shape}")
     
     # Create target data (shifted by one position)
-    target1 = tf.keras.utils.to_categorical(padded_tokens1[:, 1:], num_classes=len(vocab))
-    target2 = tf.keras.utils.to_categorical(padded_tokens2[:, 1:], num_classes=len(vocab))
+    # target1 = tf.keras.utils.to_categorical(padded_tokens1[:, 1:], num_classes=len(vocab))
+    # target2 = tf.keras.utils.to_categorical(padded_tokens2[:, 1:], num_classes=len(vocab))
+
+    target1 = tf.keras.utils.to_categorical(padded_tokens1[:, :], num_classes=len(vocab))
+    target2 = tf.keras.utils.to_categorical(padded_tokens2[:, :], num_classes=len(vocab))
     # target1 = padded_tokens1[:, 1:]  # Next token prediction
     # target2 = padded_tokens2[:, 1:] 
     # target1 = target1.reshape(target1.shape[0], target1.shape[1], 1)
@@ -170,3 +172,24 @@ def prepare_training_data(max_length, vocab,file_path):
     }
     
     return inputs, outputs
+
+
+def check_reaction_validity(smiles1, smiles2):
+    mol1 = Chem.MolFromSmiles(smiles1)
+    mol2 = Chem.MolFromSmiles(smiles2)
+    if mol1 is None or mol2 is None:
+        return False,[]
+    if count_functional_groups(smiles1, Constants.EPOXY_SMARTS) >= 2 and count_functional_groups(smiles2, Constants.IMINE_SMARTS) >= 2:
+        return True,['C1OC1','NC']
+    if count_functional_groups(smiles1, Constants.IMINE_SMARTS) >= 2 and count_functional_groups(smiles2, Constants.EPOXY_SMARTS) >= 2:
+        return True,['NC','C1OC1']
+    if count_functional_groups(smiles1, Constants.VINYL_SMARTS) >= 2 and count_functional_groups(smiles2, Constants.THIOL_SMARTS) >= 2:
+        return True,['C=C','CCS']
+    if count_functional_groups(smiles1, Constants.THIOL_SMARTS) >= 2 and count_functional_groups(smiles2, Constants.VINYL_SMARTS) >= 2:
+        return True,['CCS','C=C']
+    if count_functional_groups(smiles1, Constants.VINYL_SMARTS) >= 2 and count_functional_groups(smiles2, Constants.ACRYL_SMARTS) >= 2:
+        return True,['C=C','C=C(C=O)']
+    if count_functional_groups(smiles1, Constants.ACRYL_SMARTS) >= 2 and count_functional_groups(smiles2, Constants.VINYL_SMARTS) >= 2:
+        return True,['C=C(C=O)','C=C']  
+    return False,[]
+

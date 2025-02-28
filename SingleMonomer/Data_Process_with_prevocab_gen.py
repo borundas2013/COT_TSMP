@@ -137,6 +137,36 @@ def extract_group_smarts(smile):
     if not (epoxy or acrylate or imine or thiol or vinyl or benzene):
         group_smarts.append('No group')
     return group_smarts
+
+def extract_group_smarts2(smile):
+    group_smarts = []
+    epoxy = hasEpoxyGroup(smile)
+    imine = has_imine(smile)
+    vinyl = has_vinyl_group(smile)
+    thiol = has_thiol_group(smile)
+    acrylate = has_acrylate_group(smile)
+    benzene = has_benzene_ring(smile)
+    
+    if epoxy:
+        group_smarts.append(epoxy)
+        return group_smarts
+    elif imine:
+        group_smarts.append(imine)
+        return group_smarts
+    elif thiol:
+        group_smarts.append(thiol)
+        return group_smarts
+    elif acrylate:
+        group_smarts.append(acrylate)
+        return group_smarts
+    elif benzene:
+        group_smarts.append(benzene)
+    elif vinyl:
+        group_smarts.append(vinyl)
+        return group_smarts
+    else:
+        group_smarts.append('No group')
+    return group_smarts
 def extract_groups(smiles_list):
     groups = []
     epoxy_count = 0
@@ -188,6 +218,8 @@ def extract_groups(smiles_list):
     encoded_groups = [encode_groups(groups, Constants.GROUP_VOCAB) for groups in groups]
         
     return smiles_list, encoded_groups
+
+
 
 def encode_groups(groups, vocab):
     encoded = np.zeros(Constants.GROUP_SIZE, dtype=int)

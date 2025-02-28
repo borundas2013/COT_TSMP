@@ -1,5 +1,6 @@
 from CustomLoss import *
 import tensorflow as tf
+from Data_Process_with_prevocab_gen import *
 tf.config.run_functions_eagerly(True)
 
 class PPOTrainer:

@@ -10,21 +10,6 @@ FILENAME='kaggle_SMILE_Dataset_valid'
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import os
 
-def read_kaggle_smiles():
-    try:
-        # Read the processed Kaggle dataset
-        df = pd.read_csv(f'Processed_Data/{FILENAME}.csv')
-        
-        # Extract SMILES column as a list
-        smiles_list = df['Smiles'].tolist()
-        
-        print(f"Successfully loaded {len(smiles_list)} SMILES strings from Kaggle dataset")
-        return smiles_list
-        
-        
-    except Exception as e:
-        print(f"Error reading Kaggle SMILES data: {e}")
-        return None
     
 def hasEpoxyGroup(smile):
     mol = Chem.MolFromSmiles(smile)
@@ -123,6 +108,30 @@ def extract_group_smarts(smile):
     if benzene:
         group_smarts.append(benzene)
     if not (epoxy or acrylate or imine or thiol or vinyl or benzene):
+        group_smarts.append('No group')
+    return group_smarts
+def extract_group_smarts2(smile):
+    group_smarts = []
+    epoxy = hasEpoxyGroup(smile)
+    imine = has_imine(smile)
+    vinyl = has_vinyl_group(smile)
+    thiol = has_thiol_group(smile)
+    acrylate = has_acrylate_group(smile)
+    benzene = has_benzene_ring(smile)
+    
+    if epoxy:
+        group_smarts.append(epoxy)
+    elif imine:
+        group_smarts.append(imine)
+    elif vinyl:
+        group_smarts.append(vinyl)
+    elif thiol:
+        group_smarts.append(thiol)
+    elif acrylate:
+        group_smarts.append(acrylate)
+    elif benzene:
+        group_smarts.append(benzene)
+    else:
         group_smarts.append('No group')
     return group_smarts
 def extract_groups(smiles_list):

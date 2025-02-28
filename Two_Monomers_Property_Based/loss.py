@@ -27,7 +27,7 @@ class CombinedLoss(tf.keras.losses.Loss):
             pred_tokens = tf.argmax(pred_logits, axis=-1)
             true_tokens = tf.argmax(y_true, axis=-1)
             
-            tokenizer = PreTrainedTokenizerFast.from_pretrained("code/vocab/smiles_tokenizer")
+            tokenizer = PreTrainedTokenizerFast.from_pretrained(Constants.TOKENIZER_PATH)
             
             try:
                 # Decode both predicted and true SMILES
@@ -90,7 +90,7 @@ class CombinedLoss(tf.keras.losses.Loss):
             # Get true SMILES tokens
             true_tokens = tf.argmax(y_true, axis=-1)
             
-            tokenizer = PreTrainedTokenizerFast.from_pretrained("code/vocab/smiles_tokenizer")
+            tokenizer = PreTrainedTokenizerFast.from_pretrained(Constants.TOKENIZER_PATH)
             
             try:
                 # Decode both predicted and true SMILES
@@ -167,7 +167,7 @@ class CombinedLoss(tf.keras.losses.Loss):
             pred_tokens = tf.argmax(y_pred, axis=-1)
             true_tokens = tf.argmax(y_true, axis=-1)
             
-            tokenizer = PreTrainedTokenizerFast.from_pretrained("code/vocab/smiles_tokenizer")
+            tokenizer = PreTrainedTokenizerFast.from_pretrained(Constants.TOKENIZER_PATH)
             try:
                 # Decode tokens to SMILES
                 pred_smiles = tokenizer.decode(pred_tokens.numpy(), skip_special_tokens=True)

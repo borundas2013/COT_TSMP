@@ -26,6 +26,10 @@ def get_random_groups(min_groups=1, max_groups=3):
     selected_groups = random.sample(available_groups, num_groups)
     return selected_groups
 
+def get_random_groups2(input_smile):
+    groups = extract_group_smarts2(input_smile)
+    return groups
+
 
 
 def predict_smiles(model, smiles_vocab, model_params, temperatures=[0.4, 0.6, 0.8]):
@@ -43,7 +47,8 @@ def predict_smiles(model, smiles_vocab, model_params, temperatures=[0.4, 0.6, 0.
             'generations': []
         }
         
-        selected_groups = get_random_groups()
+        #selected_groups = get_random_groups()
+        selected_groups = get_random_groups2(input_smile)
         groups = [encode_groups(selected_groups, Constants.GROUP_VOCAB)]
         group_input = np.array(groups)
         

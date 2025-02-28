@@ -1,7 +1,7 @@
 import os
 import json
 from datetime import datetime
-from model_two import *
+from group_based_model import *
 
 def save_model(model, model_params, save_dir=""):
     """Save the model weights and parameters"""

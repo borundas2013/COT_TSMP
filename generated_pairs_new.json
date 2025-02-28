@@ -1,0 +1,1100 @@
+[
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.8,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "CC3CCccc4ccccc43c3CCCCC2cccc2C1C3CCC21CNS2c2ccccc12CCCCC2CCCCC2n1nnc2ccccc21CCOC6CCOCCOCCSc2ccccc2CSC21C1CCCCNc4ccncCNc4ccncC1OC1Occcc23C1ONc4ccncCOc1cccc2ccccc12CC21nc4c21Oc1ccc2ccccc2c1CCC43Occcnc12C24OO3c2c34C1OCCNCC4c1BrC3C2C3CCC21Cncnc32CCC43OCNNS2CCn1nnc2ccccc21c2cccs2Nc4ccncC1c1ccccc1OCCOCCOCCOCCOCCO2CCC43OC1CCc2cc3CC21Nc4ccnccccn2n1c2cccs2ccncc3n1nnc2ccccc21nc12c2cnc3ccccc3n2nc3ccccc3OCCN4CCCC4CCC43Osc2ccccc12c21C21C1CCCN1CCNCC4C1Oc2ccccc12C1ONc4ccncnc4COCc2c1ccc2ccccc2Cnc1CCNc4ccncC1OOC2C1OCCS2cccn2n1CCCCC2CCC43O2ccccc12c1CCCC12OCCN1CCOCC1cccc2C1CC24OO3OCCN4CCCC4Ccc2s1c2ccccc12COc1cccc2ccccc12OCCc1ccccc1CCCCC2Nc4ccncOC2C1Oc1c2ccccc2c32c2ccccc2Sc2ccccc21cccc1CCccc2c1ccnNC1CCCC1OCCN4CCCC4CCOc1cc2ncncCOc1cccc2ccccc12c21Nc4ccncCCCCC2N1CCCCC1N2CCCCC2c1c2ccccc2CCC23Nc4ccncCCCCC2C1OC1CCcnn2c1ccc2ccccc2c1CCC2OC3CCC21CCNn3Cc2ccccc12c2cnc3ccccc3n2n1nnc2ccccc21c2ccccc12NNc1ccccc1Clnc2C1Occncc3ncc2OCCO1Nc4ccncCCOC6CCc2ccccc12C2CO1c1ccccc1C2C1Ccc2s1",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "C1ON4CCCC1C23OO4n1nc2ccccc2n1c2n1OC2C1OCC21C1Clc1c1ccc2ccccc2n1nc2Nc2ccccc12c2n1C24OO3cccc21c2n1c2n1c1NC1nc1ClCNc2n1OC2C1OOC2C1Osc2ccccc12OC2C1Onc2nccc2s1cc2s1CNcc1OC2OCO4Nc4ccncc2n1CC1CC1c2n1c1OCc1ccccc1c2n1OC2C1Ooc2n1nnc2ccccc21ccc1Ncccc2n1Nc4ccnccccc2n1NC1COc2ccccccc1CCcc2s1cc1OCCC1CCCCN1cccc1CCc1Brnc2ccnc2ccccC1CCCCc1ClCC21CNS2c1ccccc1S2c1C1CCCCCCCC3CCC12COC2C1Onc12C1c1ccccc1CC1Fc2n1n1nc2ccccc2n1C3CCC12Ccccc1BrCOc1cccc2ccccc12n21CC65Occ2s1NC1COc2ccccc21cc1FCOCCOCC3CCC12CCCC4cc2Cn1nc2ccccc2n1nc1ClCN2CCCC2cc1NC3CCC12Csc2s1C1c1ccccc1ccc3cccccccc12CCO1Nc4ccnccc3OCCNccc1NN3CNc3cnnnc2NNc4ccnccccc2C1CCc2ccc1NCc1cncn1Cc2n1Nc4ccnccccc12Oc2ccccc21cc2s1c1Brc2n1C1Oc2n1C3C2Nc2ccccc21C1c1ccccc1c2cnc3ccccc3n2c2ccco2nc1Clcccc1CCOCCOCCOCCOCCOCCOCCcn1cc2Clcc2Cccc2c1OCc1ccccc12sc2ccccc12cccc12cccc21CC21Nc4ccncS2cc2s1cc1OC2cccc2C1C3CCC12Cc2cnc3ccccc3n2nc2NCC1CCCCc2ccccc12c3nc2c1cc2o1",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.8,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "C1Occc1c2c34Nc4ccncC13C24OO3COc1cc2ncncOCCOCCOCCOCCN1ONc2ccccc21C2CNCCO2nc2ccccCC3CCc2cccccc1ccc2BrC3C2c2cnc3ccccc3n2c2ncccc12OC2C1Osc2ccccc12C1c1ccccc1CC21C1OC5CCNCC5c2n1C1c1ccccc1OCC2CNc3ccccc3n1nnc2ccccc21cc1OCCcc2s1ccc3Cc1ccc2cCCClCC21nccnc12n1nnc2ccccc21c2ccccc2CSC12NNc1ccccc1C1c1ccccc1cccc12CC21OCCCOCCC1Fcccc2C32CC21C1c1ccccc1O1C1CCCCCCCC1CCCCN1C1CNCCN1n3Cc1ccccc1C2cccn2n1Nc1ccccc1Snc12c2ncccn2cc2s1CC21NC1CCCCC1cnn2cccc12COCCCc1ccccc1ncccc12cnn2cccc12ccc3c2cc2Cnc1CCcc2s1CC21CC21C3CCC1CC21C1CCC2Oc21n1cncn1CC21OCCc1ccccc1CC21CNc1ccccc1cccc2C1cc2Cn3CCCC4C3CCC3OCCOCC1OCCC65OC1OCC1Fn1cncn1CC21c2ccccc12SCCSC1c1ccccc1ccc1Cln3Cc2ncccn2Nc1ccncCC21C1CCCCN1CC21C1OC1CCC1On3CC1c1ccccc1COCCCc1ccccc1CCS23OCCOCC2SCCSnc12CC21CC21CCC65OC1OCNc1ccccc1CCCC23SCCSC1c1ccccc1C1CC1n1nnc2ccccc21C1c1ccccc1CCC21CCn3nnc4ccccc43C1CCCCN1c2n1CC21CC21c1NC1CC2Ccccc12CC21cc2s1C1c1ccccc1CC12C1ClClC1CC1c1ccccc1CC21",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "CCCCC2CCC2ccn1O1cc2s1c1OC1Nc2ccccc2CC21cc1NCc1ccco1CCCCClcc1OC2C1ClCc1OC1ClC1Clcc2COC2C1Occc1NCCNC1ClCC21c1ccccc12c1OCC21CCCNCCNCc1ccsc1CN4CC21CC21c1OCc1ccccc1cc1OCCCC21cccc12C1OC1OCnccCC21c1nonc1CCCc1ccccn1n1nnc2ccccc21nc1ClCC21C1CC1CC21CC21NS2C3C1ccc1NC1Clncnc32C1Clcc2CCNncc2CNnc1Clc1NC1n2CN1)(CNc1ccccc1COCCN2CCCCC2CC21cc1CCc2C1c2c1CC12CC3CCn3CC1OC1CCCCC43OCC21CCCCC2cc1OCCcc2Cccc1Cnc1ClCC12CCC4C3SCCSC1OC1CCCNc1ccccc1CCCCCC2ccn1cccc12cccc12CCCCC3CC21COc1cccc2ccccc12N1CCNNCNCC21C1Clccn1CCCCC2CCCCn1nnc2ccccc21CC21NC1CCCC1ccc1NCC21nc2NCCCCC2ncnc32C3CCC12CCCC2CC21CC21nc2NCC21CC21CC21CC21CC21CC21CC21C1CCCCCNc1ccccc1ccc3ccccnc2NCC21C1OC1Nc2ccccc2Oc2ncCC21c1nonc1CCNCC2CCC21OC3CCC21CC21C1c1ccccc1C3CCC12Cccn1CCC2C1CC21CCC1C23Occ4",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.8,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "c1cc2C1c1ccccc1ccc2ccccc12CC1Fc2ncccc12c21c2cc3ocNc4ccncCC21CC1CC1C1c1ccccc1c2n1C1Ocs1c2C1c1ccccc1CC21CC21CC21c1c2ccccc2cc2ccccc12C24OO3C1OC1CCcc2Cn1nnc2ccccc21n1nnc2ccccc21OCc2ccccc2CC21Nc2cnnccnc12CC21CC21C1ClSCSoc2CCC2C1OC1Occcc12cc1OC2nc12CC21COc1cccc2ccccc12c1ccccc1C2CO1nc1OC1CCc2cCC21CC21n1nnc2ccccc21C3CCCC3COCc2c1ccn1nc2ccccc2n1CC21CC21C2Occc2Brc1nnnn1ccc1FN1CCNCC1Cc1cccc2ccccc12c4ccccc1ccccc12CC21C1CCCCN1c1cnc2ccccc2c1cc2o1ccc2c1ccc1Cln1cncn1CNc1ccccc1C1Clncn2cccc12c2c34nc3ccccc3CC21CNc1ccccc1CC1CC1CC12Cc2n1C1c1ccccc1c2ccccc2Sc2ccccc21cccc1N1CCNCC1CC1Fc1nc2cccc4ccccCC21CC21nc12ccc1Clc1Occ12C1c1ccccc1CCCC21CC21C1c1ccccc1c2ncccn2CCC54OCC3CCCC3cccn2n1CC1FC1c1ccccc1cnn2cccc12CC21CC21NCCc1ccccc1C1CC1nc12CCC4C3CC21CCCClccc1Clncnc32CC21c1nc2cccCSC12Cn1nnc2ccccc21CC21C1ClCC21N1CC1NC12c1nc2cccnc2ccnccCC2CCC21C1c1ccccc1c2ncccn2C24OO3ccn1Ccnn2cccc12c1ccccc12CC21nc2cc",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "CCCCC2nn1cn3n2nccn1nnc2ccccc21c3cc12OC2C1Oc3CC21NS2OC2C1Occc1Nc1Fccc1Ncc2Cccc1Ncnc2n1CC21CCC1C32OO4c2cc1Cln2CN1C1SCCC21SCCS)(CNC1CCCCN1CNCC21sc2ccccc12SCCSc1ccccc1C2c3c2c1OCCCCCCCCCC21cc2CCNC1OSCCSccn1cc2CCC21CCNCOCCOCCC21cc2Ccccc12ccc1Nnc1Clcccc12C3CCC12Cnc1ClNc2ccccc21c1cn2cccnc2n1COCCOCCC21CCNCCCNc1ncnc2c1ncn2C1OCcc2ClC1c1ccccc1n3Cn1nnc2ccccc21CCOCC2CC21n1nnc2ccccc21ccc2c1CC21CC21nn1C1Clc2cc1Clc1ccccc1CNc1cccn2ncCNNNcccc12CC21C3CCC12COc2ccccc2](=cc2CC1Clc2c1C1Cln1nnc2ccccc21C21CC21CNC12OC2C1ONCCN2C1CC1C1Clc1OCc1ccccc1nc2ccccc21cc2Cnn23CCCCCC43Ccccc1CC-]ccn1CC21CCC2sc2cccCCNCC21)(ccc1NC)(CC3CCCCCCC2CC21OCCOCCOCCOCCCC21CNncnc32NS2NNc1ccccc1ClNC1COc2ccccc21CC21CC21OCCN4CCCC4ccn1cc2COC2C1OOc1ccccc1Iccn1c2c1CCC2c1ccccc1C2NNc1ccccc1ClCCCCC2nc2Non1Cc1cccc2ccccc12CC21c1OCc1ccccc1",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.8,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "c1OCc1ccccc1NCCOc2ccc3cc2COCCC1Onn23C24OO3n1nnc2ccccc21nn1CC21nn1nc2ccC24OO3C21C1c1ccccc1C1C2C24OO3n1nc2ccccc2n1CC21nc2c2c1CC1CCC1C2CCC2c1ccccc1CNc1cccn2ncOCCN1CCOCC1CC21C24OO3n1nc2ccccc2n1SCCSCC21n1nnc2ccccc21CC21c2ncccn2C3On1nnc2ccccc21C1On2cccn2C1c1ccccc1CC21c2c1CC21CC21cnn2cccc12CC1OC1CCC1c1ccccc1oc2c1CNCC3C1C1c1ccccc1CC21c2ncccn2cccc2C1ccc3c21c21C3C2CC21C1c1ccccc1CC21CCC43CCNc1ccccc1CCClCSC21CC21c1ccccc1C2CC3CCccn1C1CCC1c1ccccc1CCC43OCC21OCCN1CCOCC1CC21CC21CCClcnn2cccc12C1CC1nn1c1ccccc12C1OC1c1ccccc1c2ccccc2Sc2ccccc21OCC2CNC1c1ccccc1CC65OC1CC1CC21C4CCC3Cc1ccncc1n1cncn1C1c1ccccc1snc2SC1CC21sccc12CC21C1OC1OC1c1ccccc1CC12c2c1CCC21CC21C1c1ccccc1cc1IC1c1ccccc1Cnc12sc2cccCC21CCC43OC24OO3c1OCC214OCNc1ccccc1C1c1ccccc1cccnc12CC21ccn1C1CCCc1ccccc1Clc1ccccc1C2c2cccnc2C1CC1c1O2C1CC1NCc3ccccc3c2ccn3CC21N1CCCCC1ccc3CCC21CC21C1OCC1c1ccccc1CCC43Onc2ccc1IC1OCC3CCcccc21OCCOCCOCCOCCOCCO2C1OCC1F",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "C32NCc4ccccc4CCC2CNO2CC21OCCc1ccccCCCCC2Nc2ccccc21cccc12ncnc32c1NC1c1OCc1ccccc1c1ccccc1C2NS2S2C1OC1CCCC21nc2Ncc1OCCnc2c1ncn2C1OCCNCC21CNC3CCC12Ccc2OC1c2ncccn2CCNCCN2CC21ncnc32CC21S2CC21c1OCc1ccccc1ncnc32COCCOCCc1cncn1CCCC2CC21cc1OC2CCNCC21CCCCC2nc12C1Oc1cncnc1C1OC1CCc2n1nc1ClCC21CC21N2CCCCC2cc2s1NCCSCnc2Nn1nnc2ccccc21cc1BrCC21CC21C1OC1CCSCCSC1c1ccccc1nc1Clccc1OCCnc2Nn1nnc2ccccc21C1Oncnc32CC21c2n1c1ccccc12C1Nc2ccccc2CC21CNc1ccccc1CCCC4C3C1c1ccccc1CC21cccc12CC21COCCOCCC21CCCCC2n2CCC21CC21c1ccccc12CCNc1ccccc12C3Cn1nc2ccccc2n1C1ClNc3cccnc1Clc1ccccc12nc1CCCNccc2BrCC21CC21C3CCC12CCCCCCn1nc2ccccc2n1CCC2)(cc1Icccn2n1CNn21c2n1CC21co1CC21nc2NCC21cccc12CCC4C3Cc1ccccc1ClCC21c1ccccc12nc1ClOc1ccccc1FC2C1C1ClCC21OCO4ncnc32C1O4CC21ccc2Brcc1CCCCC65Occ2COC2C1OC4CCC3nc2NSCCSnc1ClCC21",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.8,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "c2ccccc12c2n1c1cnn2cccnc12OC2C1c3cccc4ccc1c2c34nc2ccCC21CC21c2cnc3ccccc3n2nc12c2cc1nc2Nc1nnnn1C1c1ccccc1Cn1nc2ccccc2n1CCNCOc1cccc2ccccc12CC21C1c1ccccc1n1nnc2ccccc21nc2ccCC21CC21CCn1nnc2ccccc21CC21C1CCCCCCCO3C24OO3CCSPc2ccccc2n1cc1NCc1ccco1OCCN1CCOCC1N1CCNCC1CC21CC21C1c1ccccc1c3C1CCCCN1nc1Clc1ccccc1C2Cc2ccccc21c2n1nn12CC21ccc1Fn1nnc2ccccc21cnn2c1ccc2ccccc2n1N4CC21C1CCCCCCCn2CN1CC3OC1CCC1c1ccccc1CC21C1OC1Occc21CC12CC21Sc1ccccc1CC21C24OO3nc12oc1C1CC1C1CCc2ccc2n1CC21n1nnc2ccccc21CC21c2cccs2nc3ccccc3CC21Cn1nc2ccccc2n1nc3ccccc3nn34c2ccccc2Brcc1OCc1ccccc1n1nc2ccccc2n1C1OCCC43On3CCC1CCCC1n1nnc2ccccc21CCC43OCn1nnc2ccccc21C1c1ccccc1ccc2c1C1c1ccccc1Cc1cncn1CC1CCCCCCCc1nc2cccCc1ccncc1CC2CCC1C2cc3o2CC21n1nnc2ccccc21C1Nc2ccccc2n3Ccc2OCnc2ccnc1ClC1c1ccccc1Cnc1ClCCN2C1c1ccccc1c2ncccn2CC21CCC65OC1c1ccccc1n3Ccnn2cccc12CC21c1nnnn1CCC43OOCC2CNC1Occ1CCoc2CC21C1C2C1OC1CCC3C2n3CCCCClc1ccccc1NCCOCC65OC1CC1C1c1ccccc1CC21nc1ClC1c1ccccc1c2ncccn2CC21OCCc1cccc",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "C1CCc2ccc1OCncnc32c2n1NC1COc2ccccc21CC21CC21OC2C1Occcc2n1C1c1ccccc1cc1OCCCc1ccccc1OC1ClC5Oc1ccccc1C2C3CCC12Cc2n1CCNcc2s1c1Brncnc32c2n1C1OC1OCCNnc2Nccc2c1CNccc4C3Ccc2CCC3CCccc1Ncc2ClCNnc2Nncnc32n1nnc2ccccc21CC12cccc12CSC21cccc12cccc12Cc1ccccccc2c1Oc1cccccc2CCCC2CCCCC2C4CCC5n2CN1CCNCC4cc2CCC21CC21cc1NCc1ccco1COCCOCCNCC21CC3CCncnc32oc2cc2ClCC21n1nnc2ccccc21CCC2ncnc32CNnc23cc2CC1ClC3CCC12Ccc2S1nc1CCCNcnn2C3CCC12CCN2CCOCC2CNc1ccccc1Cccc1OCc1ccccc1c2C1CC21)(cc2Ccccc2C1Cn1NCC21cc2Oncnc32C1Clnc2ccCC21nc1Clcc3CC21c3C1Nc2ccccc2C1C2C1NCCN1C2OCC3CCCC21CC21CC21c2ncn3cc2Nc3cccC3C2OC2C1Oc2cnc3ccccc3n2C1CCc2cCCC2ncnc32CC21nc1Clcccc12n2cnc3ccncc3C2CCC2C3CCC12CCNNC1CCCC1cc2FS2C1SCncnc21CC21Nc3ccccc3C1c1ccccc1CC21CC21ccc1N)(C3CCC12CCCCCC2CC21OC2C1OCC21OCc2ccccc2CCCN2CCC",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.8,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "Cc1cnc2ccccc2n1CC2CNC1c1ccccc1Cn1nnc2ccccc21nc12C1C2C1C2nn1n4nc3CC3CCC12Cc2ncccn2CC21CS2C1CCC21CC21CC21CCCCCON4Clc2ncccn2CSC12OCCN1CCOCC1n1nc2ccccc2n1n1nnc2ccccc21n1nnc2ccccc21CC21OOC23C1O4CC21CCC43OCCCCClC1OOC1CC2CC3CCC5OC1c1ccccc1c2ncccn2COc1cccc2ccccc12CC21CC21CC21ccc3c21CC21CC21n1nc2ccccc2n1SCCS1CCCC3C4CCCCC21N1CCNCC1nc1CCC1CCCCCCCcc2s1NCCc1ccccc1O3Nc3ccccc3cccc1ClCC21CCC1CCCN1cc2s1C1c1ccccc1CC21CC21C1OCC21Ccnn2cccc12CC3CCc1ccccc12cc2s1C1c1ccccc1n1nnc2ccccc21COc1cccc2ccccc12Cc2ccccc21C3CNc1ccccc1CCOC1CCCCC1CNnn1c2ncnc3c2ccsnc2c1ccc2ccccc2c1CCC1C2on1cc1Nccc1NCC1c1ccccc1CC21nc2NCC3nc1Clc1cnc2ccccc2c1C1c1ccccc1C3C2Sc1ccccc1CC21Sc1ccccc1C1c1ccccc1n3c1CCOc1cc2ncncC1c1ccccc1OCCN1CCOCC1C1Ocnn2cccc12n1cncn1C1c1ccccc1CC21cccnc12CSc1ccccc1C2CCCCCc2ncnc3C1CCCCN1c2ncccn2C1c1ccccc1CCCCn1nc2ccccc2n1C1CC1Cc1ccccc1FC1Occc1Fcc1CCc2ncnc3C1c1ccccc1CC21CC1OCC21C3CCC12CNC1COc2ccccc21CC21C24OO3N1CCNCC1CCc1ccccc12c1ccco1ccc1Cln3C",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "CC2cc1OCCC2cccc12C23CC4CCc1ncccn1C1CNCC1Oc2n1nccnc12)n1nnc2ccccc21CC65OO1C1Clnc1ClC1OC1OCCCC4C3CCNC1SCcccc12SCCC21CCS2C3SC2n1nnc2ccccc21CC21CCNCC4CC21c2ccccc2CCC21cccc12c2n1CC21CC3CCOCn1ncc2cCC12CNCC21C1CCCCN1OC2C1Oncnc32CC21Cc1ccc2ccccc2n1C2Occ2s1NNncnc32CC21cccc12cc2CC1CC1COc2ccccccn1CC21CC3CCnc2NC1ClCCNC1Nc2ccccc2cc1NOCCCCCCCCCNCC21CCC2CNc1ccccc1CCC21C1CC1OCCNSCSCC21n4cc2Cccc2c1nccnc12CCNccc1OCc1ccccc1CC21C3CCC12CNc1ccccc1OCCC12OCc1cnn2cccNc1cnc2ccccc2n1OC2C1OOCc2ccccc2CCCN2CCCCCCC2CC21c1Clccc1NCC3CCC1OC1CCcc2s1cc1CCCC21n1nnc2ccccc21Cn1ccccCCCCCC2C1Clcc2CCC21cc2Cn4ncc2C1CC21CC21CNc1ccccc1C)(CC21ccc1NCC21sc2s1CNnc1CCCCn3nc4ccccc4n3CC21C1OC1CCC2CCNCCC43Cncnc32OOC23C1O4SCSnc1ClCC12CC21O2ncnc32c1cccnc1C3CCC12Cnc1ClNCc4ccccc4ccc3C",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.8,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "monomer1": {
+            "smiles": "c1NCNC1c1ccccc1C1CO1C24OO3nn1cc2S1cccc2C1cc12cc12nn1CC21SCCCOCC21C1c1ccccc1C1c2ccccc2Cc2ncccn2CC21c2n1cc2s1[cc1NC1CC1cc1NCc1ccco1nccnc12CC21nc12cnn2cccc12=C1Occ1Nc1ccccc12CSC21CC21n1cncn1CNc1ccccc1n3CCC21C2C1C2OCC21CC21CCC1n1ccn2CN1OC2C1OCC21Nc4ccncCc1cccs1nc12nccnc12ncccc2s1nc12Nc4ccncc1ccccc12C3C2cccc21c1ccccc12CC21CC1CO1nc2ccCCOCc1ccccc1CC21CC21Oc2ccccc2CC21c1ccccc12nc1Clnccnc12CC21cc2Cnc2ccCC21ccc1Clccc4c32c1ccccc1C2n2cnc3ccncc32nc1ClCC21nccc2c1n1cncn1Cc1ccccc1Fcc2s1CC21c1ccccc1C2CCC43Oc1ccccc12nc2ccCC21C1CC1CC3CCCC21CC21Oc1ccccc1Fn1nnc2ccccc21C2OCC21CC3CCnnc1NCCN1CCOCC1n1nnc2ccccc21CC21C1ClCCC43Ocnn2cccc12CC21C3CC12C1Occcc21C1c1ccccc1COC1CCc2cn1nnc2ccccc21C3C2N1CCCC1CCC21Nc1cccc2cccnc12C1Nc2ccccc2CCC43Occcc2C1CCCC43OOC2C1On4n3NC1CCCC1CCn1nc2ccccc2n1c1ccccc1C2C1c1ccccc1CC21CC1Oc2ncccn2n2n1Cc1ccncc1CC21nn1nccnc12c1cc2N1CCNCC1cc1OCCo1",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "Cc1ccccc1Clc2n1cnn3cccc23CCCCn1ccc)(CC21nccCCS2NS2cnc3CC21cc1NCc1ccco1ncnc32C3CCC12Cncnc32C5Oc3CCC1cc1OCc1ccccc1cccc2C1Cncnc32CC21C1Clccc1Nn1nnc2ccccc21OC2C1Occcc12CCNC3CCC12CCC21CC21CC3CCc1Cccn1Cncnc32cc2CCC21CC21CC21CCCCC2CC21c1FCcc3OCn3Cccc2c1CC12cc2Cnc1Clcccc12CCCC2COCCOCCOCCOCCCCC2CC2CCCC2CC21ncnc32CCNncnc32C3C1OC2C1OCC21CC21ccn1C4CCOC2C1OCNCC21nc1ClOCCCCCCCCCC21CC21cc32ccc1NCCCC2COCCO1cccc1ClOCCO2CC3CCCCC2n2CN1n1nnc2ccccc21CCC2CCC2C1OC1OCC24OO3OC3CCC21C5Occc3c21c3C1ClC3CCC12Cc1ccccc1Cncc2CC21CC21cc2CCC21CNc1ccccc1CCc1ccccc12ccc3Cc2ncc1ccccc1S2CC21CC21c2nccCC21ccc2c1c1OCCnc1CCc1ccnnc1n3CCC2CCC21C1ClCC2CCCC2CC21C1c1ccccc1n4CC21CNc1ccccc1CCOCC2cc2c1Cccn1C1c1ccccc1CC21CC21nc1Cln1nc2ccccc2n1c1ccccc1C2CC2Cnc1CCOC2C1Occcc12C1OC1CCCCC2ccccc",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "n4ccnc4",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "c3ccccc3C2OCOc4c3c5ccCc1cncC1",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "C3CCc4ccc2scc4CCCCOc1c25ccccc24",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C1OC1COC3COC4C(OC2CO2)COC34",
+            "CC(C)(C)N"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "ncc2",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C1OC1COC3COC4C(OC2CO2)COC34",
+            "CC(C)(C)N"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "c3ccncc3A55CC6cc4ClCCN4CC6",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "c6ccccc6ccc12c5ccccc5n2c",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C1OC1COC3COC4C(OC2CO2)COC34",
+            "CC(C)(C)N"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "monomer1": {
+            "smiles": "c3o",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C1OC1COC3COC4C(OC2CO2)COC34",
+            "CC(C)(C)N"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "monomer1": {
+            "smiles": "c35c6COc1ccc3C",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "N2CC2c1cccnc1([sc2c1c2ncc",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C1OC1COC3COC4C(OC2CO2)COC34",
+            "CC(C)(C)N"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C1OC1",
+            "NC"
+        ],
+        "monomer1": {
+            "smiles": "",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C1OC1COC3COC4C(OC2CO2)COC34",
+            "CC(C)(C)N"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C1OC1",
+            "NC"
+        ],
+        "monomer1": {
+            "smiles": "Cc3cccccc3c35c3cncCc2cccc",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "5nc2CCc5ccc",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C1OC1COC3COC4C(OC2CO2)COC34",
+            "CC(C)(C)N"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "NCCN2",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C1OC1COC3COC4C(OC2CO2)COC34",
+            "CC(C)(C)N"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "c3occc3c4ccccc4OC",
+            "present_groups": [],
+            "missing_groups": [
+                "C=C",
+                "C=C(C=O)"
+            ]
+        },
+        "monomer2": {
+            "smiles": "ccccc4c3NCCc2ccccc3ccc",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "c3ccccc13OCCN2CCCCC2COc1cc2cCc1N1CC1",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "CN2Cn2cnn3n2CCOP",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "monomer1": {
+            "smiles": "",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "monomer1": {
+            "smiles": "cc5CCc2cccSCCs4NCCN1CCNcccc23CNC3cc3Cc2ccccc2Cl",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "C1C2CCCc4cncCN1CCCN",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C1OC1",
+            "NC"
+        ],
+        "monomer1": {
+            "smiles": "",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "Cc3ccccc3",
+            "present_groups": [],
+            "missing_groups": [
+                "C1OC1",
+                "NC"
+            ]
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C1OC1",
+            "NC"
+        ],
+        "monomer1": {
+            "smiles": "Clc1ccccOCCCCCCCNC3Cc1cncN3Cc3ns42OC",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "(-2CCCN2Ccc2CClc1ccc2nc2cc",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "OH"
+        ],
+        "monomer1": {
+            "smiles": "",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "OH"
+        ],
+        "monomer1": {
+            "smiles": "3CCOc23c4ccc5ccccc5c4lCc1ccc2c2ccc3ccccc3c2c3cccc3c",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "NCc3cccN2CCc4ccccc4OCCC7",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C1OC1COC3COC4C(OC2CO2)COC34",
+            "CC(C)(C)N"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": ")(c1cnccncncCCCCNCc1nCc1cccc21O",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C1OC1COC3COC4C(OC2CO2)COC34",
+            "CC(C)(C)N"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "sccN3CCn2Cn3cnc4c",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "4Oc5cOC2N1CCCc3ccccc13Nc1ccc2c4c2cc1OC1CCCN1CCc2ccc3ncc1O4CCCC",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": ")==Cc1ccCc1ccCc1ccCc1ccCc1ccNc1nNc1n",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "c3ccncC3C3C3C3NSCSNSNSNS",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": ")=Cc1cccCc1ccCc1ccCc1ccCc1ccNc1nNc1nCc1cc",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "C3c3c2C3C3NC2CSCSNSNSCS",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "monomer1": {
+            "smiles": ")==Cc1ccCc1ccCc1ccCc1ccCc1ccCc1ccNc1n",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "nc23C3C3C3C3CSCSNSNSNS",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "monomer1": {
+            "smiles": ")Nc1ccc=CCc1ccccc1Cc1ccCc1ccCc1ccCCCNCCCOCNc1n",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "c4ccccc34)C3C3NSNSCSNSNSNS",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "NCc4cccNCCN2CCCCCCCC",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "COc2cccCOC1ClCClCClCClCClCCOC1COC1ClC",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "NCCc2cccCN1CCCCCCCCC",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "CC2C3CCC4COC1COC1COC1Oc1c25ClCClCClCClCCOC1",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "monomer1": {
+            "smiles": "NCc4cccNSCCCCCCCC",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "CClCOC1ClCClCClCClCClCCOC1COC1COC1",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "monomer1": {
+            "smiles": "cc12CC12CCCCCCCCCCC",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "Cn2CNc1ncClCCOC1ClCCOC1ClCCOC1COC1COC1",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "5CC6CC5CC6CC5CCCCOCc3ccccc3c4ncc((((P",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "c3Nc1ccccc1Nc1ccccc1Nc1ccccNc1ccccNc1ccccCc1ccCc1ccc1Cc1cc",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "5CC6CC5CC6CC5CC6CCc4Clc4ncc(((((",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": ")/Nc1ccccc1Nc1ccccc1Nc1ccccNc1ccccCc1ccccc1Cc1ccccc1Cc1ccc1Cc1cc",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "NC5CC6CC5CC6CC4CCNc4ncc(((((",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "sc3Nc1ccccCc1ccccc1CNc1ccccc1Cc1ccccc1Nc1ccccCc1ccc1Cc1cc",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "monomer1": {
+            "smiles": "@@5CC6CC5CC6CCOCc3ccccc3c4ncc((((P",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "c3Nc1ccccc1Nc1ccccc1Nc1ccccNc1ccccNc1ccccNc1ncCc1ccCc1ccc1",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "monomer1": {
+            "smiles": "CCC1n1cc5CC6CC5CC6CCc4Clc4c3(((((",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "-Nc1ccccCc1ccNc1ccccCc1ccccc1Cc1ccCc1ccccc1Nc1ccccNc1ncCCN1CCC",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C1OC1",
+            "NC"
+        ],
+        "monomer1": {
+            "smiles": "ccc55CC6CC5CC6CCOCc3ccccc3c4ncc((((P",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "c3Nc1ccccc1Nc1ccccc1Nc1ccccNc1ncCc1ccccc1Cc1ccc1Cc1ccCc1cc",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C1OC1",
+            "NC"
+        ],
+        "monomer1": {
+            "smiles": "5CC6CC5CC6CC5CCCCc4Clc4ncc(((((",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "-Nc1ccccNc1ccccc1Nc1ccccc1Nc1ccccNc1ncCc1ccccc1Cc1ccCc1ccCc1ccccc1",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "OH"
+        ],
+        "monomer1": {
+            "smiles": "@@5CC6CC5CC6CCOCc3ccccc3c4ncc(((((",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": ")/Nc1ccccc1Nc1ccccc1Nc1ccccNc1ccccNc1ncCc1ccccc1Cc1ccCc1ccc1",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "OH"
+        ],
+        "monomer1": {
+            "smiles": "5CC6CC5CC6CC5CC6CCOCc3ccccc3c4c3(((((",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": ")/Nc1ccccc1COc1cccCOc1cccCOc1cccCc1ccccc1Cc1ccCc1ccCc1ccCc1cc",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "Fc1cccFc1cccCC1CNCC1CNCCOCCOOCCCOCCCOCCCC1C1",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "NCCCOC15CC6CC5CC6CC5CC6CCCN5)\\)\\)\\",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "monomer1": {
+            "smiles": "c1cccFc1cccCCNCCNCCCOCCOOCCCCCCCCCNCc1nCCN1CCCCCC1",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "NCCOc1cCOC1COC15CC6CC5CC6CCcc4F)\\)\\)\\",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "monomer1": {
+            "smiles": "Fc1cccFc1cccCC1CNCCOCCOCCOCCONCc1cccOCCCCc1nCCCC1CCN1CCC",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "NCCCOc1c5CC6CC5CC6CCc4cccccc4F)\\)\\)\\",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "monomer1": {
+            "smiles": "(\\Fc1cccCCNCCC1CNCC1CNCOc1ccccc1CNCc1cccCOc1ccccc1CC1CCCCN1",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "NCC5CC6CCCn235CC6CC4CCN)\\)\\)\\",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C1OC1",
+            "NC"
+        ],
+        "monomer1": {
+            "smiles": "CFc1cccCC1CNCC1CNCCOCCOOCCCCCOCCOCc1nCCC1C1",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "NCCOC1COC1C5CC6CC5CC6CC4CCN)\\)\\)\\",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C1OC1",
+            "NC"
+        ],
+        "monomer1": {
+            "smiles": "N2CCNFc1cccFc1cccCCOCCOCNNCc1cccC1CCCC1OCCCCCN1CCC",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "NCCCOc1c4CCN5CC6CCc4cccccc4F)\\)\\)\\",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "OH"
+        ],
+        "monomer1": {
+            "smiles": "Fc1cccFc1cccCC1CNCCOCCOCCOCCOCCOCCOCCCC1CCC1CCC1C1",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "NCCCOC15CC6CC5CC6CCc4cccccc4F)\\)\\)\\",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "OH"
+        ],
+        "monomer1": {
+            "smiles": "CCNCc1cc2NCc1cccCONCCOCCOCCOCCOC1NCc1cccCCN1CCCCCC1",
+            "present_groups": [],
+            "missing_groups": []
+        },
+        "monomer2": {
+            "smiles": "OC5COc1cCOC14CCNCc4ccccc3n1)\\)\\)\\",
+            "present_groups": [],
+            "missing_groups": []
+        }
+    }
+]

@@ -2,6 +2,10 @@ import os
 import csv
 from rdkit import Chem
 from rdkit.Chem import Descriptors, AllChem
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from Data_Process_with_prevocab import extract_group_smarts
 
 class SMILESAnalyzer:
     def __init__(self, input_csv_path, complexity_ratio_threshold=0.3):
@@ -134,8 +138,8 @@ class SMILESAnalyzer:
         print(f"\nSaved {len(self.filtered_pairs)} filtered pairs to {output_file}")
 
 def main():
-    input_file = "output_analyzer/valid_smiles_pairs.csv"
-    output_file = "output_analyzer/filtered_smiles_pairs.csv"
+    input_file = "output_analyzer/valid_smiles_pairs4.csv"
+    output_file = "output_analyzer/filtered_smiles_pairs4.csv"
     
     try:
         # Initialize with complexity ratio threshold
@@ -163,5 +167,78 @@ def main():
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
+# def analyze_functional_groups(input_file, output_file):
+#     """
+#     Analyze functional groups in input and predicted SMILES pairs and save to CSV
+#     """
+#     if not os.path.exists(input_file):
+#         raise FileNotFoundError(f"Input file not found: {input_file}")
+        
+#     results = []
+#     with open(input_file, 'r') as f:
+#         reader = csv.DictReader(f)
+#         for row in reader:
+#             input_smiles = row['Input_SMILES']
+#             pred_smiles = row['Predicted_SMILES']
+            
+#             # Extract functional groups
+#             input_groups = extract_group_smarts(input_smiles)
+#             pred_groups = extract_group_smarts(pred_smiles)
+            
+#             results.append({
+#                 'Input_SMILES': input_smiles,
+#                 'Predicted_SMILES': pred_smiles,
+#                 'Input_Groups': ','.join(input_groups) if input_groups else '',
+#                 'Predicted_Groups': ','.join(pred_groups) if pred_groups else ''
+#             })
+    
+#     # Save results
+#     fieldnames = ['Input_SMILES', 'Predicted_SMILES', 'Input_Groups', 'Predicted_Groups']
+#     with open(output_file, 'w', newline='') as f:
+#         writer = csv.DictWriter(f, fieldnames=fieldnames)
+#         writer.writeheader()
+#         writer.writerows(results)
+        
+#     print(f"\nSaved functional group analysis for {len(results)} SMILES pairs to {output_file}")
+#     return results
+
+def analyze_functional_groups(input_file, output_file):
+    """
+    Analyze functional groups in input and predicted SMILES pairs and save to CSV
+    """
+    if not os.path.exists(input_file):
+        raise FileNotFoundError(f"Input file not found: {input_file}")
+        
+    # Read CSV file using pandas
+    import pandas as pd
+    df = pd.read_csv(input_file)
+    
+    results = []
+    for _, row in df.iterrows():
+        input_smiles = row['Input_SMILES']
+        pred_smiles = row['Predicted_SMILES']
+        
+        # Extract functional groups
+        input_groups = extract_group_smarts(input_smiles)
+        pred_groups = extract_group_smarts(pred_smiles)
+        
+        results.append({
+            'Input_SMILES': input_smiles,
+            'Predicted_SMILES': pred_smiles,
+            'Input_Groups': ','.join(input_groups) if input_groups else '',
+            'Predicted_Groups': ','.join(pred_groups) if pred_groups else ''
+        })
+
+    # Convert results to DataFrame and save
+    results_df = pd.DataFrame(results)
+    results_df.to_csv(output_file, index=False)
+    
+    print(f"\nSaved functional group analysis for {len(results)} SMILES pairs to {output_file}")
+    return results
+
+
 if __name__ == "__main__":
-    main()
+    #main()
+    input_file = "output_analyzer/filtered_smiles_pairs4.csv"
+    output_file = "output_analyzer/functional_groups_analysis4.csv"
+    analyze_functional_groups(input_file, output_file)

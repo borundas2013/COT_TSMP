@@ -2,6 +2,7 @@ import tensorflow as tf
 from Data_Process_with_prevocab import *
 from LoadPreTrainedModel import *
 from datetime import datetime
+import keras
 
 @keras.saving.register_keras_serializable()
 class GroupAwareLayer(tf.keras.layers.Layer):

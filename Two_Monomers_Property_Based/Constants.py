@@ -3,23 +3,23 @@ GROUP_SIZE = len(GROUP_VOCAB)
 EMBEDDING_DIM = 64
 LATENT_DIM = 128
 #VOCAB_SIZE = 21
-#EPOCHS = 2
-BATCH_SIZE = 32
+EPOCHS = 1
+BATCH_SIZE = 16
+
+EPOXY_SMARTS = "[OX2]1[CX3][CX3]1"    # Epoxy group
+IMINE_SMARTS = "[NX2]=[CX3]"          # Imine group
+VINYL_SMARTS = "C=C"                  # Vinyl group
+THIOL_SMARTS = "CCS"                  # Thiol group
+ACRYL_SMARTS = "C=C(C=O)"             # Acrylic group
+BEZEN_SMARTS = "c1ccccc1"
+    
 
 MODEL_SAVED_DIR_CURRENT_WEIGHT = "saved_models_new"
-
+VALID_PAIRS_FILE = "valid_pairs_during_training.json"
 GENERATED_TRAINING_SMILES_DIR = "generated_training_smiles"
 
-VOCAB_PATH = 'vocab/word_vocab.txt'#'tokenizers/vocab_1000/vocab.txt'
-TOKENIZER_PATH = 'vocab/smiles_tokenizer'#tokenizers/vocab_1000/tokenizer'
-
-group_patterns = {
-                    "C=C": "C=C",
-                    "NC": "[NX2]=[CX3]",
-                    "C1OC1": "[OX2]1[CX3][CX3]1",
-                    "CCS": "CCS",
-                    "C=C(C=O)": "C=C(C=O)"
-                }
+VOCAB_PATH = 'Two_Monomers_Group/tokenizers/vocab_1000/vocab.txt'#'tokenizers/vocab_1000/vocab.txt'
+TOKENIZER_PATH = 'Two_Monomers_Group/tokenizers/vocab_1000/tokenizer'#tokenizers/vocab_1000/tokenizer'
 
 
 
