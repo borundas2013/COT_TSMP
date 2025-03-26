@@ -1,0 +1,1 @@
+{"max_length": 245, "vocab_size": 1003, "embedding_dim": 64, "latent_dim": 128, "group_size": 8}

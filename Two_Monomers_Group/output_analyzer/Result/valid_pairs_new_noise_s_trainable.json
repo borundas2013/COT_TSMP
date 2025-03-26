@@ -1,0 +1,439 @@
+[
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCOCCOCCOCCOCCCOCCCOCCOCCCOCCOCCCOCCCOCOCCCOCCCOCCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCCCOCCCC"
+        },
+        "monomer2": {
+            "smiles": "CCCCOCCOCCOCCOCOC(=O)"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C1OC1",
+            "NC"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCOCCCOCCOCCOCCCOCCCOCCOCOOCOCOCOCCOOCOCCOCOCCCOCCOCOCCOCCOCOOOOO"
+        },
+        "monomer2": {
+            "smiles": "CCCCOCCOC(=O)"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "OH"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCOCCOCCOCCOCCOCCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCCOCCCOCCC"
+        },
+        "monomer2": {
+            "smiles": "CCCOCCOC(=O)"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCOCCCOCCOCCOCCCOCCOCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCOCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCCOCCCCOCCC"
+        },
+        "monomer2": {
+            "smiles": "C=CCOC(=O)"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCCOCCOCCOCCCOCCOCCCOCCCOCCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCOCOCCCC"
+        },
+        "monomer2": {
+            "smiles": "CCCOCCOC(=O)CCS"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "OH"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCOCCCCOCCOCCOCCCCOCCCOCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCOCOCCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCCOCCC"
+        },
+        "monomer2": {
+            "smiles": "CCCCOCCOC(=O)"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCOCCOCCOCCOCCOCCOCCOCCCOCCOCCCOCCNCCCOCCCOCCCOCCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCOCOCCC"
+        },
+        "monomer2": {
+            "smiles": "C=CCOCCOC(=O)"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCCOCCOCCOCCCCOCCOCCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCCO"
+        },
+        "monomer2": {
+            "smiles": "C=COCCOC(=O)CCS"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C1OC1",
+            "NC"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCOCCOCCOCCOCCOCCCCOCCOCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCO"
+        },
+        "monomer2": {
+            "smiles": "CCCCC(=O)"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "OH"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCOCCCOCCOCOCCOCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCCOCCCO"
+        },
+        "monomer2": {
+            "smiles": "CCCOCCCOCC(=O)"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C1OC1",
+            "NC"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCCOCCOCCOCCCOCCOCCOCCOCCCOCCOCCCOCCCOCCCOCOCCCOCCCOCCCOCCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCC"
+        },
+        "monomer2": {
+            "smiles": "CCCCOCCOC(=O)"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "OH"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCOCCOCCCOCCOCCOCCCOCCOCCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCOOO"
+        },
+        "monomer2": {
+            "smiles": "CCCCOCC(=O)"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCOCCOCCOCCOCCOCCCOCCOCCCOCCOCCCOCCCOCCCOCCCOCCCCOCCOCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCO"
+        },
+        "monomer2": {
+            "smiles": "C=CCOCCOC(=O)"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCCOCCOCCCOCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCCOCCCCOCCCC"
+        },
+        "monomer2": {
+            "smiles": "CCCOCCOCCOC(=O)CCS"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "OH"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCCOCCOCCOCCOCCOCCOCCOCCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCC"
+        },
+        "monomer2": {
+            "smiles": "CCCOCCOCCOCCOCCOCCOC(=O)"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCOCCOCCOCCCOCCOCCCOCCOCCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCCC"
+        },
+        "monomer2": {
+            "smiles": "CC=CC(=O)"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCCOCCOCCOCCCOCCOCCCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCCOCCCCOCCCO"
+        },
+        "monomer2": {
+            "smiles": "CCCOCCOC(=O)O"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C1OC1",
+            "NC"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCOCCOCCOCCOCCOCCOCCOCCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCOCOCCCOCCCOCC"
+        },
+        "monomer2": {
+            "smiles": "CCCCCCCCOC(=C)"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "OH"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "CCCOCCCOCCOCCOCCCOCCOCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCCCOCC"
+        },
+        "monomer2": {
+            "smiles": "CCCCOCCOC(=O)"
+        }
+    }
+]

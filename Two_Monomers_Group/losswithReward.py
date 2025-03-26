@@ -198,18 +198,26 @@ class CombinedLoss(tf.keras.losses.Loss):
         self.decoder_name = decoder_name
 
     def call(self, y_true, y_pred):
-        # ✅ Fix: Use TensorFlow loss function correctly
-        recon_loss = tf.keras.losses.categorical_crossentropy(y_true, y_pred, from_logits=True)
-        recon_loss = tf.reduce_mean(recon_loss)
+        #  Fix: Use TensorFlow loss function correctly
+        print("y_true: ", y_true.shape)
+        print("y_pred: ", y_pred.shape)
 
-        # ✅ Fix: Convert to TensorFlow tensors
-        def check_rdkit_valid(y_true, y_pred):
-            """Check if predicted SMILES is valid using RDKit."""
+        loss_fn = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
+        recon_loss = tf.reduce_mean(loss_fn(y_true, y_pred))
+        # # recon_loss = tf.keras.losses.sparse_categorical_crossentropy(y_true, y_pred, from_logits=True)
+        # recon_loss = tf.reduce_mean(recon_loss)
+
+        def get_tokens_and_smiles(y_true, y_pred):
             pred_tokens = tf.argmax(y_pred, axis=-1)
-            true_tokens = tf.argmax(y_true, axis=-1)
+            true_tokens = y_true##tf.argmax(y_true, axis=-1)#y_true#
+            pred_smiles = decode_smiles(pred_tokens.numpy())
+            true_smiles = decode_smiles(true_tokens.numpy().astype(int))
+            return pred_tokens, true_tokens, pred_smiles, true_smiles
 
-            pred_smiles = decode_smiles(pred_tokens.numpy())  # Keep decoding outside TF
-            true_smiles = decode_smiles(true_tokens.numpy())
+        #  Fix: Convert to TensorFlow tensors
+        def check_valid(y_true, y_pred):
+            """Check if predicted SMILES is valid using RDKit."""
+            pred_tokens, true_tokens, pred_smiles, true_smiles = get_tokens_and_smiles(y_true, y_pred)
             print("--------------------------------")
             print("Pred Smiles: ", pred_smiles)
             print("True Smiles: ", true_smiles)
@@ -233,40 +241,35 @@ class CombinedLoss(tf.keras.losses.Loss):
 
         def diversity_loss(y_true, y_pred):
             """Calculate diversity loss (1 - Tanimoto similarity)."""
-            pred_tokens = tf.argmax(y_pred, axis=-1)
-            true_tokens = tf.argmax(y_true, axis=-1)
-
-            pred_smiles = decode_smiles(pred_tokens.numpy())
-            true_smiles = decode_smiles(true_tokens.numpy())
+            pred_tokens, true_tokens, pred_smiles, true_smiles = get_tokens_and_smiles(y_true, y_pred)
 
             similarity = calculate_tanimoto(pred_smiles, true_smiles)
             return tf.convert_to_tensor(1.0 - similarity, dtype=tf.float32)
 
         def reward_calculate(y_true, y_pred):
             """Compute reward score based on chemical groups."""
-            pred_tokens = tf.argmax(y_pred, axis=-1)
-            true_tokens = tf.argmax(y_true, axis=-1)
+            pred_tokens, true_tokens, pred_smiles, true_smiles = get_tokens_and_smiles(y_true, y_pred)
 
-            pred_smiles = decode_smiles(pred_tokens.numpy())
-            true_smiles = decode_smiles(true_tokens.numpy())
+            # pred_smiles = decode_smiles(pred_tokens.numpy())
+            # true_smiles = decode_smiles(true_tokens.numpy())
 
             chemical_groups = extract_group_smarts(true_smiles)
             reward_score = get_reward_score(pred_smiles, chemical_groups)
 
             return tf.convert_to_tensor(reward_score, dtype=tf.float32)
 
-        # ✅ Vectorized processing for batch-wise computation
-        valid_losses = tf.map_fn(lambda x: check_rdkit_valid(x[0], x[1]), (y_true, y_pred), dtype=tf.float32)
+        #  Vectorized processing for batch-wise computation
+        valid_losses = tf.map_fn(lambda x: check_valid(x[0], x[1]), (y_true, y_pred), dtype=tf.float32)
         dl_losses = tf.map_fn(lambda x: diversity_loss(x[0], x[1]), (y_true, y_pred), dtype=tf.float32)
         rewards = tf.map_fn(lambda x: reward_calculate(x[0], x[1]), (y_true, y_pred), dtype=tf.float32)
 
-        valid_loss = tf.reduce_mean(1.0 - valid_losses)
-        dl_loss = tf.reduce_mean(1.0 - dl_losses)
+        valid_loss = 1.0-tf.reduce_mean(valid_losses)
+        dl_loss = 1.0-tf.reduce_mean(dl_losses)
         reward = tf.reduce_mean(rewards)
 
         scaled_reward = reward * self.reward_weight
 
-        # ✅ Compute final loss
+        # Compute final loss
         total_loss = (
             self.recon_weight * recon_loss + 
             self.valid_weight * valid_loss + 
@@ -275,15 +278,15 @@ class CombinedLoss(tf.keras.losses.Loss):
 
         final_loss = tf.maximum(0.0, total_loss - scaled_reward)
 
-        # ✅ Print Debugging Info
-        tf.print("--------------------------------")
-        tf.print("Recon Loss:", recon_loss)
-        tf.print("Valid Loss:", valid_loss)
-        tf.print("Diversity Loss:", dl_loss)
-        tf.print("Total Loss:", total_loss)
-        tf.print("Reward:", reward)
-        tf.print("Scaled Reward:", scaled_reward)
-        tf.print("Final Loss:", final_loss)
+        #  Print Debugging Info
+        print("--------------------------------")
+        print("Recon Loss:", recon_loss)
+        print("Valid Loss:", valid_loss)
+        print("Diversity Loss:", dl_loss)
+        print("Total Loss:", total_loss)
+        print("Reward:", reward)
+        print("Scaled Reward:", scaled_reward)
+        print("Final Loss:", final_loss)
 
         return final_loss
 

@@ -212,7 +212,7 @@ def extract_vocab(filename):
         return None, None
     
     # Verify all required special tokens are present
-    required_tokens = {"<start>": 0, "<end>": 1, "<pad>": 2}
+    required_tokens = {"<start>": 10000, "<end>": 10001}
     for token, idx in required_tokens.items():
         if token not in smiles_vocab:
             smiles_vocab[token] = idx
@@ -227,8 +227,16 @@ def extract_tokens(smiles):
     return tokens
 
 def decode_smiles(tokens):
+  
    tokenizer = PreTrainedTokenizerFast.from_pretrained(Constants.TOKENIZER_PATH)
-   decoded = tokenizer.decode(tokens, skip_special_tokens=True).replace(" ","")
+   decoded = tokenizer.decode(tokens, skip_special_tokens=False).replace(" ","")
+   decoded = decoded.replace("[PAD]", "")
+   decoded = decoded.replace("[CLS]", "")
+   decoded = decoded.replace("[SEP]", "")
+   decoded = decoded.replace("[MASK]", "")
+   decoded = decoded.replace("[UNK]", "")
+   
+
    smiles = ''.join(decoded)
    return smiles
 
@@ -240,19 +248,18 @@ def tokenize_smiles(smiles):
     return tokens
 
 def pad_token(tokens,max_length,vocab):
-    padded_tokens = pad_sequences(tokens, maxlen=max_length, padding='post', value=vocab["<pad>"])
+    padded_tokens = pad_sequences(tokens, maxlen=max_length, padding='post', value=vocab["[PAD]"])
     return padded_tokens
 
 def pad_tokens(tokens,vocab):
     # Find max length including start/end tokens
     max_length = max(len(token) for token in tokens)
-    padded_tokens = pad_sequences(tokens, maxlen=max_length, padding='post', value=vocab["<pad>"])
+    padded_tokens = pad_sequences(tokens, maxlen=max_length, padding='post', value=vocab["[PAD]"])
     return padded_tokens, max_length
 
 def make_target(padded_tokens):
     decoder_input = np.array([np.concatenate(([0], seq[:-1])) for seq in padded_tokens])
     decoder_output = np.expand_dims(padded_tokens, axis=-1)
-    print("Decoder Output Shape:", decoder_output.shape)
     return decoder_input,decoder_output
 
 def make_training_data(smiles_list):
@@ -274,13 +281,22 @@ def make_training_data(smiles_list):
 
 
 
-if __name__ == "__main__":
-    smiles_list = read_kaggle_smiles()
-    smiles_vocab, vocab_size = extract_vocab('code/vocab/word_vocab.txt')
-    tokens = tokenize_smiles(smiles_list)
-    padded_tokens, max_length = pad_tokens(tokens,smiles_vocab)
-    decoder_input,decoder_output = make_target(padded_tokens)
-    x_smiles, x_groups, decoder_input, y, vocab_size, max_length,smiles_vocab=make_training_data(smiles_list)
+# if __name__ == "__main__":
+#     smiles_list = ["C1OC1CCNCCC2OC2","C1OC1CCNCCC3OC3CN=CN"]#read_kaggle_smiles()
+#     smiles_vocab, vocab_size = extract_vocab(Constants.VOCAB_PATH)
+#     print(smiles_vocab)
+#     tokens = tokenize_smiles(smiles_list)
+#     padded_tokens,max_length = pad_tokens(tokens,smiles_vocab)
+#     print(padded_tokens)
+#     print(max_length)
+#     decoded_smiles = decode_smiles(padded_tokens[0])
+#     print(decoded_smiles)
+#     decoded_smiles = decode_smiles(padded_tokens[1])
+#     print(decoded_smiles)
+
+#     padded_tokens, max_length = pad_tokens(tokens,smiles_vocab)
+#     decoder_input,decoder_output = make_target(padded_tokens)
+#     x_smiles, x_groups, decoder_input, y, vocab_size, max_length,smiles_vocab=make_training_data(smiles_list)
     # smiles_vocab, vocab_size = extract_vocab('code/vocab/word_vocab.txt')
     # print(smiles_list[50])
     # tokens = extract_tokens(smiles_list[50], smiles_vocab)

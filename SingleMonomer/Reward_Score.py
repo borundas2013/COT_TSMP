@@ -1,5 +1,6 @@
 from Data_Process_with_prevocab_gen import *
 from Sample_Predictor import *
+from rdkit.Chem import AllChem, DataStructs
 
 
 def calculate_reward_score(smiles_list,chemical_groups):
@@ -21,6 +22,39 @@ def calculate_reward_score(smiles_list,chemical_groups):
         print("Union:", union)
         functional_score += intersection / max(union, 1)
         return functional_score
+    
+def calculate_diversity_reward(smiles1, smiles2):
+    """
+    Calculate diversity reward based on Tanimoto similarity between two molecules.
+    Returns a score between 0 and 1, where higher values indicate more diversity.
+    """
+    if not smiles1 or not smiles2:
+        return 0.0
+        
+    try:
+        # Convert SMILES to molecules
+        mol1 = Chem.MolFromSmiles(smiles1)
+        mol2 = Chem.MolFromSmiles(smiles2)
+        
+        if mol1 is None or mol2 is None:
+            return 0.0
+            
+        # Calculate Morgan fingerprints
+        fp1 = AllChem.GetMorganFingerprintAsBitVect(mol1, 2, nBits=2048)
+        fp2 = AllChem.GetMorganFingerprintAsBitVect(mol2, 2, nBits=2048)
+        
+        # Calculate Tanimoto similarity
+        similarity = DataStructs.TanimotoSimilarity(fp1, fp2)
+        if similarity == 0.0 and similarity < 0.5:
+            return 1.0
+        elif similarity >= 0.5:
+            return 1-similarity
+        
+        
+    except:
+        return 0.0
+
+
    
 if __name__ == "__main__":
     # Test the reward score calculation with some example SMILES

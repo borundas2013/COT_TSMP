@@ -24,9 +24,26 @@ def sample_with_temperature(predictions, temperature):
         predictions = exp_preds / np.sum(exp_preds)
         probas = np.random.multinomial(1, predictions, 1)
         return np.argmax(probas)
+        
+def add_swap_noise(tokens, swap_rate=0.1):
+    """Randomly swap adjacent tokens"""
+    noisy_tokens = tokens.copy()
+    for i in range(len(tokens)):
+        for j in range(1, len(tokens[i])-1):  # Avoid swapping start/end tokens
+            # if np.random.random() < swap_rate:
+            #     noisy_tokens[i][j], noisy_tokens[i][j+1] = \
+            #     noisy_tokens[i][j+1], noisy_tokens[i][j]
+            noisy_tokens[i][j], noisy_tokens[i][j+1] = noisy_tokens[i][j+1], noisy_tokens[i][j]
+    return noisy_tokens
+
+def add_gaussian_noise(tokens, noise_level=1):
+    """Add Gaussian noise to token embeddings"""
+    noise = np.random.normal(0, noise_level, tokens.shape)
+    noisy_tokens = tokens + noise
+    return noisy_tokens
 
 
-def generate_monomer_pair_with_temperature(model, input_smiles, desired_groups, vocab, max_length, temperatures=[0.2,0.4,0.6,0.8,1.0,1.2], group_smarts1=None, group_smarts2=None):
+def generate_monomer_pair_with_temperature(model, input_smiles, desired_groups, vocab, max_length, temperatures=[0.2,0.4,0.6,0.8,1.0,1.2], group_smarts1=None, group_smarts2=None, add_noise=False):
     # Prepare input SMILES
     tokens,tokens2  = tokenize_smiles([input_smiles[0]]),tokenize_smiles([input_smiles[1]])
     padded_tokens = pad_token(tokens, max_length, vocab)
@@ -38,9 +55,18 @@ def generate_monomer_pair_with_temperature(model, input_smiles, desired_groups, 
     group_features = encode_groups(desired_groups, Constants.GROUP_VOCAB)
     group_features = np.array([group_features])
     
+    if add_noise:
+        noisy_tokens1 = add_swap_noise(input_seq, 0.1)
+        noisy_tokens2 = add_swap_noise(input_seq2, 0.1) 
+
+        noisy_tokens1 = add_gaussian_noise(noisy_tokens1, 0.1)
+        noisy_tokens2 = add_gaussian_noise(noisy_tokens2, 0.1)
+        input_seq =noisy_tokens1
+        input_seq2 =noisy_tokens2
+    
    
     
-    def generate_monomer(decoder_index):
+    def generate_monomer():
         """Generate single monomer sequence"""
         # Initialize decoder sequence with proper shape
         
@@ -60,7 +86,7 @@ def generate_monomer_pair_with_temperature(model, input_smiles, desired_groups, 
             generated_tokens = []
             generated_tokens2 = []
             #it should be 245
-            for i in range(10):  
+            for i in range(max_length):  
                 output = model.predict({
                     'monomer1_input': input_seq,
                     'monomer2_input': input_seq2,
@@ -90,31 +116,14 @@ def generate_monomer_pair_with_temperature(model, input_smiles, desired_groups, 
             all_tokens.append([generated_tokens,generated_tokens2,temperature])
         return all_tokens
     
-    def check_groups(smiles, desired_groups):
-        """Check presence of desired groups"""
-        if smiles == "":
-            return [], desired_groups   
-        mol = Chem.MolFromSmiles(smiles)
-        if mol is None:
-            return [], desired_groups
-    
-        present_groups = []
-        not_present_groups = []
-        for group in desired_groups:
-            pattern =group #Constants.group_patterns.get(group)
-            if pattern and mol.HasSubstructMatch(Chem.MolFromSmarts(pattern)):
-                present_groups.append(group)
-            else:
-                not_present_groups.append(group)
-        return present_groups, not_present_groups
     
     # Generate multiple pairs
     generated_pairs = []
     valid_pairs = []
     
     
-    generated_output_file = "generated_pairs_new.json"
-    valid_output_file = "valid_pairs_new.json"
+    generated_output_file = "generated_pairs_new_noise_pred.json"
+    valid_output_file = "valid_pairs_new_noise_pred.json"
     all_pairs = []
     valid_pairs_j = []
     try:
@@ -130,7 +139,7 @@ def generate_monomer_pair_with_temperature(model, input_smiles, desired_groups, 
         valid_pairs_j = []
     
    
-    tokens1 = generate_monomer(0)  # decoder1
+    tokens1 = generate_monomer()  # decoder1
     #tokens2 = generate_monomer(1)  # decoder2
     for i in range(len(tokens1)):
         # Convert to SMILES
@@ -147,21 +156,7 @@ def generate_monomer_pair_with_temperature(model, input_smiles, desired_groups, 
         print(f"\nPair {i+1}:")
         print(f"Monomer 1: {smiles1}")
         print(f"Valid: {valid1}")
-        present1 = []
-        missing1 = []
-        present2 = []
-        missing2 = []
-        if valid1:
-            present1, missing1 = check_groups(smiles1, desired_groups)
-            print(f"Present groups: {present1}")
-            print(f"Missing groups: {missing1}")
-        
-        print(f"Monomer 2: {smiles2}")
-        print(f"Valid: {valid2}")
-        if valid2:
-            present2, missing2 = check_groups(smiles2, desired_groups)
-            print(f"Present groups: {present2}")
-            print(f"Missing groups: {missing2}")
+    
         
         generated_pairs.append((smiles1, smiles2))
         if valid1 and valid2:
@@ -174,19 +169,16 @@ def generate_monomer_pair_with_temperature(model, input_smiles, desired_groups, 
                 "Input Group SMARTS 2": group_smarts2,
                 "monomer1": {
                     "smiles": smiles1,
-                    "present_groups": present1,
-                    "missing_groups": missing1
                 },
                 "monomer2": {
                     "smiles": smiles2, 
-                    "present_groups": present2,
-                    "missing_groups": missing2
-                }
+                },
+                "add_noise": add_noise
             }
                         
             valid_pairs.append((smiles1, smiles2))
             valid_pairs_j.append(pair_info)
-            save_smiles_pair_as_image(pair_info)
+            #save_smiles_pair_as_image(pair_info)
 
             
 
@@ -201,15 +193,13 @@ def generate_monomer_pair_with_temperature(model, input_smiles, desired_groups, 
                 "temperature": temperature,
                 "desired_groups": desired_groups,
                 "monomer1": {
-                    "smiles": smiles1,
-                    "present_groups": present1,
-                    "missing_groups": missing1
+                     "smiles": smiles1,
+                    
                 },
                 "monomer2": {
                     "smiles": smiles2, 
-                    "present_groups": present2,
-                    "missing_groups": missing2
-                }
+                },
+                "add_noise": add_noise
             }
             all_pairs.append(pair_info)
             

@@ -303,6 +303,17 @@ def make_training_data(smiles_list, vocab_path, tokenizer_path):
     print(x_smiles.shape, x_groups.shape, decoder_input.shape, y.shape)
     return x_smiles, x_groups, decoder_input, y, vocab_size, max_length,smiles_vocab
 
+def make_diffusion_data(smiles_list, vocab_path, tokenizer_path):
+    smiles_list, groups = extract_groups(smiles_list)
+    smiles_vocab, vocab_size = extract_vocab(vocab_path)
+    tokens = tokenize_smiles(smiles_list, tokenizer_path)
+    padded_tokens, max_length = pad_tokens(tokens,smiles_vocab)
+    decoder_input,decoder_output = make_target(padded_tokens)
+    x_smiles = np.array(padded_tokens)
+    x_groups = np.array(groups)
+    y = np.array(x_smiles)
+    return x_smiles, x_groups, y, vocab_size, max_length,smiles_vocab
+
 
 
 

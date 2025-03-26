@@ -34,20 +34,9 @@ def reward_score(smiles1, smiles2, actual_tg, actual_er):
     tg_score = max(0, 1 - tg_error)
     er_score = max(0, 1 - er_error)
     
-    # Add penalties for extreme deviations (more than 50% error)
-    tg_penalty = max(0, (tg_error - 0.5)) if tg_error > 0.5 else 0
-    er_penalty = max(0, (er_error - 0.5)) if er_error > 0.5 else 0
+    final_score = (tg_score + er_score)
     
-    # Calculate weighted combined score
-    # Giving slightly more weight to Tg (0.6) than Er (0.4)
-    base_score = (0.5 * tg_score + 0.5 * er_score)
-    
-    # Apply penalties
-    penalty_factor = 1.0 - (tg_penalty + er_penalty)
-    final_score = base_score * max(0, penalty_factor)
-    
-    # Ensure score is between 0 and 1
-    final_score = max(0, min(1, final_score))
+
     
     # Print detailed scores for debugging
     print(f"Predictions - Tg: {pred_tg:.2f}, Er: {pred_er:.2f}")

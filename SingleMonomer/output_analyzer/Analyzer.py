@@ -176,7 +176,7 @@ def draw_multiple_comparisons(df, num_examples=5, save_dir=None):
         )
 
 # Usage example:
-file_path = 'output_analyzer/generation_results_rl_1.json'
+file_path = 'output_analyzer/generation_results_rl_6.json'
 df_all, df_unique = extract_json_data(file_path)
 
 # Print statistics
@@ -199,8 +199,8 @@ print("\nTemperature distribution for successful generations:")
 print(df_unique['temperature'].value_counts().sort_index())
 
 # Optionally, save to CSV filesr
-df_all.to_csv('output_analyzer/rl_implemented_all_data_1.csv', index=False)
-df_unique.to_csv('output_analyzer/rl_implemented_unique_1.csv', index=False)  
+df_all.to_csv('output_analyzer/rl_implemented_all_data_6.csv', index=False)
+df_unique.to_csv('output_analyzer/rl_implemented_unique_6.csv', index=False)  
 
 
 # draw_molecule_comparison(

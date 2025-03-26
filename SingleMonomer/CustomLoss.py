@@ -28,6 +28,10 @@ class CustomMoleculeLoss(tf.keras.losses.Loss):
         self.size_weight = 0.7
         self.ring_weight = 0.7
         self.reward_weight = 0.8
+        self.mmi_weight = 0.6
+        self.kl_weight = 0.6
+        self.entropy_weight = 0.6
+
 
         self.lambda_rl = lambda_rl  # RL weight scaling factor
         self.clip_epsilon = clip_epsilon
@@ -60,7 +64,11 @@ class CustomMoleculeLoss(tf.keras.losses.Loss):
         for i in range(len(smiles_list)):
             input_smiles = decode_smiles(y_true[i], Constants.TOKENIZER_PATH)
             if smiles_list[i] != "":
-                tanimoto_scores.append(self._calculate_tanimoto(input_smiles, smiles_list[i]))
+                score = self._calculate_tanimoto(input_smiles, smiles_list[i])
+                if score <0.5:
+                    tanimoto_scores.append(score)
+                else:
+                    tanimoto_scores.append(1.0)
             else:
                 tanimoto_scores.append(1.0)
         return tf.constant(tanimoto_scores, dtype=tf.float32)
@@ -179,6 +187,18 @@ class CustomMoleculeLoss(tf.keras.losses.Loss):
             
         normalized_entropy = tf.clip_by_value(normalized_entropy, 0.0, 1.0)
         return 1.0 - normalized_entropy
+    
+    # def mmi_loss(self,y_true, y_pred):
+    #     cross_entropy = tf.keras.losses.sparse_categorical_crossentropy(y_true, y_pred)
+    #     reverse_entropy = tf.keras.losses.sparse_categorical_crossentropy(y_pred, y_true)
+    #     return tf.reduce_mean(cross_entropy - 0.1 * reverse_entropy)
+    
+    def kl_divergence_loss(self,y_true, y_pred):
+        return tf.reduce_mean(tf.keras.losses.KLDivergence()(y_true, y_pred))
+    
+    def entropy_loss(self,y_pred):
+        entropy = -tf.reduce_sum(y_pred * tf.math.log(y_pred + 1e-7), axis=-1)
+        return -tf.reduce_mean(entropy)
 
     def call(self, y_true, y_pred):
         y_true = tf.convert_to_tensor(y_true)
@@ -188,6 +208,7 @@ class CustomMoleculeLoss(tf.keras.losses.Loss):
             y_true = tf.squeeze(y_true, axis=-1)
         
         y_true = tf.cast(y_true, tf.int32)
+        reconstruction_loss = 0.0
         
         reconstruction_loss = tf.reduce_mean(
             tf.keras.losses.sparse_categorical_crossentropy(y_true, y_pred, from_logits=False)
@@ -195,10 +216,13 @@ class CustomMoleculeLoss(tf.keras.losses.Loss):
 
         validity_scores, valid_smiles = self._check_validity(y_pred)
         validity_loss = tf.reduce_mean(validity_scores)
-        diverse_loss = tf.reduce_mean(self._diversity_loss(y_pred, y_true))
         scaffold_loss = self._calculate_scaffold_entropy(y_pred)
         size_loss = self._calculate_size_distribution(y_pred)
         ring_loss = self._calculate_ring_diversity(y_pred)
+
+        # mmi_loss = self.mmi_loss(y_true, y_pred)
+        # kl_loss = self.kl_divergence_loss(y_true, y_pred)
+        # entropy_loss = self.entropy_loss(y_pred)
 
         print('\nLoss Components:')
         print(f'Reconstruction Loss: {reconstruction_loss.numpy():.4f}')
@@ -206,46 +230,66 @@ class CustomMoleculeLoss(tf.keras.losses.Loss):
         print(f'Scaffold Diversity Loss: {scaffold_loss:.4f}')
         print(f'Size Diversity Loss: {size_loss:.4f}')
         print(f'Ring Diversity Loss: {ring_loss:.4f}')
+        # print(f'MMI Loss: {mmi_loss:.4f}')
+        # print(f'KL Divergence Loss: {kl_loss:.4f}')
+        # print(f'Entropy Loss: {entropy_loss:.4f}')
+
 
         total_loss = (self.reconstruction_weight * reconstruction_loss +
                      self.validity_weight * validity_loss +
                      self.scaffold_weight * scaffold_loss +
                      self.size_weight * size_loss +
-                     self.ring_weight * ring_loss +
-                     self.diversity_weight * diverse_loss)
+                     self.ring_weight * ring_loss )
+                    #  self.mmi_weight * mmi_loss +
+                    #  self.kl_weight * kl_loss +
+                    #  self.entropy_weight * entropy_loss)
 
         predicted_smiles = self._decode_predictions(y_pred)
 
         # Calculate rewards for each prediction
         batch_reward_score = []
+        batch_diversity_reward = []
         for i in range(len(predicted_smiles)):
             try:
                 input_smiles = decode_smiles(y_true[i], Constants.TOKENIZER_PATH)
                 target_groups = extract_group_smarts(input_smiles)
                 reward_score = calculate_reward_score(predicted_smiles[i], target_groups)
+                diversity_reward = calculate_diversity_reward(input_smiles, predicted_smiles[i])
                 if reward_score is None or not np.isfinite(reward_score):
                     reward_score = 0.0
                 batch_reward_score.append(float(reward_score))  # Ensure float type
-            except:
+                batch_diversity_reward.append(float(diversity_reward))
+            except Exception as e:
                 print(f"Error calculating reward for molecule {i}: {e}")
                 batch_reward_score.append(0.0)
 
         # Convert rewards to tensor and normalize
         if not batch_reward_score:
             batch_reward_score = [0.0]
+        if not batch_diversity_reward:
+            batch_diversity_reward = [0.0]
         
+
         rewards = np.array(batch_reward_score, dtype=np.float32)
-        
+        diversity_rewards = np.array(batch_diversity_reward, dtype=np.float32)
+
         # Avoid division by zero in normalization
         reward_std = np.std(rewards)
+        diversity_reward_std = np.std(diversity_rewards)
         if reward_std < 1e-8:
             normalized_rewards = np.zeros_like(rewards, dtype=np.float32)
         else:
             normalized_rewards = (rewards - np.mean(rewards)) / (reward_std + 1e-8)
         
+        if diversity_reward_std < 1e-8:
+            normalized_diversity_rewards = np.zeros_like(diversity_rewards, dtype=np.float32)
+        else:
+            normalized_diversity_rewards = (diversity_rewards - np.mean(diversity_rewards)) / (diversity_reward_std + 1e-8)
+        
         policy_loss = -np.mean(normalized_rewards)
+        diversity_loss = -np.mean(normalized_diversity_rewards)
         # Combine with other losses
-        final_loss = total_loss + self.lambda_rl * policy_loss
+        final_loss = total_loss + self.lambda_rl * policy_loss + self.lambda_rl * diversity_loss
 
         print(f'Reward Mean: {tf.reduce_mean(rewards):.4f}')
         print(f'Policy Loss: {policy_loss:.4f}')

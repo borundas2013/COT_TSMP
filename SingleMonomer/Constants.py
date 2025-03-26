@@ -14,7 +14,7 @@ GENERATED_TRAINING_SMILES_DIR_1 = "generated_training_smiles_2000.txt"
 
 
 TRAINING_FILE = 'CombinedData_K_CH_DE_unique.csv'
-VOCAB_PATH = 'tokenizers/vocab_2000/vocab.txt'
-TOKENIZER_PATH = 'tokenizers/vocab_2000/tokenizer'
+VOCAB_PATH = 'tokenizers_updated/vocab_2000/vocab.txt'
+TOKENIZER_PATH = 'tokenizers_updated/vocab_2000/tokenizer'
 
 

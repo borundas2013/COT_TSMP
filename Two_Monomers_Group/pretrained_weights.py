@@ -14,7 +14,8 @@ class PretrainedDecoder(tf.keras.layers.Layer):
             )
             self.layer_norm1 = tf.keras.layers.LayerNormalization()
             self.layer_norm2 = tf.keras.layers.LayerNormalization()
-    
+
+        
         def call(self, inputs, training=None):
             encoder_output, group_aware, relationship = inputs
             batch_size = tf.shape(encoder_output)[0]

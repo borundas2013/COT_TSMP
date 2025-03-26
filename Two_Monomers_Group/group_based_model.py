@@ -66,8 +66,6 @@ def create_group_relationship_model(pretrained_model, max_length, vocab_size):
             tf.keras.layers.Dense(512, activation='relu'),
             tf.keras.layers.Dropout(0.1),
             tf.keras.layers.Dense(256, activation='relu'),
-            tf.keras.layers.Dense(256, activation='relu'),
-            tf.keras.layers.Dropout(0.1)  
         ])
     
     relationship_block = create_relationship_block()

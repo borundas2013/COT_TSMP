@@ -1,0 +1,163 @@
+[
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "C=C(C=O)"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "C=CCOCC(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C"
+        },
+        "monomer2": {
+            "smiles": "C=CCCCOC(=O)OCCCC"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "CCS"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "C=CCOCC(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C"
+        },
+        "monomer2": {
+            "smiles": "C=CCc1ccccc1CCOC(=O)CCS"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C1OC1",
+            "NC"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "C=CCOCC(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C"
+        },
+        "monomer2": {
+            "smiles": "C=CCCCOC(=O)OCCCC"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.7,
+        "desired_groups": [
+            "C1OC1",
+            "NC"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "C=CCOCC(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C"
+        },
+        "monomer2": {
+            "smiles": "C=CCCCOC(=O)OCCCC"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "C=C",
+            "OH"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "C=CCOCC(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C"
+        },
+        "monomer2": {
+            "smiles": "C=CCCCOC(=O)OCCCC"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "C=C",
+            "OH"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "C=CCOCC(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C"
+        },
+        "monomer2": {
+            "smiles": "C=CCCCOC(=O)OCCCC"
+        }
+    },
+    {
+        "input_smiles": [
+            "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "C=CC(=O)OCCCC"
+        ],
+        "temperature": 0.7,
+        "desired_groups": [
+            "C=C",
+            "OH"
+        ],
+        "Input Group SMARTS 1": [
+            "C=C"
+        ],
+        "Input Group SMARTS 2": [
+            "C=C"
+        ],
+        "monomer1": {
+            "smiles": "C=CCc1ccccc1C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C"
+        },
+        "monomer2": {
+            "smiles": "C=CCCCOC(=O)OCCCC"
+        }
+    }
+]

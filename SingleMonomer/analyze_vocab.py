@@ -121,7 +121,84 @@ def optimize_vocab_size(smiles_data):
     print(f"\nOptimal vocabulary size: {optimal_size}")
     return optimal_size
 
-def save_tokenizer_for_size(smiles_data, vocab_size, output_dir):
+def save_tokenizer_for_size(smiles_data, vocab_size, output_dir, custom_vocab=None):
+    """
+    Save tokenizer for a specific vocabulary size
+    custom_vocab: list of custom tokens that must be included in the vocabulary
+    """
+
+    try:
+        os.makedirs(output_dir, exist_ok=True)
+        print(f"Created or verified directory: {output_dir}")
+    except Exception as e:
+        print(f"Error creating directory {output_dir}: {str(e)}")
+        raise
+
+    # Print the full path for debugging
+    if custom_vocab is None:
+        custom_vocab = []
+    
+    # Initialize tokenizer
+    tokenizer = Tokenizer(models.WordPiece(unk_token="[UNK]"))
+    
+    # Define chemical patterns
+    chemical_patterns = (
+        r"(\[|\]|Br|Cl|OH|NH|[CNOPSFIHBr]|[0-9]|=|#|-|\(|\)|\+|\\|\/|@|\.|:|c1|n1|o1|s1)"
+    )
+    
+    # Configure tokenizer
+    tokenizer.pre_tokenizer = pre_tokenizers.Sequence([
+        pre_tokenizers.Split(pattern=chemical_patterns, behavior="isolated"),
+        pre_tokenizers.Whitespace()
+    ])
+    
+    # Combine special tokens with custom vocabulary
+    special_tokens = ["[PAD]", "[CLS]", "[SEP]", "[MASK]", "[UNK]"] + custom_vocab
+    
+    # Adjust vocab_size to account for custom tokens
+    adjusted_vocab_size = vocab_size - len(custom_vocab)
+    
+    trainer = trainers.WordPieceTrainer(
+        vocab_size=adjusted_vocab_size,  # Reduce vocab size to make room for custom tokens
+        min_frequency=2,
+        special_tokens=special_tokens,  # Include custom tokens as special tokens
+        continuing_subword_prefix=""
+    )
+    
+    # Train tokenizer
+    tokenizer.train_from_iterator(smiles_data, trainer)
+    
+    # Verify custom tokens are in vocabulary
+    vocab = tokenizer.get_vocab()
+    missing_tokens = [token for token in custom_vocab if token not in vocab]
+    if missing_tokens:
+        print(f"Warning: Some custom tokens were not included: {missing_tokens}")
+    
+    # Rest of the saving logic remains the same...
+    tokenizer.save(os.path.join(output_dir, f"smiles_wordpiece_{vocab_size}.json"))
+    
+    # Save vocabulary to text file
+    vocab_sorted = sorted(vocab.items(), key=lambda x: x[1])
+    with open(os.path.join(output_dir, f"vocab_{vocab_size}.txt"), "w") as f:
+        for token, id in vocab_sorted:
+            f.write(f"{token}\t{id}\n")
+    
+    # Save as PreTrainedTokenizerFast
+    pretrained_tokenizer = PreTrainedTokenizerFast(
+        tokenizer_object=tokenizer,
+        unk_token="[UNK]",
+        pad_token="[PAD]",
+        cls_token="[CLS]",
+        sep_token="[SEP]",
+        mask_token="[MASK]"
+    )
+    pretrained_tokenizer.save_pretrained(os.path.join(output_dir, f"pretrained_{vocab_size}"))
+    
+    return tokenizer, pretrained_tokenizer
+
+# In the main section, you can use it like this
+
+def save_tokenizer_for_size2(smiles_data, vocab_size, output_dir):
     """
     Save tokenizer for a specific vocabulary size
     """
@@ -184,12 +261,34 @@ def save_tokenizer_for_size(smiles_data, vocab_size, output_dir):
 if __name__ == "__main__":
     # Load SMILES data
     smiles_data = read_smiles_from_file('CombinedData_K_CH_DE_unique.csv')
+    custom_vocab = [
+        "C1OC1",
+        "C2OC2",
+        "C3OC3",
+        "C4OC4",
+        "C5OC5",
+        "NC",
+        "CCS",
+        "C=C(C=O)",
+        "c1ccccc1",
+        "c1cccnc1",
+        "c1ccc[nH]cc1",
+        "c2ccccc2",
+        "c2cccnc2",
+        "c2ccc[nH]cc2",
+        "c3ccccc3",
+        "c3cccnc3",
+        "c3ccc[nH]cc3",
+        "c4ccccc4",
+        "c4cccnc4",
+        "c4ccc[nH]cc4",
+    ]
     
     # Find optimal vocabulary size
     optimal_vocab_size = optimize_vocab_size(smiles_data)
     
     # Base output directory
-    base_output_dir = "tokenizers"
+    base_output_dir = os.path.abspath("tokenizers_updated")
     if not os.path.exists(base_output_dir):
         os.makedirs(base_output_dir)
     
@@ -198,4 +297,4 @@ if __name__ == "__main__":
     
     for vocab_size in vocab_sizes:
         output_dir = os.path.join(base_output_dir, f"vocab_{vocab_size}")
-        save_tokenizer_for_size(smiles_data, vocab_size, output_dir) 
+        save_tokenizer_for_size(smiles_data, vocab_size, output_dir, custom_vocab=custom_vocab) 

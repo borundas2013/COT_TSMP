@@ -212,7 +212,7 @@ def extract_vocab(filename):
         return None, None
     
     # Verify all required special tokens are present
-    required_tokens = {"<start>": 0, "<end>": 1, "<pad>": 2}
+    required_tokens = {"<start>": 0, "<end>": 1}
     for token, idx in required_tokens.items():
         if token not in smiles_vocab:
             smiles_vocab[token] = idx
@@ -228,7 +228,12 @@ def extract_tokens(smiles):
 
 def decode_smiles(tokens):
    tokenizer = PreTrainedTokenizerFast.from_pretrained(Constants.TOKENIZER_PATH)
-   decoded = tokenizer.decode(tokens, skip_special_tokens=True).replace(" ","")
+   decoded = tokenizer.decode(tokens, skip_special_tokens=False).replace(" ","")
+   decoded = decoded.replace("[PAD]", "")
+   decoded = decoded.replace("[CLS]", "")
+   decoded = decoded.replace("[SEP]", "")
+   decoded = decoded.replace("[MASK]", "")
+   decoded = decoded.replace("[UNK]", "")
    smiles = ''.join(decoded)
    return smiles
 
@@ -274,13 +279,13 @@ def make_training_data(smiles_list):
 
 
 
-if __name__ == "__main__":
-    smiles_list = read_kaggle_smiles()
-    smiles_vocab, vocab_size = extract_vocab('code/vocab/word_vocab.txt')
-    tokens = tokenize_smiles(smiles_list)
-    padded_tokens, max_length = pad_tokens(tokens,smiles_vocab)
-    decoder_input,decoder_output = make_target(padded_tokens)
-    x_smiles, x_groups, decoder_input, y, vocab_size, max_length,smiles_vocab=make_training_data(smiles_list)
+# if __name__ == "__main__":
+#     smiles_list = read_kaggle_smiles()
+#     smiles_vocab, vocab_size = extract_vocab('code/vocab/word_vocab.txt')
+#     tokens = tokenize_smiles(smiles_list)
+#     padded_tokens, max_length = pad_tokens(tokens,smiles_vocab)
+#     decoder_input,decoder_output = make_target(padded_tokens)
+#     x_smiles, x_groups, decoder_input, y, vocab_size, max_length,smiles_vocab=make_training_data(smiles_list)
     # smiles_vocab, vocab_size = extract_vocab('code/vocab/word_vocab.txt')
     # print(smiles_list[50])
     # tokens = extract_tokens(smiles_list[50], smiles_vocab)
