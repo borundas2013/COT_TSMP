@@ -1,0 +1,1609 @@
+reaction_pair,valid,group_count,score
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+"['CCS', 'C=C']",False,1,0.62
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+"['C=C', 'CCS']",False,1,0.62
+"['CCS', 'C=C']",True,5,4.17
+"['CCS', 'C=C']",True,8,5.0
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",False,2,1.25
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['CCS', 'C=C']",False,2,1.25
+"['CCS', 'C=C']",False,6,2.5
+"['CCS', 'C=C']",False,3,1.88
+"['CCS', 'C=C']",False,2,1.25
+"['CCS', 'C=C']",False,2,1.25
+"['CCS', 'C=C']",False,2,1.25
+"['CCS', 'C=C']",False,1,0.62
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,6,2.5
+"['C=C', 'CCS']",False,6,2.5
+"['C=C', 'CCS']",False,6,2.5
+"['C=C', 'CCS']",False,6,2.5
+"['C=C', 'CCS']",False,6,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,11,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,11,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,11,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,8,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,8,5.0
+"['C=C', 'CCS']",True,14,5.0
+"['C=C', 'CCS']",True,9,5.0
+"['C=C', 'CCS']",True,9,5.0
+"['C=C', 'CCS']",True,9,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,11,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,11,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,11,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,11,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,8,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,8,5.0
+"['C=C', 'CCS']",True,14,5.0
+"['C=C', 'CCS']",True,9,5.0
+"['C=C', 'CCS']",True,9,5.0
+"['C=C', 'CCS']",True,9,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,11,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,11,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,11,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,11,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,8,2.5
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,8,5.0
+"['C=C', 'CCS']",True,14,5.0
+"['C=C', 'CCS']",True,9,5.0
+"['C=C', 'CCS']",True,9,5.0
+"['C=C', 'CCS']",True,9,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,11,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,6,5.0
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,4,3.33
+"['C=C', 'CCS']",True,10,5.0
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",True,5,4.17
+"['C=C', 'CCS']",False,3,1.88
+"['C=C', 'CCS']",False,9,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+"['C=C', 'CCS']",False,4,2.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+"['C=C', 'CCS']",False,2,1.25
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+,False,0,0.5
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62
+"['C=C', 'CCS']",False,1,0.62

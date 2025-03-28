@@ -6,8 +6,8 @@ LATENT_DIM = 128
 EPOCHS = 10
 BATCH_SIZE = 16
 
-EPOXY_SMARTS = "[OX2]1[CX3][CX3]1"    # Epoxy group
-IMINE_SMARTS = "[NX2]=[CX3]"          # Imine group
+EPOXY_SMARTS = "C1OC1"#"[OX2]1[CX3][CX3]1"    # Epoxy group
+IMINE_SMARTS = "NC"          # Imine group
 VINYL_SMARTS = "C=C"                  # Vinyl group
 THIOL_SMARTS = "CCS"                  # Thiol group
 ACRYL_SMARTS = "C=C(C=O)"             # Acrylic group

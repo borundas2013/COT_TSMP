@@ -152,6 +152,145 @@ def create_model(max_length, vocab_size, pretrained_model):
     two_monomer_model.summary()
     
     return two_monomer_model
+
+
+
+def create_model2(max_length, vocab_size, pretrained_model):
+    inputs = [
+        Input(shape=(max_length,), name='monomer1_input'),
+        Input(shape=(max_length,), name='monomer2_input'),
+        Input(shape=(len(Constants.GROUP_VOCAB),), name='group_input'),
+        Input(shape=(max_length,), name='decoder_input1'),
+        Input(shape=(max_length,), name='decoder_input2')
+    ]
+    
+    monomer1_input, monomer2_input, group_input, decoder_input1, decoder_input2 = inputs
+
+    # Load pretrained components
+    pretrained_embedding = pretrained_model.get_layer("embedding")
+    pretrained_encoder = pretrained_model.get_layer("gru")
+    pretrained_decoder_gru = pretrained_model.get_layer("gru_2")
+    pretrained_dense = pretrained_model.get_layer("dense")
+    
+      # Freeze pretrained layers
+    #pretrained_embedding.trainable = False
+    # for layer in pretrained_encoder:
+    #     layer.trainable = False
+    #pretrained_decoder_gru.trainable = False
+    #pretrained_dense.trainable = False
+    #pretrained_encoder.trainable = False
+    
+
+    # Embed inputs
+    monomer1_embedded = pretrained_embedding(monomer1_input)  # Shape: (batch, max_length, 128)
+    monomer2_embedded = pretrained_embedding(monomer2_input)  # Shape: (batch, max_length, 128)
+
+    monomer1_dense_embedding = Dense(136, activation="relu", name="monomer1_dense_embedding")(monomer1_embedded)
+    monomer2_dense_embedding = Dense(136, activation="relu", name="monomer2_dense_embedding")(monomer2_embedded)
+
+    # Use pretrained encoder directly
+    encoder_output1 = pretrained_encoder(monomer1_dense_embedding)  # Shape: (batch, max_length, 512)
+    encoder_output2 = pretrained_encoder(monomer2_dense_embedding)  # Shape: (batch, max_length, 512)
+
+    # ✅ Extract last state manually if return_state=False
+    encoder_state1 = encoder_output1[:, -1, :]  # Shape: (batch, 512)
+    encoder_state2 = encoder_output2[:, -1, :]  # Shape: (batch, 512)
+
+    # ✅ Project encoder state to match decoder size (128)
+    encoder_state1_projected = Dense(128, activation="relu", name="encoder_projection1")(encoder_state1)
+    encoder_state2_projected = Dense(128, activation="relu", name="encoder_projection2")(encoder_state2)
+
+    # ✅ Project group input to size 128
+    group_projected = Dense(128, activation="relu", name="group_projection")(group_input)  # Shape: (batch, 128)
+
+    # ✅ Combine encoder state + group state using addition
+    modified_state1 = Add(name="modified_state1")([encoder_state1_projected, group_projected])
+    modified_state2 = Add(name="modified_state2")([encoder_state2_projected, group_projected])
+
+    modified_state1 = Dense(512, activation="relu", name="state_projection1")(modified_state1)
+    modified_state2 = Dense(512, activation="relu", name="state_projection2")(modified_state2)
+
+    # ✅ Decoder embeddings
+    decoder_embedded1 = pretrained_embedding(decoder_input1)  # Shape: (batch, max_length, 128)
+    decoder_embedded2 = pretrained_embedding(decoder_input2)  # Shape: (batch, max_length, 128)
+
+    decoder_dense_embedded1 = Dense(136, activation="relu", name="decoder_dense_embedding1")(decoder_embedded1)
+    decoder_dense_embedded2 = Dense(136, activation="relu", name="decoder_dense_embedding2")(decoder_embedded2)
+
+    # ✅ Project to correct size (128) before passing to GRU
+    decoder_input1_combined = Dense(128, activation="relu", name="decoder_projection1")(decoder_dense_embedded1)
+    decoder_input2_combined = Dense(128, activation="relu", name="decoder_projection2")(decoder_dense_embedded2)
+
+    use_teacher_forcing = True
+    if use_teacher_forcing:
+        decoder_output1 = pretrained_decoder_gru(decoder_input1_combined, initial_state=modified_state1)
+        decoder_output2 = pretrained_decoder_gru(decoder_input2_combined, initial_state=modified_state2)
+    else:
+        for t in range(max_length):
+            decoder_output1, _ = pretrained_decoder_gru(
+                tf.expand_dims(decoder_input1[:, t], axis=1), 
+                initial_state=modified_state1
+            )
+            decoder_output2, _ = pretrained_decoder_gru(
+                tf.expand_dims(decoder_input2[:, t], axis=1), 
+                initial_state=modified_state2
+            )
+
+    # ✅ Pass projected state directly into GRU
+    #decoder_output1 = pretrained_decoder_gru(decoder_input1_combined, initial_state=modified_state1)
+    #decoder_output2 = pretrained_decoder_gru(decoder_input2_combined, initial_state=modified_state2)
+
+     # Add attention layer here
+    attention_layer1 = tf.keras.layers.MultiHeadAttention(num_heads=4, key_dim=128)
+    attention_layer2 = tf.keras.layers.MultiHeadAttention(num_heads=4, key_dim=128)
+    
+    # Apply attention between decoder output and encoder output
+    context_vector1 = attention_layer1(query=decoder_output1, value=encoder_output1,key=encoder_output1)  # Using encoder_output1 from monomer1
+    context_vector2 = attention_layer2(query=decoder_output2, value=encoder_output2,key=encoder_output2)  # Using encoder_output2 from monomer2
+
+    # Combine context vectors with decoder outputs
+    decoder_output1 = tf.keras.layers.Concatenate()([decoder_output1, context_vector1])
+    decoder_output2 = tf.keras.layers.Concatenate()([decoder_output2, context_vector2])
+
+    decoder_output1 = tf.keras.layers.Dense(512, activation="relu", name="decoder_output1")(decoder_output1)
+    decoder_output2 = tf.keras.layers.Dense(512, activation="relu", name="decoder_output2")(decoder_output2)
+
+    # ✅ Add dropout
+    decoder_output1 = Dropout(0.1, name='dropout1')(decoder_output1)
+    decoder_output2 = Dropout(0.1, name='dropout2')(decoder_output2)
+
+    # ✅ Create two separate final dense layers with same weights as pretrained_dense
+    final_dense1 = Dense(units=pretrained_dense.units, activation=pretrained_dense.activation, name='final_dense1')
+    final_dense2 = Dense(units=pretrained_dense.units, activation=pretrained_dense.activation, name='final_dense2')
+
+    final_dense1.build(decoder_output1.shape)
+    final_dense2.build(decoder_output2.shape)
+    final_dense1.set_weights(pretrained_dense.get_weights())
+    final_dense2.set_weights(pretrained_dense.get_weights())
+
+    # ✅ Final outputs
+    monomer1_output = final_dense1(decoder_output1)
+    monomer2_output = final_dense2(decoder_output2)
+
+    merged_output = tf.keras.layers.Concatenate()([decoder_output1,decoder_output2])
+    value_output = tf.keras.layers.Dense(1, name='value_output')(merged_output)
+
+    # ✅ Model definition
+    two_monomer_model = Model(
+        inputs=[monomer1_input, monomer2_input, group_input, decoder_input1, decoder_input2],
+        outputs=[monomer1_output, monomer2_output,value_output]
+    )
+
+    # # # ✅ Compile the model
+    # two_monomer_model.compile(
+    #     optimizer='adam',
+    #     loss=["categorical_crossentropy", "categorical_crossentropy"],
+    #     loss_weights=[1.0, 1.0]
+    # )
+
+    two_monomer_model.summary()
+    
+    return two_monomer_model
     
     
     

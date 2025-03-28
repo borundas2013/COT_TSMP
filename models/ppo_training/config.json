@@ -1,0 +1,9 @@
+{
+    "learning_rate": 9.999999747378752e-06,
+    "clip_epsilon": 0.2,
+    "value_coef": 0.5,
+    "entropy_coef": 0.01,
+    "max_grad_norm": 0.5,
+    "batch_size": 1,
+    "creation_date": "2025-03-28_14-33-06"
+}
