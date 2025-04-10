@@ -3,10 +3,11 @@ import numpy as np
 from rdkit import Chem
 from rdkit.Chem import AllChem
 from rdkit import DataStructs
+import random
 
 class DiversityReward:
-    def __init__(self, min_length=20, diversity_weight=0.5, 
-                 batch_diversity_weight=0.3, novelty_weight=0.2, 
+    def __init__(self, min_length=20, diversity_weight=0.6, 
+                 batch_diversity_weight=0.3, novelty_weight=0.4, 
                  length_penalty_weight=0.5):
         self.min_length = min_length
         self.diversity_weight = diversity_weight
@@ -78,17 +79,24 @@ class DiversityReward:
             
         return np.mean(pairwise_diversities)
 
-    def calculate_reward(self, generated_samples, input_data, verbose=True):
+    def calculate_reward(self, generated_samples, verbose=True):
         diversity_rewards = []
+        final_reward = 0.0
         
         for i, sample in enumerate(generated_samples):
             gen_smiles1 = sample['smiles1']
             gen_smiles2 = sample['smiles2']
-            input_smiles1 = input_data[i]['smiles1']
-            input_smiles2 = input_data[i]['smiles2']
-            
+            input_smiles1 = sample['input_smiles1']
+            input_smiles2 = sample['input_smiles2']
+
+            mol1 = Chem.MolFromSmiles(gen_smiles1)
+            mol2 = Chem.MolFromSmiles(gen_smiles2)
+
+            if mol1 is None or mol2 is None:
+                diversity_rewards.append(0.0)
+                continue
             # Check for invalid or empty SMILES
-            if not gen_smiles1 or not gen_smiles2:
+            if gen_smiles1 == "" or gen_smiles2 == "":
                 diversity_rewards.append(0.0)
                 continue
                 
@@ -102,23 +110,26 @@ class DiversityReward:
             )
             
             # Calculate diversity score
+            sim1= round(random.random(),2)
+            sim2= round(random.random(),2)
             diversity_score = 1.0 - (sim1 + sim2) / 2.0
             
             # Add novelty bonus if significantly different
             novelty_bonus = 0.2 if diversity_score > 0.4 else 0.0
             
             # Calculate diversity with other generated samples
-            other_samples = [s for j, s in enumerate(generated_samples) if j != i]
-            batch_diversity = self.calculate_batch_diversity(sample, other_samples)
+            ##other_samples = [s for j, s in enumerate(generated_samples) if j != i]
+            ##batch_diversity = self.calculate_batch_diversity(sample, other_samples)
+            batch_diversity = 0.0
             
             # Calculate final reward
             base_reward = (
                 self.diversity_weight * diversity_score +
-                self.batch_diversity_weight * batch_diversity +
+               # self.batch_diversity_weight * batch_diversity +
                 self.novelty_weight * novelty_bonus
             )
             
-            final_reward = base_reward - (self.length_penalty_weight * length_penalty)
+            final_reward = base_reward #- (self.length_penalty_weight * length_penalty)
             final_reward = max(0.0, final_reward)
             
             if verbose:
@@ -168,6 +179,6 @@ if __name__ == "__main__":
     
     # Calculate rewards
     rewards = reward_calculator.calculate_reward(generated_samples, input_data)
-    print("\nFinal rewards:", rewards.numpy())
+    print("\nFinal rewards:", rewards)
 
 

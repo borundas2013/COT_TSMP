@@ -1,0 +1,32 @@
+[
+  {
+    "smiles1": "CC1OC1CCCC",
+    "smiles2": "CCOCCNCC",
+    "score": 3.236340045928955,
+    "timestamp": "2025-03-31 14:00:44"
+  },
+  {
+    "smiles1": "CC1OC1CCCC",
+    "smiles2": "CCOCCNCC",
+    "score": 3.236340045928955,
+    "timestamp": "2025-03-31 14:08:05"
+  },
+  {
+    "smiles1": "CC1OC1CCCC",
+    "smiles2": "CCOCCNCC",
+    "score": 3.236340045928955,
+    "timestamp": "2025-03-31 14:14:58"
+  },
+  {
+    "smiles1": "CC1OC1CCCC",
+    "smiles2": "CCOCCNCC",
+    "score": 3.0,
+    "timestamp": "2025-03-31 14:19:01"
+  },
+  {
+    "smiles1": "CC1OC1CCCC",
+    "smiles2": "CCOCCNCC",
+    "score": 3.236340045928955,
+    "timestamp": "2025-03-31 14:34:28"
+  }
+]

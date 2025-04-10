@@ -158,5 +158,165 @@
             "smiles": "CScccCNc34)=n4ccnc4Oc1c2cc5Oc1c2c3cncCOc1ccc2ccc45c3cnNNc3cnCSOSc4cnc5ccccc5c4cnc2occ5ccccc5CSc7ccccc7cn2c4cnOCC1OCCOc3oncnc3c7cccc4ncNc2ccccc6ccccc6ccc5ncnc3c3oc348c7ccccc7c4cns4cn2c56CC1CNec7cccFC)=c4n3c8CCCNSCCCCNCC21Cc3nCCCNo1nc2c3o)=c7ccccc7c3cneOCC1c2ncccc4cnClc1ccc4n3c7ccceSCc4cnncnc23OCC1C1CCN2ccc45CCc1ccccNc3ccccCOc1nccc7ccccc7SCc13OCC1c56SCc4ccccc34c34Nc2cCCCc7cccCc1nccc13n3cnc34c3nn-c4cnnnc3nnc4n3OCC1OCC2Oc1ccccc1CC1CNOCCCCCN3CCCCC3c2ccccCN2c3oCCCNCOC1ccc45nc2c2cc1OCs1CCN2n3c3ccccc23o1)=nc2SCccc216ccccc6c5cnccc45ccc45CCOCC1c1cccNc1cCN2CCCNCOc1ccc2ccCN2CCCSCc81CCCN1o1c4cc3oc3ns2ncnc23CC12CCCcc2c3ncc2ncccn23c2nccc)=@@Nc3cco1CCc2c1cc2c3ncCN2Cc3cc1n2cNCc2ccccnc2n1cn2cc2CN2CC4OCC1CCCcc2c3nccc21ccn2cc2c3ncc3nCCCCCCn6CCo1cn11c56nc1ccccc7CC21Cc3o/c5Cc1cnNOCN2n3ncCCCNccc45c2ocncc2c1cccc5c41CCCN1CCc2ccc3nccnc2n1OCC18c5cnc1cccc4n3ccc21eCCN2COc1ccCCCOCcccc2COc1cccc2COc1ccOCC1CN21@@](nc1Cc3oc6ccccc6c34CN2cc21CCn1ccnc12o1cc21n3cc2c3ncCC12CCCc2ncccc4n3"
         },
         "add_noise": true
+    },
+    {
+        "input_smiles": [
+            "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+            "CC(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O"
+        ],
+        "temperature": 0.2,
+        "desired_groups": [
+            "[OX2]1[CX3][CX3]1",
+            "[NX2]=[CX3]"
+        ],
+        "ER": 158,
+        "TG": 171,
+        "monomer1": {
+            "smiles": "4[CC)=)=)=)=)=c3nc3n)=)=)=)=C4C4C4)=)=)=)=)=)=)=)=)=)=)=c2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OC)=c2cc1OC)=c2cc1OCc2cc1OC)=)=c2cc1OCc2cc1OCc2cc1OC)=)=)=c2cc1OC)=)=)=)=c2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OC12121212ccn14C121OCC4C1CCCN1ccn14C4o1cc4F1CCCN1ccn14C1CCCN1@@](134C4O1OCC1Nnc1C44C4Co11CCCN1n44C1CCCN1cc21CCCN1o1132O44C1OCCn436Oo1o14o1ccc45o11CCCN11CCCN1CCc2ccc3nc1OCCo11CCCN1o14On4o1o14O1OCCo14C1OCC444Oo1o11OCC1CCCN1ccccc12ccc451OCCccc45o14O1OCC441OCCccc4541CCCN11CCCN1o1o11OCC4cc2n41OCCo1o136O1CCCN1ccccc12o1o1o14ccc45ccc451CCCN1ccc45o1o141OCC1CCCN1Cccn14ccn1o11OCCo1ccc45o1ccc451CCCN11OCC36Oo1nc1C1CCCN1ccc451OCCo11OCCccc454o11CCCN14Occc451OCCcc2ncc3o14Occc45o1o1o11OCC1OCCn4n4o11OCCo1ccc45cc2s14n2ccnc2n44n4n4ccc45nc1Cncnc3o1cc2o11CCCN1ccc45c2occcc45o1ccn11OCC[ccc45@"
+        },
+        "monomer2": {
+            "smiles": "c1cccc1ccc(=(=(=(=(=(=(=(=(=(=c1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc4CCNc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc(=4CCNc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc(=4CCNc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc"
+        },
+        "add_noise": false
+    },
+    {
+        "input_smiles": [
+            "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+            "CC(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "[OX2]1[CX3][CX3]1",
+            "[NX2]=[CX3]"
+        ],
+        "ER": 158,
+        "TG": 171,
+        "monomer1": {
+            "smiles": "4[CCCC)=)=c3n)=)=c3n)=c3nc3n)=)=C4(=)=)=)=)=)=)=)=)=)=c2cc1OC)=)=c2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OC)=)=)=)=c2cc1OC)=c2cc1OC)=c2cc1OC)=c2cc1OCc2cc1OC)=)=)=c2cc1OCc2cc1OCc4cc2cc1OCc2cc1OC)=c2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCn3n21212124C4c4CCCC4nc1CCc1cccCNc4ccccc42CCN1O4s41C1NC4CC441CNC12C12CC4C4Oc13c3n1o1c3nc4Oc1cc2C4Cccn2CCCN141OCCo1n4ccn1cc31Occn213o12CCNC254O4C1CCCN1CCc2ccc3nc4ccn112CCo1o1cc26)(c7c2ncnc39n41CCCN1o1CCOCC4CN3o1ccc45o14C4c2ccccc2C14O4Occccc14O@@o112cc1O4c1cccnc14O#nn4ccc451CCCN11OCCccc451OCC4Cn1c1CCCN1CCc2ccc3ncCCN44c2ocs5n4nc1C4Oc5nc6Cc1cccc2Oc1cc1C4Occ2c4cccccc7nc2c2ccc3cCc1nco1CCN412CCc134@cc2ccc3COc1ccn3n2Cc1ncnc1C1OCCo11336Occc451No1o1n4cc1Fccc451CCCN11OCC41OCCnc34o11OCC4C@](c4ccncc4ccccc23n4[4O#cc3Fccc45c4ccccc34ccc45Fn2ccnc2c4Cl12C4O1OCC@nc1n3nc1OCC4Oc45c8ccccc8ccc45c1cccnc1F1OCCnc14Sc2ccc0"
+        },
+        "monomer2": {
+            "smiles": "c1cccc1ccc(=(=(=(=(=(=(=(=(=(=c1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccoc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc3nNSc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccco4CCNc1cccc1cccc1cccc1cccc1cccc1cccc1ccc4CCNc1cccc1cccc1ccc4CCNc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccCc1nccc3nc1cccc1cccn3ccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc4CCNc1cccc1cccoc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc4CCNc1cccc1cccc1cccc1cccc1cccc1ccc4CCNc1cccc1cccc1cccc1ccc4CCNc1ccc4CCNc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccNSc1ccc4CCNc1cccNSc1cccc1ccc4CCNc1cccc1cccc1cccc3nc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc(=c1cccc1cccNSc1cccNSc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc(=c1ccc(=c1cccNSc1cccc1cccc1cccn2cnc1cccc1cccc1cccc1ccc4CCNc1ccc4CCNc1cccc1cccc1cccc1cccc1cccc1ccc4CCN"
+        },
+        "add_noise": false
+    },
+    {
+        "input_smiles": [
+            "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+            "CC(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O"
+        ],
+        "temperature": 1.5,
+        "desired_groups": [
+            "[OX2]1[CX3][CX3]1",
+            "[NX2]=[CX3]"
+        ],
+        "ER": 158,
+        "TG": 171,
+        "monomer1": {
+            "smiles": "4c12cc2O\\[cccc4Cl)=c3nscc4n35c5ccccNc3nCCN1CCc2ncC4NOCCCC4c1ccccn1c4cc5(-\\c2cc1OCCOc4cccc2n1c2nc2c1OC2Cc2cc1OCCOc1nccccccc2c1ccc2c)c3oFNCc3cccc2cc1OCNC2ccccc34CC1CCCCC1n1ccn1CCOCCs3Occ1SOCCN2CCCCC21Occ2Oc3cccc4ccccc34N48c2cc1OCc3oc3)=c4occc4Cc1cc2CN2CCOCC2-Nc3nOc1c2n4ccnc4c2cc1OCCCCCCCCCCn1cOC5c8n3n2ccc3CCN4CCNCc4cccFc1ccccn1CNc2ccccCOc1ccccc1CCc1ccc2ncc3Nc3cOc4cccCCN1CCNn2ccnc2c2nc3CCn1c3NCN2CCOc1ccc2Cc4cncn3cc2C36cc2c3ncscccccc5c4(=cc34C3CCNOCC22CCCN2Cc1cccnc13CCNCCCNc4c5Oc4cccccCc1ccccc1Ccccc4ccc1Cnc2ccc3Coccc2c2ccccc2Ccc1Sc4CCCCF1OCnc13cc2cCCc2c1CCONC1C)(5CCCC5Nc3cccc12CCCC1CCN3Cc1Fn3cnn436CCNC3Cl13OC1S237CNC4ccccc2c1cc2C#C2CCNCCCCCC1c1OC35CC4CC4Nc4cccc3ccccCCOFCN2CCCCCC5nc2Nc3ccc4CCCC3N5CCNNCCN3n1c1cccCN4CCNCc3cnccccc4N2CCNCC2OCCNOCc3ccccc3n2ccnc2c2ccc3ccccc3c2c45c6occc6n4c5nc6OCCO4CNCc1cccCCc3ccccc3ncN3CCCc5on2cccc1cnccc1ccccn1ncc3cc2Clc3ocN3CCOCC3Cc4ccccc435o1c5ccSc3cccC3CCCCC3N4cc6FCc5cccOc1cNCCc2cccCOc1cc2cc3nc4CN20n2ccccccc2c1c4ccccc4OCSncnc@c2ccncc2CCCC3c5nc1c4ccccc4OCcc2s11OCCc4ccccc4Clc1ccc2CCCN3CCNCN3CCOCC45CC6CCcc4CNCCOc1ccc2cccc22CCNC2CCc3ccccc3n1cOCC2N4n2ncnc2CCc1ccc4c5CCCCc5nc6ccccc46nc2N1CCCN1oncc4CCCCCOc3cccO2ccc44Oc5cccc1Oc2ccco113c3ncc"
+        },
+        "monomer2": {
+            "smiles": "c1cccc1ccc(=(=(=(=c1ccc(=(=(=COc1cccc(=c1cccc1cccc1cccc1cccc1cccc1cccc1ccc@](c1cccc1ccc(=c1cccc1ccc(=(=Oc1c2#c3cccnc3Cc1nccNc2ncCC1CNc1cccc1cccCOc4cccc1cccc1ccc)=c1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccNSn2cnc1cccc1cccc1cccOCCCCCCN1CCCcc1OCCCN1CCN#c1cccnc1Cc1cccCClc1cccc1ccc2c2occ1cccOSc3cncnc4ccccc34CCc1cccN1CCOC1N2CC2N3CCCOc1c2c1ccc2CCCN2CCOc2ccccNSn4(=c1ccc#COc1ccc2cc1cccCCN3CCc1c3c2n1nnClc1ccNSc1cccn1C4CCNC1C2CCCc2cc1OCn4Nc1ccccc14CCNCOc1ccccc1N2CCN12CCCO2N5CCOCC54CCNCc6c3nc4cccnc4NOCCn2cnn2cnCc1ocCc1cccc2cc1OCc2ccccc21C1NCc1cccOc1ccN2CCOCC24CCN#c2ccCCCCCCCCCn3cccc45c4ccccc4C=C(C=O)CCOCC5n2ncncc1CN3COc1ccc2cClc1cciC4O2N1CCN4CCNCNCc1cc1CCCN1COc2ccccn1nnCCc2ccccc2c1cccsc0c1ccc2ncnc2c1ncn2C1OC1CCCN1CN1CCCC1Cn1ccc3nC1OC1(-N1CCc2ncCC5iC2CC2Cc1ncc1cccNCCNCcc51CCCN1CNSCN5sc12Sn5ncCCNC2c1cccc2CCc1ccccCc1ccC4)=Nc1ccc#n4-cc1ClSc2cccCN4CCN1CCCN1CCCCN1CCC6Cn3ccN1CCCOc1cOPCN5Nc1nccc3ccc[nH]cc3CCCNc1cccccccc4CCNOc1c2Nc1ccc2c3cccnc3Cc1ccccc1Nc2ccccc2Cc1ccccS1CCCN1Co3CCN)=[)=1CCN3CCc1ccccCCc1ccc4cc52CCCCc1cccC3CCNsc12#5CC6N2CCCCCCOc1cccc2ccccc2ClCCCCOCc1NSCc1cccc2CCc1cccc5oCC1CCCCC1n1ccNSCc1nccc2ccccc2C1O3nc2n1c4ccccc4c1cccN2CCNc2c3N5CCOCC5c5oCc1nccn1Cc5cccc3ccccOCCCNNc1nNCCC2OCC4CC4"
+        },
+        "add_noise": true
+    },
+    {
+        "input_smiles": [
+            "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+            "CC(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O"
+        ],
+        "temperature": 1.2,
+        "desired_groups": [
+            "[OX2]1[CX3][CX3]1",
+            "[NX2]=[CX3]"
+        ],
+        "ER": 158,
+        "TG": 171,
+        "monomer1": {
+            "smiles": "6C]c7)=)=)=CCOCCOscCOc1ccccC4COc4ccc)=)=sc](=c4cnc4cNCCN3c1ncn3n2)[)=CCC6c4nc)=Nc1ccc2SCCCc3cccCCCCCCCCClNc3ccc4c2cc1OC)=Nc2ccc3c2cc1OCc2cc1OCc2cc1OCccc21P-1c3ccccc3#CNSN4CCN-c4ccccc4c2Cln3ccc2Oc4occc4(-2CCc2cc1OC3O/ncc4cc2C2c2cc1OCc2cc1OCc2cc1OCc2cc1OCCONn3ncSCC2CC1c3cccC1NCc3n1Oc1c25c5o1CCCN1CCc2ccc3ncn3nc)=4OCCCCc5nc6=c3ccccl#c56c4ccccc4OCc4ccccn412CCn3n2cc2cOCC1cc34c4Cl4O#c6occc3CNCCCC4c1ccccn1ncc24Oc4n3ncc2occ4c34Cnc2ONn2Cc2ccccc2n1c2cc3FCc4ccccc4Cl2C113PCc1ccc2cCNCCc5occc5ccccc12c4cccc5[COc1ccccc11CCCc4ccccc4c4occc45OC56c4cncn3ccCCCCCNC12Cnc1C5CC6NCCCCNc1nccNc1nc2CCCCOCCCc1ccc2F7CN3NCCc2ccc35OCCCN4/c4ccccc14Cc1ccc2ccccc2c1s2cc2s1CCCc1ccccc1C3Cc4ccccc3436sc5ccccc45c2ncncc5cccnc55CC6CCcc3Fcn2ccccc24CCN4CC6c4cccs412C4n1ccc3nc=#FNCc4ccccCCCC5cc24ccccc35cc4Cn4n4c4ccccc24C5OC5c1ccc1OCCo56N5c4nc1C]([CCOCC5cc2c351OCCccc5c4ccc5ccccc5c4Nc2nCCN4nn4C73Occ7ccc45Cc1ccc2Oc1c2CCN4CC6CCO2c4cc5n1CNCCCCCCc1ncnn4n4NCc3ccccc3COc4ccc@](ccc45nc5](c4ccccc34c3cccs3occcccc1Oc2cccPnn1ncc11CCCN1COc1ccccc1COc1cccc@@](C1OC1c4ccncc4Oc1c2c1ccc2ncc3n@ccccc7c5ccccc45Cc3cOC5nn4N2CCCC2n4CCN1CCC5CCCCc5ccccc5c3nOc3ccccc35CC6"
+        },
+        "monomer2": {
+            "smiles": "c1cccc1ccc(=(=(=(=(=(=(=(=(=c1cccc1ccc(=c1cccc1cccc1cccc1cccc3cccnc3c1cccc1cccc1cccc1cccc1ccc(-c1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccC1CCNc1cccc1ccc(=c1cccc1cccc1cccc1cccc1ccc(=c1cccc1cccc1cccc1cccc1ccc(=c1cccc1cccc1cccc1cccc1cccc1cccc1cccn4c1cccc1cccNSc1cccc1cccc1cccn4#cc1FCCCCNc1cccc1cc2c1cccc1cccCOc3ccccc3n3n2c1cccc1cccC5OC5c1cccc1cccc1cccCc1ccccc1ccc#3#c1cc2cOc23c1cccc1cccoc1ccc#c1cccOCCCCCOCC3CCCNc4nn4Cc1ncccccc6(=C4CCCCC4O2ClCCNC2Oc1c23OCc1Cc1ccc2cccc4c1ccc4CCNnc2n1c5nc6/8c3nc1ccncc1n3cnc1cNCCc2ccc0SCl)-c1cnccc1cccsc5ccccc45Cc1cccc#NCc3ccccc323n1cc3cOc1c2Fc1cccc1cccc3ccccc3C2-N4CCNc3nC1CC1c1cccc3nc3ccccn3Cn16Cion5nc1CCCN1c5oO3n2cccc1cnc2ccc3cccnc34CCNCC4Sc2cccO3Cc1ccccn1nnc1cc1ccccc1Clc4nc1ccc6CCc1nccs(-6Cc1cc1cnCc1cccc2Nc4cccc1cccc1ccncc1cc24c3nClCc1ccc2cc1cccNCCN3c1ccncc1c3nn6NSN5CCOCC5#Cc1ccccc3nSCCCSc1cn2cccn4Nc1ccc2NSFc1ccc2cc1nc2c23nc3cCCN%Cc1c36Cc1cccc2#NSc2ocO3n1cC3CCNc1ccc2CCNC2cc3Clc1cc4cccc54CCNc3nncnc3N4CCN#3/-c1nccN1CCc2ncc1cccNc1ccccCc1cc2c(=(=Cc1ncc4ccccc3434Nc1ccccc1ccn2cnoc2oncSCCConcn3cnCc1ccccCc1ccc2cN1CCN"
+        },
+        "add_noise": true
+    },
+    {
+        "input_smiles": [
+            "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+            "CC(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O"
+        ],
+        "temperature": 1.0,
+        "desired_groups": [
+            "[OX2]1[CX3][CX3]1",
+            "[NX2]=[CX3]"
+        ],
+        "ER": 158,
+        "TG": 171,
+        "monomer1": {
+            "smiles": "6C[[c3n)=CCCC4CC4)=Nc1ncc7@@c5nc6c12)=c4cn)=(=CCCC4)=(=]([c2cc1OC)=)=c2cc1OC)=ncc4Nc2nc3n4ccnc4c4occc4C3CCc2cc1OCOCCCCCc2cc1OCn4ccnc4)=c2cc1OC3O\\[3O-N1CCCC1nc2c1)=n1Cc2cc1OCn3ncc4cc2cc1OCn1cc2cc5nc)=OCCOc2cc1OC\\[)=)=Nc1nc2c2cc1OC)CCOCC1c2cc1OC)c3n(-c2cc1OCnc2c13CNc4occc4c2cc1OCCOc1ccc2NCCc2ccc12cc1NCNCCc2ccc)/c2cc1OC12COc3cccnc3NC1CCC2Clc1ccc2nc3Ns4cc7C1NCs3CCN1CCNOc1cccocc34C1NCCC4Cc4cccOCCCN4nn3c6occcPCCCCCCCC1CC2CNC9CC6cc24c2ccccc2Cc3nccccc82O1CCCN1OCc1ccccc1ncnc3c4ccncc4ccccc12cns5CCNC3ncnc3CCOCC2n4ccnc4c13OCCNcc4Clc1ccccc1Clcc2c4ccncc4n4)c3nccccccc12=CCCO#C2CCCs412OCc3ccccc3COc1nccCc4ccccc4ccn1nc2ccccc2n1cc2c1c4oc4c5CCCCN3C23CCCc1ccccc1c3ccc45CCNCC4c4cc5ccc45CN1C23CCO2Oc1ccccc1N2CCNs5CC1CNCc1cC2OC21CCnc2c1ccc2nc2ccccc1Oc2ccc12CCcccn4n3CN1CCCcccc23c2ccccc21C=C(C=O))(c5cccnc5COc1cccccn2lcccc23Ac1NCOCOccc5cc1OCCn4Cc3cn8OCCcn1cc4Ccnc2n1ccn1s3ACOc1cccccc3c2Oc2ccccc2]nc34nc55CCCC51Nnc1CN3CCCNCOc4cccNCCc2ccccc1OClC1NCC1c3cscNc4cc)/S2Cc2cnc1CCCN1nc3COc1nccoOc1ccc@@](c2occ1cnn4n2ccnc2N3CCCccc436Oncn1C4NCc3ccccc3cccn4n3ccn1Cc3ccccc3C2CCC)/cccccc2ccncc2s3BrCCN4N5CCOCC51CCCN1CCc2ccc3nc(=6c4ccccc4OC"
+        },
+        "monomer2": {
+            "smiles": "c1cccc1cccc1ccc(=(=(=(=c1ccc(=c1ccc(=c1ccc(=c1cccc1cccc1cccc1ccc(=c1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccncc1c1cccc1cccc1ccc#c1cccc1ccc#c1cccc1ccc4CCNc1cccc1cccc1cccn3n2(=c1cccc1cccc2c1cccc1cccc1cccCn1ccc1cccCc1nccCCCc1cc4n#c1cccc9c1cccc1cccc1cccc1nc2NSCCCCOc1ccc(=o)=n4n42CC1OCc3nc1cccn44CCNCc1ccccn4C3CCCCC3c1cccN4CCNc2c1noc2c1c34CCCCCCCCCc3nCCCCOFN1CCNSCCc1cccc#4CCNNc3nCCCN1CCCoCOc3ccccc3c1ccc-c1cccc5oCCN3CC5COCc3ccccc3SNc1cccc4CCNNSCCc1ccc)=c4ClNSCc1ccc1ccc#o6CC3CCNCc1ncc4CCNc1cccNc1ccccc3nn4c9c1cccc2coCc1ncc4CCNCCc2ccc1cccc1ccc1CCCN1c2ccccn24CCNc4ccc5ccccc5c4c1ccc4CCNc1cccnc1c1cccc5oO3c1cccCN1CCCCCOCC54CCNnc2ccccc2n1CN1CCC(=1CCCN1Cc3n6Cc1cccc1cccN4CCNCc1ccn2cc6Cc2c8)-c3nc1cN1CC1n2cn4CCNn4@](c1cccC1CCC(=Cc1nccc1cccc1ccc-N1CCC4CCNNSN2CCOCC2c3ocF(=Cc3ccccc3c1cOc2ccc1cccCc1ccccCn1ccCc1nccc5nc6oCOc1ccccOc23c1cccc1cccc1cccn4N5CCOCC5O3COc1ccc2Co(=N3CCCo36c1cccCc1ccc1cccCc1n4oc1cccn1cCCCc1cNSCNNSc1cccc1cccc2c1ccncc1"
+        },
+        "add_noise": true
+    },
+    {
+        "input_smiles": [
+            "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+            "CC(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O"
+        ],
+        "temperature": 0.8,
+        "desired_groups": [
+            "[OX2]1[CX3][CX3]1",
+            "[NX2]=[CX3]"
+        ],
+        "ER": 158,
+        "TG": 171,
+        "monomer1": {
+            "smiles": "4[)=c3nc3n)=)=)=)=c3nc7c3nc3nn4cc)=C4c2cc1OC)=)=)=)=c2cc1OC)=c4ccccc4c5ccccc35)=)=)=)=c2cc1OC)=c2cc1OCc2cc1OCc2cc1OCc2cc1OC)=c4ccccc4c4ccc2cccccccc4c2cc1OC(=)=c2cc1OCc3n1CCN1C)=n1cc))=)=c2cc1OCc2cc1OC)=c2cc1OC)=n3cc4occc4cc1Fc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OC12n3n212Cn4ccnc4Clc1ccnc13@cc2c3ncn3ncFnc34cc2cn2C3CCNCC3CCNC3c1ccccc1C123Cn1cCc1ncFn3c45c3n1OCC1Oc1ccccc1N2CCNCCc1cc3CN9ccccc1294CCN3CNcc2c2c4OCCCSNc2ncN5cc2FCc2c1OPCOc1ccccc3c2Cs1Nc2ccc3CCN4CCccccc12n4ccnc4c5ccccc5n2C5CCCC5c1cccnc1N2CCNCC2ccc1Oc2cccCOc1ccc2cClc1ccccc451CCCN1c2ccccc2n1c3n1COc1ccc2ccn3cN4c2ocn5NCc2ccc23cc1ClC2Ooccccc23Nc1nc2ccccc1NC4nc21OCCnc2c1ncc134Onc1COc1ccccn4Nc1cccccc1c2ccccc21CCC1n1ccC5CCNccn11CCCN1Nc1nc2Nc1ccccNc4cccc5o12CCo1ncc2c4on4n4ccccc351O4OSCCCCCC3Oc1ccNNCc2no1CCCN1CCc2ccc3ncccccc2c1CCN2CCCC4c4c5CCCCc5nc6CCN4CCCCc5nc6c3cccc4occc423c3ccc4CCCCCCCCCOc3ccccc3c34Cc1ccc2ocCOc3cccClC3Oc1ccc[nH]cc11CCCN1Cccc45c4Cn2ccnc2c1ccccc1Occccc23o1c4o8n3ccCCCCCNCCCCCOnc2C@COc1ccccc1CN2CCC3Nc2ccccc2cc2ClC7nc1c4c3N2CCCNCc2cccccc45Cc1cccccccc2n1cc2s1nc3C1CCC2c3n1Fc4cncc4ccc[nH]cc4ccccc5c4C4CCCCC4c4ClCCOnoc2c1nn4OCCCN4NCCNCsc2c1NCc2ccccc12Clc1ccccc4c3cn3cc1Sc1F5CCCCcccc4"
+        },
+        "monomer2": {
+            "smiles": "c1cccc1cccc1ccc(=(=(=c1ccc(=(=(=(=(=c1ccc(=(=c1ccccc1c1ccc(=(=(=c1ccc(=c1ccc(=c1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc(=c1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc(=c1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccNSc1cccc1cccc1cccc1cccc1cccc1cccc3cc1cccc1cccc1cccc1cccc1cccc1cccc1ccc3Oc1cccc1cccc1cccc1cccc1ccc)=c1cccc1cccc1cccc1cccc1cccc1ccc@c1cccNCc4ccccn4c1cccc1cccc1cccc4CCN(=oc1cccc1cccC2OC2c3nc1cccn4c1ccc(-#(=oc1cccNSo#4CCN4CCNN1CCc2nc4CCNc1ccc(=c3n1CCCc1cNSCCO2(=Cc1nccc1cccncnc3)=c1cnccoc1cccc1cccc3n1c1cccc2)=(=8oFc1cccc1cccc1ccc\\[6C12Cc1ccc4CCNn2cnc1ccc4CCN4CCNc1cccc1cccc3n1OCCc1ccc1ccc(=c1cN4CCNc3nCc1nccc2cCc4ccc#c1cccc1ccc4CCNFC1CCC2NSNSc1ccc4CCN4CCNo1CCN3CCNoc3n4CCNc1ccc)=c1ccc-4CCNc1cccnc3N4CCN4CCNc3nc1cccNSc4CCCCc1cccCCc1ccccCc1ccccc1cccc1cccn46Cc1cccc7ccccc7c1ccncc1Nc1cc1ccc#6C6Cc3n4CCNO3Nc2ccccc2oNS-NSoc1cccO3Cn1ccCc1nccc1cccC1CC1c3nc3nC5CC5c1cccn41CCCN1CCCc1cc1cccc1cccc1cccNS(=c1ccc4CCNNSc3n-4CCNCCOPc1ccc6CCc1ccccc4c32COc1cco"
+        },
+        "add_noise": true
+    },
+    {
+        "input_smiles": [
+            "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+            "CC(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O"
+        ],
+        "temperature": 0.6,
+        "desired_groups": [
+            "[OX2]1[CX3][CX3]1",
+            "[NX2]=[CX3]"
+        ],
+        "ER": 158,
+        "TG": 171,
+        "monomer1": {
+            "smiles": "c7[CC)=)=)=)=)=)=)=c3nc5cccc)=)=)=)=c13(=)=)=)=c4ccccc4)=)=)=)=)=)=c2cc1OCc2cc1OCc2cc1OCc2cc1OC)=)=c2cc1OC)=c2cc1OCn4ccnc4n4ccnc4)=)=c2cc1OC)=(=c2cc1OC)=c2cc1OCc2cc1OCc2cc1OCc2n1c2cc1OC)=c2cc1OCc4ccccc34)=c2cc1OC)=c2cc1OC)c2cc1OCc2cc1OC)=c2cc1OCc2cc1OCc2cc1OC)=c2cc1OCc2cc1OCc2cc1OCc2cc1OCc2ccccn2c2cc1OCnc312#c2cc1OC)/ccccc3c212C1OOC1c3c2CN2CCC37nc2ccccc2n14NC25CCCCccc45cc1OC5CC6CCN1CCCCOCNc1ccc1S@@](Oc1ccc2cccnc2Cc1cccc2CCCN2C4Occccc21Ccc1Sc5cccnc5Cc1nc12CCn41CCCN14F4C4C4CC4C2CC1CN12CCccccc12CNCCCCC1n1cccccn4n3cc3Clc1ccccc1n45ccn13CCCC12CCCCCCCNCn4N3Cn2ccnc2nc3csc5ccccc45N3CCCC31OCC1OCCOCC2ccc45#c1ccccc1CCCc1ccO2Cc1ccc#8cc34CCCCC3c4ccccc4COCCCCCn3cc12CONCNCCccn2C1CCC2ccn1ccccc14#Cc1cccccc2s1345CCCC1C)(ccccc35NC1C=nccCC7ccc451Nn41CCCN1ncc2c1scccc45CCCCC4cc3Clo1c2ocCc1occn2cc2c3nc34C36OCCN4cc2Occ24O1CCCN1CCc2ccc3nc4OCc2c1occccc13cc2cnno1O4Sc2cccc2ccccc2c1Fc4ccccc34COc4ccc1CCCN1CF)(cc1OCC4Cc3ncNCC12CC4ncnc3@Cc4ccc1N4N512C45CCCC5nc3N4ON4CCNccc3nc1Cnc1cn2@@c1cnccc5cccnc5c6ccccc6[1CCCN1ccn14n4c6ccccc6[CC7c7ccccc73CCNccc34c1cccnc1"
+        },
+        "monomer2": {
+            "smiles": "c1cccc1ccc(=(=(=(=(=(=(=(=(=(=c1cccc1ccc(=(=c1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc(=c1cccc1cccc1cccc1cccc1cccc1ccc(=c1ccc(=c1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccn4Cc1nccc1cccoC=C(C=O)c1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc(=c1cccc1ccncc1c1cccc1cccc1cccc1cccc1cccc3nc1cccc1cccc1cccc1cccc1cccc1cccNSc1cccc1cccc1cccc1ccc4CCNc1cccc1cccc1cccc1ccc(=c1cccCCCCOc1cccc1ccc4CCNc1cccoc1cccc1ccc#c1cccn4c1cccc1cccc1cccc1cccc1cccc1ccc4CCNc1cccc1cccc1cccc1ccc4CCN3O4CCNc1ccc4CCNc1ccc4CCNc1cccoc1cccc3n4CCNc1ccc4CCNc1ccc4CCNc1cccc1cccc1ccc4CCNoc3nc1ccc4CCNc1cccNSc1cccn2ccc4CCN4CCNc1cccn4c1cccc1cccNS(=4CCNc1ccc#Cc1ncc1cccoc1ccc1CCCN1Cc1cccc1cccNSc1cccc1cccc1cccn2cnc1cccc1cccc1cccc1cccc3n4CCNc1ccc(=c1ccc4CCNc1cccc1ccc4CCNc4ccncc4c1ccco4CCN4CCNc1cccc1cccc1ccc4CCNc1ccc#4CCNn4c1cccNSOc1ccO3CCCCNNSn4c1cccc1cccoNSc1ccc(=c1cccNSc1ccc4CCNc1ccc6Cc1cccc1cccoc1cccO3(=(=c1cccc1cccc3nc1ccc4CCNc1cccc1ccc(=4CCN"
+        },
+        "add_noise": true
+    },
+    {
+        "input_smiles": [
+            "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+            "CC(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O"
+        ],
+        "temperature": 0.4,
+        "desired_groups": [
+            "[OX2]1[CX3][CX3]1",
+            "[NX2]=[CX3]"
+        ],
+        "ER": 158,
+        "TG": 171,
+        "monomer1": {
+            "smiles": "c7[CC)=)=)=)=)=)=)=c3nc3n)=)=C4)=)=)=)=)=)=)=)=)=)=)=c2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OC)=c2cc1OCc2cc1OC)=c2cc1OCc2cc1OC)=c2cc1OC)=)=c2cc1OCc2cc1OCc2cc1OC)=)=)=)=)=)=)=c2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OC)=c2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OCc2cc1OC1212cccn4n31212Oc4ccccc45CCCCc1nc212ccn1nc3N1CCCN1N1c1cccnc3N12o112CCo1Nc1ccccNc1nc2c4ccncc4cc4F13ccc454CCo1o11CCCN11OCC12Ccc1OCcc2c3nc4CFcc34c71CCCN1sc5ccccc45ccc1Cl4C5ccc45PN5CCN12C1N12CCcn1OCCOc1ccc2ncccc45c1cccnc1ccc451OCCCC1CCC1N4Oc13o1c5occc5CN2CCCO4#F4@cc3Cl](lo1cc3cccccc5c4c4cnccc2ccccc3c2CCN4ccc1Oc2ccco1o11Nn1ccC=C(C=O)nc1Ccc2Fnc1Ccc7n1n2ccnc2oncncc31CCCN1CCc2ccc3nc1OCCn1cn34Cc1ccNC31CCCN14OCCOc1ccccc1o1Cc4ccccc44OFcc1F1OCC1OCCccc3c2ccccc5c4ccc45o1c1cncco1n2ccnc2cc2c1nc19cc2o1ccccc2c14OOc2cccc@91Co1n4COc4ccc4O2OFC4C@n4ccn1n3nc1OCCN51OCC1Ccc24Cn41OCCNCc3cccccc453CCccc45c23o14CCC61CCCN1s4n4Cc1nc@@](Fcc2c3nc34nn3CC3ccccc24n4c4Clo1n44O4512CCO2NCCO@n4"
+        },
+        "monomer2": {
+            "smiles": "c1cccc1ccc(=(=(=(=(=(=(=(=(=(=(=c1ccc(=c1cccc1cccc1cccc1ccc(=c1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc(=c1cccoc1cccc1ccc(=c1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc#c1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc4CCNc1cccc1cccc1cccc1cccc1cccc1cccc1ccc4CCNc1cccNSc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccNSc1ccco(=c1cccc1cccc1cccc1cccc1ccc4CCNc1cccc1ccc4CCNc1ccc4CCNc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccNSc1ccc4CCNc1cccc1cccc1cccc1cccc1cccc1cccn4c1cccc1cccn4c1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccCc1nccc1cccc1cccc1cccc1cccoc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1cccc1ccc)=4CCNoc1cccc1cccNSNS"
+        },
+        "add_noise": true
     }
 ]

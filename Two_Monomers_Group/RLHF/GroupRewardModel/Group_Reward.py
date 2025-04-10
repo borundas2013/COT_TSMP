@@ -169,7 +169,7 @@ class GroupRewardScorePredictor:
     
         
         # Train models
-        print("Training Er model...")
+        print("Training Reward model...")
         self.score_model.fit(
             features_scaled, scores,
             validation_split=validation_split,

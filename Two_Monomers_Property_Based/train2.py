@@ -270,23 +270,23 @@ def custom_training_loop(model, train_data, val_data=None, epochs=1, max_length=
                 loss_decoder1 = custom_loss(original_monomer1,    generated_tokens1)
                 loss_decoder2 = custom_loss(original_monomer2, generated_tokens2)
 
-                reaction_reward = calculate_reaction_reward(original_monomer1,original_monomer2,generated_tokens1,generated_tokens2)
-                print("Reaction Reward: ", reaction_reward)
-                print("Loss Decoder 1: ", loss_decoder1)
-                print("Loss Decoder 2: ", loss_decoder2)    
-                print("Total Loss: ", loss_decoder1+loss_decoder2)
+                # reaction_reward = calculate_reaction_reward(original_monomer1,original_monomer2,generated_tokens1,generated_tokens2)
+                # print("Reaction Reward: ", reaction_reward)
+                # print("Loss Decoder 1: ", loss_decoder1)
+                # print("Loss Decoder 2: ", loss_decoder2)    
+                # print("Total Loss: ", loss_decoder1+loss_decoder2)
 
-                property_reward = calculate_property_reward(generated_tokens1,generated_tokens2,x_batch['tg_list'],x_batch['er_list'])
-                print("Property Reward: ", property_reward)
+                # property_reward = calculate_property_reward(generated_tokens1,generated_tokens2,x_batch['tg_list'],x_batch['er_list'])
+                # print("Property Reward: ", property_reward)
                 
                 
-                print("Raw Reaction Reward:", reaction_reward)
+                # print("Raw Reaction Reward:", reaction_reward)
           
-                print("Raw Property Reward:", property_reward)
-                print("Current alpha:", alpha)
+                # print("Raw Property Reward:", property_reward)
+                # print("Current alpha:", alpha)
                 
                 # Combined loss with normalized rewards and adaptive weighting
-                total_loss = loss_decoder1 + loss_decoder2 - alpha * (reaction_reward + property_reward)
+                total_loss = loss_decoder1 + loss_decoder2 #- alpha * (reaction_reward + property_reward)
                 print("After reward Total Loss:", total_loss)
             
             # Calculate and apply gradients
@@ -335,8 +335,8 @@ def validate_model(model, val_data, batch_size, custom_loss, alpha, max_length, 
     # Initialize metrics
     val_loss = tf.keras.metrics.Mean()
     reconstruction_loss = tf.keras.metrics.Mean()
-    reward_metric = tf.keras.metrics.Mean()
-    property_metric = tf.keras.metrics.Mean()
+    # reward_metric = tf.keras.metrics.Mean()
+    # property_metric = tf.keras.metrics.Mean()
     valid_predictions = 0
     total_samples = 0
     
@@ -377,18 +377,18 @@ def validate_model(model, val_data, batch_size, custom_loss, alpha, max_length, 
                 reconstruction_loss.update_state(recon_loss)
                 
                 # Calculate reaction reward (optional during validation)
-                reaction_reward = calculate_reaction_reward(
-                    original_monomer1, original_monomer2,
-                    generated_tokens1, generated_tokens2
-                )
-                property_reward = calculate_property_reward(
-                    generated_tokens1, generated_tokens2,
-                    x_batch['tg_list'], x_batch['er_list']
-                )
-                reward_metric.update_state(reaction_reward)
-                property_metric.update_state(property_reward)
+                # reaction_reward = calculate_reaction_reward(
+                #     original_monomer1, original_monomer2,
+                #     generated_tokens1, generated_tokens2
+                # )
+                # property_reward = calculate_property_reward(
+                #     generated_tokens1, generated_tokens2,
+                #     x_batch['tg_list'], x_batch['er_list']
+                # )
+                # reward_metric.update_state(reaction_reward)
+                # property_metric.update_state(property_reward)
                 # Total loss (you might want to use different weights for validation)
-                total_loss = recon_loss - alpha * (reaction_reward + property_reward)
+                total_loss = recon_loss #- alpha * (reaction_reward + property_reward)
                 val_loss.update_state(total_loss)
                 
                 # Count valid predictions
@@ -417,7 +417,7 @@ def validate_model(model, val_data, batch_size, custom_loss, alpha, max_length, 
         print("\nValidation Results:")
         print(f"Total Loss: {val_loss.result():.4f}")
         print(f"Reconstruction Loss: {reconstruction_loss.result():.4f}")
-        print(f"Average Reward: {reward_metric.result():.4f}")
+        #print(f"Average Reward: {reward_metric.result():.4f}")
         print(f"Validity Rate: {validity_rate:.2%}")
         
         return val_loss.result()

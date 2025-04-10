@@ -1,0 +1,49 @@
+API_KEY =""
+TRAINING_ID = "file-FPYiBAjqTmWpUbzLEpWW9G"
+FINETUNING_JOB_ID = "ftjob-RwDjsP9J3xmWEs2iGAMpidTG"
+FINETUNE_MODEL_ID = "ft:gpt-4o-mini-2024-07-18:personal::BK7JzrEw"
+NUM_SAMPLES = 20
+
+
+TRAINING_FILE_LARGE_ID ="file-9tbKHnYMycDBoi6eyz4XTq"
+TRAINNG_FILE_SMALL_ID ="file-Huzm6fBDYMuuLNZYf37EnY"
+
+VALIDATION_FILE_LARGE_ID ="file-A2mFab2LAWw32fSt6hP7Un"
+VALIDATION_FILE_SMALL_ID ="file-6aZtqEqvQQVPoNJ9hQbArV"
+
+
+FINETUNING_FILE_LARGE_ID ="ftjob-8ZhfHCkPTUOySgSFajdFqrNw"
+FINETUNING_FILE_SMALL_ID ="ftjob-M8J6zSTeNPgpAsEsnA0Xg345"
+
+FINETUNED_LARGE_MODEL_ID ="ft:gpt-4o-mini-2024-07-18:personal::BKDop7EJ"
+FINETUNED_SMALL_MODEL_ID ="ft:gpt-4o-mini-2024-07-18:personal::BKD8CQXk"
+
+
+
+FINETUNED_LARGE_MODEL_ID_NEW ="ft:gpt-4o-mini-2024-07-18:personal::BKodpSOI"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ftjob-C9AXVRnHHF3wqQi9RR8qiyAq, ftjob-55Cc9bDR75f14zeJaloUdEr8
+
+

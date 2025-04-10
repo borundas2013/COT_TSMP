@@ -14,6 +14,33 @@ def predict_properties(smiles1: str, smiles2: str, ratio_1: float, ratio_2: floa
     predictor = load_predictor()
     return predictor.predict(smiles1, smiles2, ratio_1, ratio_2)
 
+def predict_properties_batch(smiles1: list[str], smiles2: list[str], ratio_1: float, ratio_2: float) -> tuple:
+    """Predict Er and Tg for a given SMILES pair"""
+    predictor = load_predictor()
+    scores = []
+    for i in range(len(smiles1)):
+        pred_tg, pred_er = predict_properties(smiles1[i], smiles2[i], 0.5, 0.5)
+        print(f"Predictions - Tg: {pred_tg:.2f}, Er: {pred_er:.2f}")
+        print(f"Actuals    - Tg: {actual_tg:.2f}, Er: {actual_er:.2f}")
+        scores.append(
+            {
+                "tg_score": pred_tg,
+                "er_score": pred_er,
+            }
+        )
+    return scores
+
+def predict_property(smiles1, smiles2):
+    tg, er = predict_properties(smiles1, smiles2, 0.5, 0.5)
+    return {
+        "tg_score": tg,
+        "er_score": er
+    }
+    
+    
+      
+    
+
 
 def reward_score(smiles1, smiles2, actual_tg, actual_er):
     

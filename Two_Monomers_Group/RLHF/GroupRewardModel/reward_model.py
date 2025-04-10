@@ -51,6 +51,10 @@ from GroupRewardModel.Group_Reward import GroupRewardScorePredictor
 from constants import Constants
 from pathlib import Path
 from rdkit import Chem
+import numpy as np
+from data_processor import DataProcessor
+import json
+import RLHF.RLHFConstants as RLHFConstants
 
 
 
@@ -72,6 +76,31 @@ class RewardModel(tf.keras.Model):
             scores.append(score)
             
         return tf.convert_to_tensor(scores)
+    
+    def update_with_feedback(self, feedback):
+        """Update the reward model with new feedback"""
+        data_path = RLHFConstants.DATA_WITH_SCORE
+        data = DataProcessor.load_data(data_path)
+        train_data, test_data = DataProcessor.split_data(data)
+        print(len(train_data['smiles1']))
+        X = []
+        y = []
+        for entry in feedback:
+           train_data['smiles1'].append(entry['smiles1'])
+           train_data['smiles2'].append(entry['smiles2'])
+           train_data['group1'].append(entry['group1'])
+           train_data['group2'].append(entry['group2'])
+           train_data['score'].append(entry['score'])
+
+        print(len(train_data['smiles1']))
+       
+        self.predictor.train(
+            train_data,
+            validation_split=Constants.VALIDATION_SPLIT,
+            epochs=Constants.DEFAULT_EPOCHS
+        )
+        self.predictor.save_models()
+        print(f"Updated reward model with {len(feedback)} new feedback samples")
 
     def get_reward(self, smiles1, smiles2, group1, group2):
         """Get reward score for a single pair"""
@@ -87,9 +116,36 @@ class RewardModel(tf.keras.Model):
                 sample['group1'],
                 sample['group2']
             )
+            # Save valid sample with reward score to json
+            if reward is not None:
+                sample_with_reward = {
+                    'smiles1': sample['smiles1'],
+                    'smiles2': sample['smiles2'], 
+                    'group1': sample['group1'],
+                    'group2': sample['group2'],
+                    'reward': float(reward)
+                }
+                
+                # Create directory if it doesn't exist
+                os.makedirs(RLHFConstants.SAMPLES_WITH_REWARD_PATH, exist_ok=True)
+                
+                # Load existing data if file exists
+                json_path = os.path.join(RLHFConstants.SAMPLES_WITH_REWARD_PATH, 
+                                       RLHFConstants.SAMPLES_WITH_REWARD_FILE_NAME)
+                try:
+                    with open(json_path, 'r') as f:
+                        saved_samples = json.load(f)
+                except (FileNotFoundError, json.JSONDecodeError):
+                    saved_samples = []
+                    
+                # Append new sample and save
+                saved_samples.append(sample_with_reward)
+                with open(json_path, 'w') as f:
+                    json.dump(saved_samples, f, indent=4)
             if reward is None:
-                reward = 0
-            rewards.append(reward)
+                rewards.append(0.0)
+            else:
+                rewards.append(reward)
         return tf.convert_to_tensor(rewards)
 
 # Usage example:

@@ -218,14 +218,14 @@ if __name__ == "__main__":
 
     
     # Example usage
-    json_file = "Two_Monomers_Group/output_analyzer/latest2/valid_pairs_during_training_Old_data_gpu.json"
+    json_file = "Two_Monomers_Group/output_analyzer/latest2/valid_pairs_during_training_1.json"
     try:
         results_good, results_bad = analyze_training_outputs(json_file)
          # Save results to CSV files
         good_df = pd.DataFrame(results_good)
         bad_df = pd.DataFrame(results_bad)
-        good_df.to_csv('Two_Monomers_Group/output_analyzer/latest2/good_results_Old_data_gpu.csv', index=False)
-        bad_df.to_csv('Two_Monomers_Group/output_analyzer/latest2/bad_results_Old_data_gpu.csv', index=False)
+        good_df.to_csv('Two_Monomers_Group/output_analyzer/latest2/good_results_1.csv', index=False)
+        bad_df.to_csv('Two_Monomers_Group/output_analyzer/latest2/bad_results_1.csv', index=False)
 
         # Print statistics
         print("\nAnalysis Results:")

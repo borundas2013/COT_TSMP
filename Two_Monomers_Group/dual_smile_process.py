@@ -4,6 +4,7 @@ import numpy as np
 import tensorflow as tf
 from rdkit import Chem
 from Data_Process_with_prevocab import *
+import random
 
 def process_dual_monomer_data(excel_path, smiles_col='SMILES'):
 
@@ -110,6 +111,7 @@ def encode_functional_groups(monomer1_list, monomer2_list):
 
 def prepare_training_data2(max_length, vocab,file_path):
     monomer1_list, monomer2_list = process_dual_monomer_data(file_path)
+    valid_reaction = reaction_valid_samples(monomer1_list,monomer2_list)
     monomer1_list, monomer2_list = monomer1_list[:10], monomer2_list[:10]
     group_features = encode_functional_groups(monomer1_list, monomer2_list)
     tokens1 = tokenize_smiles(monomer1_list)
@@ -191,9 +193,34 @@ def prepare_training_data2(max_length, vocab,file_path):
     
     return inputs, outputs
 
+def reaction_valid_samples(smiles1,smiles2):
+ 
+    valid_reaction = []
+    invalid_reaction = []
+    for i in range(len(smiles1)):
+        reaction_valid = filter_valid_groups(smiles1[i], smiles2[i])
+        if reaction_valid:
+            valid_reaction.append([smiles1[i],smiles2[i]])
+        else:
+            invalid_reaction.append([smiles1[i],smiles2[i]])
+
+    print(len(valid_reaction))
+    print(len(invalid_reaction))
+    random_invalid_reaction = random.sample(invalid_reaction, 259)
+    valid_reaction.extend(random_invalid_reaction) 
+    print(len(valid_reaction))
+    return valid_reaction
+    
+
 def prepare_training_data(max_length, vocab, file_path):
     monomer1_list, monomer2_list = process_dual_monomer_data(file_path)
-    monomer1_list, monomer2_list = monomer1_list[:50], monomer2_list[:50]
+    #monomer1_list, monomer2_list = monomer1_list[:2], monomer2_list[:2]
+    valid_reaction = reaction_valid_samples(monomer1_list,monomer2_list)
+    monomer1_list = [i[0] for i in valid_reaction]
+    monomer2_list = [i[1] for i in valid_reaction]
+  
+
+    monomer1_list, monomer2_list = monomer1_list[:2], monomer2_list[:2]
 
     # Encode functional groups
     group_features = encode_functional_groups(monomer1_list, monomer2_list)
@@ -347,6 +374,26 @@ def check_reaction_validity_with_invalid_groups(smiles1, smiles2):
     else:
         return ["No_group", "No_group"], 0
     
+def filter_valid_groups(smiles1, smiles2):
+    pairs = [
+        (Constants.VINYL_SMARTS, Constants.THIOL_SMARTS, ['C=C', 'CCS']),
+        (Constants.THIOL_SMARTS, Constants.VINYL_SMARTS, ['CCS', 'C=C']),
+        (Constants.VINYL_SMARTS, Constants.ACRYL_SMARTS, ['C=C', 'C=C(C=O)']),
+        (Constants.ACRYL_SMARTS, Constants.VINYL_SMARTS, ['C=C(C=O)', 'C=C']),
+        (Constants.EPOXY_SMARTS, Constants.IMINE_SMARTS, ['C1OC1', 'NC']),
+        (Constants.IMINE_SMARTS, Constants.EPOXY_SMARTS, ['NC', 'C1OC1']),
+        (Constants.VINYL_SMARTS, Constants.VINYL_SMARTS, ['C=C', 'C=C']),
+        
+    ]
+    for smarts1, smarts2, labels in pairs:
+        count1 = count_functional_groups(smiles1, smarts1)
+        count2 = count_functional_groups(smiles2, smarts2)
+        if count1 >= 2 and count2 >= 2:
+            return True
+       
+        else:
+            return False
+    
     
     
 def add_gaussian_noise(tokens, noise_level=1):
@@ -402,7 +449,10 @@ def prepare_training_data_with_noise2(max_length, vocab, file_path, noise_config
 
     # Original data preparation
     monomer1_list, monomer2_list = process_dual_monomer_data(file_path)
-    #monomer1_list, monomer2_list = monomer1_list[:10], monomer2_list[:10]
+    valid_reaction = reaction_valid_samples(monomer1_list,monomer2_list)
+    monomer1_list = [i[0] for i in valid_reaction]
+    monomer2_list = [i[1] for i in valid_reaction]
+    monomer1_list, monomer2_list = monomer1_list[:2], monomer2_list[:2]
     group_features = encode_functional_groups(monomer1_list, monomer2_list)
     tokens1 = tokenize_smiles(monomer1_list)
     tokens2 = tokenize_smiles(monomer2_list)

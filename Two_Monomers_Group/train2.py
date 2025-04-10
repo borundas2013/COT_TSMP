@@ -208,14 +208,14 @@ def custom_training_loop(model, train_data, val_data=None, epochs=1, max_length=
                 loss_decoder1 = custom_loss(original_monomer1,   generated_tokens1)
                 loss_decoder2 = custom_loss(original_monomer2,    generated_tokens2)
 
-                reaction_reward = calculate_reaction_reward(original_monomer1,original_monomer2,generated_tokens1,generated_tokens2)
-                print("Reaction Reward: ", reaction_reward)
+                #reaction_reward = calculate_reaction_reward(original_monomer1,original_monomer2,generated_tokens1,generated_tokens2)
+                #print("Reaction Reward: ", reaction_reward)
                 print("Loss Decoder 1: ", loss_decoder1)
                 print("Loss Decoder 2: ", loss_decoder2)    
                 print("Total Loss: ", loss_decoder1+loss_decoder2)
                 
                 # # Combined loss
-                total_loss = loss_decoder1 + loss_decoder2 - 0.8*reaction_reward
+                total_loss = loss_decoder1 + loss_decoder2 #- 0.8*reaction_reward
                 print("After reward Total Loss: ", total_loss)
             
             # Calculate and apply gradients
@@ -270,7 +270,7 @@ def validate_model(model, val_data, batch_size, custom_loss, max_length, vocab_s
     # Initialize metrics
     val_loss = tf.keras.metrics.Mean()
     reconstruction_loss = tf.keras.metrics.Mean()
-    reward_metric = tf.keras.metrics.Mean()
+    #reward_metric = tf.keras.metrics.Mean()
     valid_predictions = 0
     total_samples = 0
     
@@ -306,14 +306,14 @@ def validate_model(model, val_data, batch_size, custom_loss, max_length, vocab_s
                 reconstruction_loss.update_state(recon_loss)
                 
                 # Calculate reaction reward (optional during validation)
-                reward = calculate_reaction_reward(
-                    original_monomer1, original_monomer2,
-                    generated_smiles1, generated_smiles2
-                )
-                reward_metric.update_state(reward)
+                # reward = calculate_reaction_reward(
+                #     original_monomer1, original_monomer2,
+                #     generated_smiles1, generated_smiles2
+                # )
+                #reward_metric.update_state(reward)
                 
                 # Total loss (you might want to use different weights for validation)
-                total_loss = recon_loss - 0.8 * reward
+                total_loss = recon_loss #- 0.8 * reward
                 val_loss.update_state(total_loss)
                 
                 # Count valid predictions
@@ -342,7 +342,7 @@ def validate_model(model, val_data, batch_size, custom_loss, max_length, vocab_s
         print("\nValidation Results:")
         print(f"Total Loss: {val_loss.result():.4f}")
         print(f"Reconstruction Loss: {reconstruction_loss.result():.4f}")
-        print(f"Average Reward: {reward_metric.result():.4f}")
+        #print(f"Average Reward: {reward_metric.result():.4f}")
         print(f"Validity Rate: {validity_rate:.2%}")
         
         return val_loss.result()

@@ -31,6 +31,8 @@ MODEL_PATH = "property_based_rl_model"
 PRETRAINED_MODEL_PATH = "saved_models_rl_gpu_4"
 DATA_PATH = "unique_smiles_Er.xlsx"
 
+FEEDBACK_COLLECT_INTERVAL = 10
+
 
 VOCAB_PATH = 'Two_Monomers_Group/tokenizers/vocab_1000/vocab.txt'#'tokenizers/vocab_1000/vocab.txt'
 TOKENIZER_PATH = 'Two_Monomers_Group/tokenizers/vocab_1000/tokenizer'#tokenizers/vocab_1000/tokenizer'

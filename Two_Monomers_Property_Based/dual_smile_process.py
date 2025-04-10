@@ -4,6 +4,7 @@ import numpy as np
 import tensorflow as tf
 from rdkit import Chem
 from Data_Process_with_prevocab import *
+import random
 
 def process_dual_monomer_data(excel_path):
 
@@ -135,6 +136,101 @@ def add_mask_noise(tokens, vocab, mask_rate=0.1):
     noisy_tokens[mask] = mask_token
     return noisy_tokens
 
+def reaction_valid_samples(smiles1,smiles2,er_list,tg_list):
+ 
+    valid_reaction = []
+    invalid_reaction = []
+    for i in range(len(smiles1)):
+        reaction_valid = filter_valid_groups(smiles1[i], smiles2[i])
+        if reaction_valid:
+            valid_reaction.append([smiles1[i],smiles2[i],er_list[i],tg_list[i]])
+        else:
+            invalid_reaction.append([smiles1[i],smiles2[i],er_list[i],tg_list[i]])
+
+    print(len(valid_reaction))
+    print(len(invalid_reaction))
+    random_invalid_reaction = random.sample(invalid_reaction, 259)
+    valid_reaction.extend(random_invalid_reaction) 
+    print(len(valid_reaction))
+    return valid_reaction
+
+def check_reaction_validity_with_invalid_groups(smiles1, smiles2):
+    mol1 = Chem.MolFromSmiles(smiles1)
+    mol2 = Chem.MolFromSmiles(smiles2)
+    pairs = [
+        (Constants.VINYL_SMARTS, Constants.THIOL_SMARTS, ['C=C', 'CCS']),
+        (Constants.THIOL_SMARTS, Constants.VINYL_SMARTS, ['CCS', 'C=C']),
+        (Constants.VINYL_SMARTS, Constants.ACRYL_SMARTS, ['C=C', 'C=C(C=O)']),
+        (Constants.ACRYL_SMARTS, Constants.VINYL_SMARTS, ['C=C(C=O)', 'C=C']),
+        (Constants.EPOXY_SMARTS, Constants.IMINE_SMARTS, ['C1OC1', 'NC']),
+        (Constants.IMINE_SMARTS, Constants.EPOXY_SMARTS, ['NC', 'C1OC1']),
+        (Constants.VINYL_SMARTS, Constants.VINYL_SMARTS, ['C=C', 'C=C']),
+        
+    ]
+    labels = ["No_group","No_group"]
+    total_count = 0
+    found = False
+    for smarts1, smarts2, labels in pairs:
+        count1 = count_functional_groups(smiles1, smarts1)
+        count2 = count_functional_groups(smiles2, smarts2)
+        total = count1 + count2
+        if count1 >= 2 and count2 >= 2:
+            labels[0] = smarts1
+            labels[1] = smarts2
+            total_count = total
+            found = True
+            break
+        elif count1 > 0 and count2 > 0:
+            labels[0] = smarts1
+            labels[1] = smarts2
+            total_count = total
+            found = True
+            break
+        elif count1 > 0 and count2 == 0:
+            labels[0] = smarts1
+            labels[1] = "No_group"
+            total_count = count1
+            found = True
+            break
+        elif count1 == 0 and count2 > 0:
+            labels[0] = "No_group"
+            labels[1] = smarts2
+            total_count = count2
+            found = True
+            break
+        else:
+            labels[0] = "No_group"
+            labels[1] = "No_group"
+            total_count = 0
+            found = False
+        
+        
+    
+    if found:
+        return labels, total_count
+    else:
+        return ["No_group", "No_group"], 0
+    
+def filter_valid_groups(smiles1, smiles2):
+    pairs = [
+        (Constants.VINYL_SMARTS, Constants.THIOL_SMARTS, ['C=C', 'CCS']),
+        (Constants.THIOL_SMARTS, Constants.VINYL_SMARTS, ['CCS', 'C=C']),
+        (Constants.VINYL_SMARTS, Constants.ACRYL_SMARTS, ['C=C', 'C=C(C=O)']),
+        (Constants.ACRYL_SMARTS, Constants.VINYL_SMARTS, ['C=C(C=O)', 'C=C']),
+        (Constants.EPOXY_SMARTS, Constants.IMINE_SMARTS, ['C1OC1', 'NC']),
+        (Constants.IMINE_SMARTS, Constants.EPOXY_SMARTS, ['NC', 'C1OC1']),
+        (Constants.VINYL_SMARTS, Constants.VINYL_SMARTS, ['C=C', 'C=C']),
+        
+    ]
+    for smarts1, smarts2, labels in pairs:
+        count1 = count_functional_groups(smiles1, smarts1)
+        count2 = count_functional_groups(smiles2, smarts2)
+        if count1 >= 2 and count2 >= 2:
+            return True
+       
+        else:
+            return False
+
 def prepare_training_data(max_length, vocab,file_path,noise_config=None):
 
     # Default noise configuration
@@ -146,7 +242,12 @@ def prepare_training_data(max_length, vocab,file_path,noise_config=None):
             'mask': {'enabled': False, 'rate': 0.05}
         }
     monomer1_list, monomer2_list, er_list, tg_list = process_dual_monomer_data(file_path)
-    monomer1_list, monomer2_list, er_list, tg_list = monomer1_list[:10], monomer2_list[:10],er_list[:10], tg_list[:10]
+    valid_reaction = reaction_valid_samples(monomer1_list,monomer2_list,er_list,tg_list)
+    monomer1_list = [i[0] for i in valid_reaction]
+    monomer2_list = [i[1] for i in valid_reaction]
+    er_list = [i[2] for i in valid_reaction]
+    tg_list = [i[3] for i in valid_reaction]
+    monomer1_list, monomer2_list, er_list, tg_list = monomer1_list[:2], monomer2_list[:2],er_list[:2], tg_list[:2]
     group_features = encode_functional_groups(monomer1_list, monomer2_list)
     tokens1 = tokenize_smiles(monomer1_list)
     tokens2 = tokenize_smiles(monomer2_list)

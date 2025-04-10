@@ -22,7 +22,10 @@ from Data_Process_with_prevocab import *
 from LoadPreTrainedModel import *
 import tensorflow as tf
 from dual_smile_process import *
+import Two_Monomers_Group.RLHF.RLHFConstants as RLHFConstants
 from DiversityRewardModel.diversity_reward import DiversityReward
+from FeedbackCollector.feedbackCollector import HumanFeedbackCollector
+from ppo_validation import PPOValidator
 
 
 import tensorflow as tf
@@ -33,6 +36,15 @@ from pathlib import Path
 from Data_Process_with_prevocab import decode_smiles
 import json
 from datetime import datetime
+import Constants
+from collections import defaultdict
+import random
+from losswithReward import CombinedLoss
+
+
+
+# Create the strategy
+
 
 class PPOTrainer:
     def __init__(
@@ -46,8 +58,11 @@ class PPOTrainer:
         entropy_coef=0.01,
         max_grad_norm=0.5,
         batch_size=1,
-        save_dir="models/ppo_training"
+        save_dir=RLHFConstants.WEIGHT_PATH,
+        human_feedback_collector=None
     ):
+        
+       
         self.generator = generator
         self.reward_model = reward_model
         self.diversity_reward = diversity_reward
@@ -56,17 +71,22 @@ class PPOTrainer:
         self.entropy_coef = entropy_coef
         self.max_grad_norm = max_grad_norm
         self.batch_size = batch_size
-        
+        self.human_feedback_collector = human_feedback_collector
         # Setup saving directory
         self.save_dir = Path(save_dir)
         self.save_dir.mkdir(parents=True, exist_ok=True)
+        self.save_dir_config = Path(RLHFConstants.CONFIG_PATH)
+        self.save_dir_config.mkdir(parents=True, exist_ok=True)
+        #self.custom_loss = CombinedLoss()
+
+       
         
         # Training history
         self.history = {
             'mean_rewards': [],
             'total_losses': [],
             'policy_losses': [],
-            'entropy_losses': []
+
         }
         
         # Create optimizer
@@ -79,7 +99,9 @@ class PPOTrainer:
             generator.max_length
         )
         self.old_generator.prediction_model.set_weights(generator.prediction_model.get_weights())
-        
+
+        #self.generator.prediction_model.compile(optimizer=self.optimizer, loss=self.custom_loss)
+        #self.old_generator.prediction_model.compile(optimizer=self.optimizer, loss=self.custom_loss)
         # Save initial configuration
         self.save_config()
 
@@ -95,7 +117,7 @@ class PPOTrainer:
             'creation_date': datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
         }
         
-        with open(self.save_dir / 'config.json', 'w') as f:
+        with open(self.save_dir_config / 'config.json', 'w') as f:
             json.dump(config, f, indent=4)
 
     def save_checkpoint(self, epoch, metrics, is_best=False):
@@ -122,7 +144,7 @@ class PPOTrainer:
         }
         
         # Save state to JSON
-        state_filename = 'best_model_state.json' if is_best else f'training_state_epoch_{epoch}.json'
+        state_filename = 'best_training_state.json' if is_best else f'training_state_epoch_{epoch}.json'
         with open(self.save_dir / state_filename, 'w') as f:
             json.dump(state, f, indent=4)
 
@@ -141,22 +163,6 @@ class PPOTrainer:
                 return state['epoch']
         return 0
 
-    @tf.function
-    def compute_loss(self, old_logprobs, new_logprobs, rewards, entropy):
-        """Compute PPO losses"""
-        ratio = tf.exp(new_logprobs - old_logprobs)
-        clipped_ratio = tf.clip_by_value(ratio, 1 - self.clip_epsilon, 1 + self.clip_epsilon)
-        
-        policy_loss = -tf.reduce_mean(
-            tf.minimum(ratio * rewards, clipped_ratio * rewards)
-        )
-        
-        entropy_loss = -tf.reduce_mean(entropy)
-        
-        total_loss = policy_loss + self.entropy_coef * entropy_loss
-        print(total_loss,policy_loss,entropy_loss)
-        
-        return total_loss, policy_loss, entropy_loss
     
     def is_valid_smiles(self, smiles):
         """Check if a SMILES string is valid"""
@@ -167,171 +173,288 @@ class PPOTrainer:
             return True
         except Exception:
             return False
+        
+    def collect_samples(self, input_data_batch):
+        """Collect samples from a batch of input data"""
+
+        samples = []
+
+        print("Input batch shapes:")
+        print(f"monomer1_input shape: {input_data_batch['monomer1_input'].shape}")
+        print(f"monomer2_input shape: {input_data_batch['monomer2_input'].shape}")
+        print(f"group_input shape: {input_data_batch['group_input'].shape}")
+        print(f"decoder_input1 shape: {input_data_batch['decoder_input1'].shape}")
+        print(f"decoder_input2 shape: {input_data_batch['decoder_input2'].shape}")
+
+        original_monomer1 = input_data_batch['original_monomer1']
+        original_monomer2 = input_data_batch['original_monomer2']
+        attempts = 0
+        sample=0
+
+        while sample < RLHFConstants.NUM_SAMPLES:
+            generated_tokens = self.generator.generate(
+                input_data_batch,
+                training=True,
+            )
+            generated_tokens_1 = generated_tokens[0]
+            generated_tokens_2 = generated_tokens[1]
+            for i in range(len(generated_tokens_1)):
+                token1 =tf.argmax(generated_tokens_1[i], axis=-1)
+                token2 =tf.argmax(generated_tokens_2[i], axis=-1)
+                smiles1 = decode_smiles(token1.numpy())
+                smiles2 = decode_smiles(token2.numpy())
+                input_smiles1 = decode_smiles(tf.argmax(original_monomer1[i], axis=-1).numpy())
+                input_smiles2 = decode_smiles(tf.argmax(original_monomer2[i], axis=-1).numpy())
+                group1 = extract_group_smarts2(input_smiles1)
+                group2 = extract_group_smarts2(input_smiles2)
+                samples.append({
+                        'smiles1': smiles1,
+                        'smiles2': smiles2,
+                        'group1': group1[0],
+                        'group2': group2[0],
+                        'input_smiles1': input_smiles1,
+                        'input_smiles2': input_smiles2})
+                # if self.is_valid_smiles(smiles1) and self.is_valid_smiles(smiles2):
+                #     samples.append({
+                #         'smiles1': smiles1,
+                #         'smiles2': smiles2,
+                #         'group1': group1[0],
+                #         'group2': group2[0],
+                #         'input_smiles1': input_smiles1,
+                #         'input_smiles2': input_smiles2
+                #     })
+            sample+=1
+
+            #loss1 = self.custom_loss(original_monomer1,generated_tokens_1)
+            #loss2 = self.custom_loss(original_monomer2,generated_tokens_2)
+            #total_loss = loss1 + loss2
+            #print("Total loss:",total_loss)
+
+            
+
+
+
+        #print("samples:",samples)
+        print("Length of samples:",len(samples))
+        samples.extend(RLHFConstants.TEST_SAMPLES[:5])
+        print("Length of samples after extension:",len(samples))
+        return samples
+        
     
-    def train_step(self, input_data):
-        """Perform one training step"""
-        # Initialize metrics with default values
+    def rank_samples_by_reward(self, samples, preferred_ratio=0.3):
+        """Rank samples and split into preferred and rejected with consistent ratio"""
+        scored_samples = self.reward_model.get_batch_rewards(samples)
+        sorted_indices = tf.argsort(scored_samples, direction='DESCENDING')
+        
+        total_samples = len(samples)
+        n_preferred = int(total_samples * preferred_ratio)  # e.g., 30 * 0.3 = 9 preferred samples
+        
+        # Convert to numpy array for integer indexing
+        samples_array = np.array(samples)
+        preferred_samples = samples_array[sorted_indices[:n_preferred]]
+        rejected_samples = samples_array[sorted_indices[n_preferred:]]
+        
+        print(f"Total samples: {total_samples}, Preferred: {len(preferred_samples)}, Rejected: {len(rejected_samples)}")
+        return preferred_samples, rejected_samples
+
+    def compute_preference_loss(self, samples):
+        """Compute preference loss with shape checking"""
+        preferred_samples, rejected_samples = self.rank_samples_by_reward(samples)
+        
+        # Get scores
+        preferred_scores = self.reward_model.get_batch_rewards(preferred_samples)
+        rejected_scores = self.reward_model.get_batch_rewards(rejected_samples)
+        
+        # Make sure we have equal number of comparisons
+        min_size = min(len(preferred_scores), len(rejected_scores))
+        preferred_scores = preferred_scores[:min_size]
+        rejected_scores = rejected_scores[:min_size]
+        
+        print(f"Preference loss shapes - Preferred: {preferred_scores.shape}, Rejected: {rejected_scores.shape}")
+        return self.preference_loss(preferred_scores, rejected_scores)
+
+    def preference_loss(self, preferred_scores, rejected_scores):
+        """Compute preference loss with shape validation"""
+        # Ensure inputs are tensors and same shape
+        preferred_scores = tf.convert_to_tensor(preferred_scores, dtype=tf.float32)
+        print("Preferred scores:", preferred_scores)
+        print("Rejected scores:", rejected_scores)
+        
+        # Add shape assertions
+        tf.debugging.assert_equal(tf.shape(preferred_scores), tf.shape(rejected_scores), 
+                                message="Preferred and rejected scores must have same shape")
+        
+        diff = preferred_scores - rejected_scores
+        loss = -tf.math.log_sigmoid(diff)
+        print("Preference loss:", tf.reduce_mean(loss),loss)
+        return tf.reduce_mean(loss)
+    
+    def compute_policy_diff(self, old_action_distribution, new_action_distribution, rewards):
+        """Compute PPO policy ratio"""
+        # Add small epsilon to avoid division by zero
+        eps = 1e-8
+        
+        # Calculate probability ratio
+        ratio = new_action_distribution / (old_action_distribution + eps)
+        
+        # PPO clip
+        ratio_clipped = tf.clip_by_value(
+            ratio, 
+            1 - self.clip_epsilon, 
+            1 + self.clip_epsilon
+        )
+
+        policy_diff = tf.reduce_mean(tf.minimum(ratio, ratio_clipped), axis=-1)  # shape: [batch_size, 2*max_length]
+    
+        return tf.reduce_mean(policy_diff, axis=-1)  # Reduce over vocab dimension
+        
+        
+    
+    def train_step_single_device(self, input_data,epoch,num_devices):
+        """Perform one training step on a single device"""
         metrics = {
-            'total_loss': 0.0,
-            'policy_loss': 0.0,
-            'entropy_loss': 0.0,
-            'mean_reward': 0.0
+            'total_loss': tf.constant(0.0, dtype=tf.float32),
+            'policy_loss': tf.constant(0.0, dtype=tf.float32),
+            'preference_loss': tf.constant(0.0, dtype=tf.float32),   
+            'mean_reward': tf.constant(0.0, dtype=tf.float32)
         }
 
         with tf.GradientTape() as tape:
-            # Generate samples using input data
-            samples = []
-            max_attempts = 1  # Try a few times to get valid SMILES
-            
-            while len(samples) == 0 and max_attempts > 0:
-                # Randomly select an example from input data
-                idx = np.random.randint(0, len(input_data))
-                example = input_data[idx]
-                
-                # Get input data for generation
-                smiles1 = example['smiles1']
-                smiles2 = example['smiles2']
-                group1 = example['group1']
-                group2 = example['group2']
-                
-                try:
-                    # Generate new molecules
-                    tokens, probs, logprobs = self.generator.generate(
-                        temperatures=[0.8],
-                        smiles1=smiles1,
-                        smiles2=smiles2,
-                        group1=group1,
-                        group2=group2
-                    )
-                    
-                    # Store generated samples
-                    generated_smiles1 = 'CC1OC1CCCC'#decode_smiles(tokens[0][0])
-                    generated_smiles2 = 'CCOCCNCC'#decode_smiles(tokens[0][1])
-                    
-                    print("Generated smiles1:", generated_smiles1)
-                    print("Generated smiles2:", generated_smiles2)
-                    
-                    # Validate SMILES strings
-                    if generated_smiles1 and generated_smiles2 and self.is_valid_smiles(generated_smiles1) and self.is_valid_smiles(generated_smiles2):  
-                        # Additional validation could be added here
-                        samples.append({
-                            'smiles1': generated_smiles1,
-                            'smiles2': generated_smiles2,
-                            'group1': group1,
-                            'group2': group2,
-                            'logprobs': probs
-                        })
-                except Exception as e:
-                    print(f"Generation error: {e}")
-                
-                max_attempts -= 1
+            samples = self.collect_samples(input_data)
 
-            if not samples:  # If no valid samples were generated
+            if not samples:
                 print("Warning: No valid samples generated in this step")
                 return metrics
+            
+            
+            rewards = self.reward_model.get_batch_rewards(samples)  
+            diversity_rewards,_ = self.diversity_reward.calculate_reward(samples)
+            
+            rewards = tf.convert_to_tensor(rewards, dtype=tf.float32)
+            diversity_rewards = tf.convert_to_tensor(diversity_rewards, dtype=tf.float32) 
+            
+            total_rewards = 0.6 * rewards + 0.4 * diversity_rewards
+            total_rewards = (total_rewards - tf.reduce_mean(total_rewards)) / (tf.math.reduce_std(total_rewards) + 1e-8)
+            print("Total rewards:", total_rewards)
 
-            try:
-                # Get rewards for valid samples
-                rewards = []
-                diversity_rewards = []
-                for sample in samples:
-                    try:
-                        reward = self.reward_model.get_reward(
-                            sample['smiles1'],
-                            sample['smiles2'],
-                            sample['group1'],
-                            sample['group2']
-                        )
-                        reward = tf.reshape(reward, [-1])
-                       
-                        rewards.append(float(reward) if reward is not None else 0.0)
-                        _,diversity_reward = self.diversity_reward.calculate_reward(
-                            samples,
-                            input_data
-                        )
-                        diversity_reward = tf.reshape(diversity_reward, [-1])
-                        
-                        diversity_rewards.append(float(diversity_reward) if diversity_reward is not None else 0.0)
-                    except Exception as e:
-                        print(f"Reward calculation error: {e}")
-                        rewards.append(0.0)
-                        diversity_rewards.append(0.0)
+            preference_loss = self.compute_preference_loss(samples)
 
-                if not rewards:
-                    return metrics
+           
+            #advantages = total_rewards[:, None] - values
+
+            print("Length of samples for epoch:",epoch,":",len(samples))
+            
+            old_action_distribution = self.old_generator.get_action_distribution(samples)
+            new_action_distribution = self.generator.get_action_distribution(samples)   
+
+            # policy_diff = tf.reduce_mean(
+            #     tf.square(new_action_distribution - old_action_distribution),
+            #     axis=-1  # Reduce over vocab dimension
+            # )
+            policy_diff = self.compute_policy_diff(old_action_distribution, new_action_distribution, total_rewards)
+            #expanded_rewards = tf.expand_dims(total_rewards, -1) 
+            policy_loss = -tf.reduce_mean(total_rewards * policy_diff)
+            total_loss = policy_loss + 0.5 * preference_loss 
+            total_loss = total_loss  / num_devices
+
+            #total_loss = (total_loss + loss) / num_devices
+
+            #total_loss = total_loss + loss
+            
+            print("Policy Loss:", policy_loss.numpy())
+            print("Preference Loss:", preference_loss.numpy())
+            print("Mean Policy Diff:", tf.reduce_mean(policy_diff).numpy())#/ self.strategy.num_replicas_in_sync  
+
+            
+            
+            if epoch % RLHFConstants.FEEDBACK_COLLECT_EPOCH == 0:
+                new_feedback = self.human_feedback_collector.collect_feedback(samples,batch_size=len(samples))
+                self.reward_model.update_with_feedback(new_feedback)
                 
-                print("rewards:",rewards)
-                print("diversity_rewards:",diversity_rewards)
-                    
-                rewards = tf.convert_to_tensor(rewards, dtype=tf.float32)
-                diversity_rewards = tf.convert_to_tensor(diversity_rewards, dtype=tf.float32)
-                values = self.generator.get_values(samples)
-                std_rewards = tf.math.reduce_std(rewards)
-                std_diversity_rewards = tf.math.reduce_std(diversity_rewards)
-                print("std_rewards:",std_rewards)
-                print("std_diversity_rewards:",std_diversity_rewards)
+            metrics = {
+                'total_loss': tf.cast(total_loss, tf.float32),
+                'policy_loss': tf.cast(policy_loss, tf.float32),
+                'preference_loss': tf.cast(preference_loss, tf.float32),
+                'mean_reward': tf.cast(tf.reduce_mean(total_rewards), tf.float32)
+            }
+        if not tf.math.is_nan(total_loss):
+            trainable_vars = self.generator.prediction_model.trainable_variables
+            grads = tape.gradient(total_loss, trainable_vars)
+            self.optimizer.apply_gradients(zip(grads, trainable_vars))   
 
-                if std_rewards > 0:
-                    rewards = (rewards - tf.reduce_mean(rewards)) / (std_rewards + 1e-8)
-                
-                if std_diversity_rewards > 0:
-                    diversity_rewards = (diversity_rewards - tf.reduce_mean(diversity_rewards)) / (std_diversity_rewards + 1e-8)
-                total_rewards = 0.6 * rewards + 0.4 * diversity_rewards
-                advantages = total_rewards - values
-                print("total_rewards:",total_rewards)
-                print("values:",values)
-                print("advantages:",advantages)
-                print("Rewards:",rewards)
-                print("Diversity_rewards:",diversity_rewards)
-                
-
-                # Compute losses
-                old_logprobs = self.old_generator.get_logprobs_batch(samples)
-                new_logprobs = self.generator.get_logprobs_batch(samples)
-                entropy = self.generator.get_entropy(samples)
-                
-                total_loss, policy_loss, entropy_loss = self.compute_loss(
-                    old_logprobs, new_logprobs, advantages, entropy
-                )
-
-                # Update metrics
-                metrics.update({
-                    'total_loss': float(total_loss.numpy()),
-                    'policy_loss': float(policy_loss.numpy()),
-                    'entropy_loss': float(entropy_loss.numpy()),
-                    'mean_reward': float(tf.reduce_mean(total_rewards).numpy())
-                })
-
-                # Apply gradients if loss is valid
-                if not tf.math.is_nan(total_loss):
-                    trainable_vars = self.generator.prediction_model.trainable_variables
-                    grads = tape.gradient(total_loss, trainable_vars)
-                    self.optimizer.apply_gradients(zip(grads, trainable_vars))
-
-                print("Advantage Mean:", tf.reduce_mean(advantages).numpy())
-                print("Logprobs (old vs new):", old_logprobs[:3].numpy(), new_logprobs[:3].numpy())
-
-            except Exception as e:
-                print(f"Training error: {e}")
-                
         return metrics
+    
+    def train_step(self, input_data,epoch):
+        """Perform one training step"""
+        # Initialize metrics with default values
 
-    def train(self, input_data, num_epochs=100, steps_per_epoch=10, 
-              save_freq=5, start_epoch=0):
-        """Full training loop"""
+        return self.train_step_single_device(input_data,epoch,1)
+
+        def replica_train_step(input_data):
+            metrics = {
+            'total_loss': tf.constant(0.0, dtype=tf.float32),
+            #'policy_loss': tf.constant(0.0, dtype=tf.float32),
+            'value_loss': tf.constant(0.0, dtype=tf.float32),
+            'mean_reward': tf.constant(0.0, dtype=tf.float32)
+            }
+
+            with tf.GradientTape() as tape:
+                metrics, samples = self.train_step_single_device(input_data,epoch,self.strategy.num_replicas_in_sync)
+
+                
+            return metrics,samples
+
+        per_replica_metrics, samples = self.strategy.run(replica_train_step, args=(input_data,))
+        if epoch % RLHFConstants.FEEDBACK_COLLECT_EPOCH == 0:
+                new_feedback = self.human_feedback_collector.collect_feedback(samples,batch_size=len(samples))
+                self.reward_model.update_with_feedback(new_feedback)
+        if isinstance(self.strategy, tf.distribute.MirroredStrategy):
+            reduced_metrics = {}
+            for key in per_replica_metrics:
+                # Ensure the values are proper tensors before reduction
+                values = tf.distribute.get_replica_context().all_gather(
+                    per_replica_metrics[key], axis=0
+                )
+                reduced_metrics[key] = tf.reduce_mean(values).numpy()
+        else:
+            # For single device, convert tensors to numpy
+            reduced_metrics = {
+                key: value.numpy() 
+                for key, value in per_replica_metrics.items()
+            }
+        return reduced_metrics
+    
+    def train(self, input_data, num_epochs=100, save_freq=5, start_epoch=0, batch_size=1):
+        """Full training loop with batching"""
         best_reward = float('-inf')
+        total_samples = len(input_data)
+        X, y = input_data
+
+        train_dataset = tf.data.Dataset.from_tensor_slices((
+        {
+            'monomer1_input': X['monomer1_input'],
+            'monomer2_input': X['monomer2_input'],
+            'group_input': X['group_input'],
+            'decoder_input1': X['decoder_input1'],
+            'decoder_input2': X['decoder_input2'],
+            'original_monomer1': X['original_monomer1'],
+            'original_monomer2': X['original_monomer2']
+        },
+        {
+            'decoder1': y['monomer1_output'],
+            'decoder2': y['monomer2_output']
+        })).shuffle(buffer_size=1000).batch(batch_size)
         
         for epoch in range(start_epoch, num_epochs):
-            print(f"\nEpoch {epoch + 1}/{num_epochs}")
+            print(f"\nTraining Started: Epoch {epoch + 1}/{num_epochs}")
             epoch_rewards = []
             epoch_losses = []
-            
-            # Training steps
-            for step in tqdm(range(steps_per_epoch)):
-                metrics = self.train_step(input_data)
+
+            for step, (x_batch, y_batch) in enumerate(train_dataset):
+                metrics = self.train_step(x_batch, epoch+1)
                 epoch_rewards.append(metrics['mean_reward'])
                 epoch_losses.append(metrics['total_loss'])
-                print("metrics:",metrics)
+                print(f"Step {step//batch_size + 1} metrics:", metrics)
             
             # Compute epoch metrics
             mean_reward = np.mean(epoch_rewards)
@@ -346,73 +469,143 @@ class PPOTrainer:
             
             # Save checkpoint
             if (epoch + 1) % save_freq == 0:
-                self.save_checkpoint(epoch + 1, metrics)
+                self.save_checkpoint(epoch + 1, {
+                    'total_loss': mean_loss,
+                    'mean_reward': mean_reward
+                })
             
             # Save best model
             if mean_reward > best_reward:
                 best_reward = mean_reward
-                self.save_checkpoint(epoch + 1, metrics, is_best=True)
+                self.save_checkpoint(epoch + 1, {
+                    'total_loss': mean_loss,
+                    'mean_reward': mean_reward
+                }, is_best=True)
             
             # Update old generator
-            self.old_generator.prediction_model.set_weights(self.generator.prediction_model.get_weights())
+            self.old_generator.prediction_model.set_weights(
+                self.generator.prediction_model.get_weights()
+            )
 
         # Save final model
-        self.save_checkpoint(num_epochs, metrics)
+        self.save_checkpoint(num_epochs, {
+            'total_loss': mean_loss,
+            'mean_reward': mean_reward
+        })
         
         return self.history
 
+    
+
 def load_training_data(data_path):
-    monomer_1,monomer_2 = process_dual_monomer_data(file_path)
-    input_data = []
-    for i in range(len(monomer_1[:2])):
-        groups_1 = "C=C"
-        groups_2 = "C=C"
-        input_data.append({
-            'smiles1': monomer_1[i],
-            'smiles2': monomer_2[i],
-            'group1': groups_1,
-            'group2': groups_2
-        })
-    return input_data
+    # Load all data
+    # all_data = prepare_training_data_with_noise2(
+    #         max_length=model_params['max_length'],
+    #         vocab=smiles_vocab,
+    #         file_path=data_path,
+    #         noise_config=Constants.NOISE_CONFIG
+    #     )
+
+    all_data = prepare_training_data2(
+            max_length=model_params['max_length'],
+            vocab=smiles_vocab,
+            file_path=data_path,
+            #noise_config=Constants.NOISE_CONFIG
+        )
+
+            
+    train_size = int(0.9 * len(all_data[0]['monomer1_input']))
+    train_data = (
+            {k: v[:train_size] for k, v in all_data[0].items()},
+            {k: v[:train_size] for k, v in all_data[1].items()}
+    )
+    val_data = (
+        {k: v[train_size:] for k, v in all_data[0].items()},
+        {k: v[train_size:] for k, v in all_data[1].items()}
+    )
+    return train_data,val_data
 
 # Usage example
 if __name__ == "__main__":
-    # Initialize your models
-
-    save_dir_abs = os.path.join("Two_Monomers_Group", "pretrained_model", "saved_models_rl_gpu_3")
-    file_path = os.path.join('Two_Monomers_Group', 'Data', "smiles_orginal.xlsx")
+    #configure_tensorflow()
+    #print_device_info()
+    
+    save_dir_abs = os.path.join(RLHFConstants.PRETRAINED_MODEL_PATH, RLHFConstants.PRETRAINED_MODEL_NAME)
+    file_path = os.path.join(RLHFConstants.DATA_PATH, RLHFConstants.DATA_FILE_NAME)
+    
+    # Put all model creation and training code inside strategy.scope()
+    print("Training will run on CPU")
     based_model, smiles_vocab, model_params = load_and_retrain(save_dir=save_dir_abs)
-
     generator = GeneratorModel(based_model, smiles_vocab, model_params['max_length'])
-    generator.prediction_model.load_weights(os.path.join("Two_Monomers_Group", "RLHF","Generator","models","group_based_rl_model_n2", "weights_model.weights.h5"),
-                                            skip_mismatch=True)
+    
+    generator.prediction_model.load_weights(
+        os.path.join(RLHFConstants.GENERATOR_MODEL_PATH, 
+                    RLHFConstants.GENERATOR_MODEL_NAME, 
+                    "weights_model.weights.h5")
+    )
+    
+    # Create other models
     reward_model = RewardModel()
     optimizer = tf.keras.optimizers.Adam(learning_rate=0.0001)
+    diversity_reward = DiversityReward(min_length=25)
+    human_feedback_collector = HumanFeedbackCollector(save_path=RLHFConstants.FEEDBACK_COLLECTOR_PATH)
 
-    diversity_reward = DiversityReward(min_length=20)
-  
     
-    # Create trainer
+
+
+    
+    # # Create trainer
     trainer = PPOTrainer(
         generator=generator,
         reward_model=reward_model,
         diversity_reward=diversity_reward,
-        save_dir="models/ppo_training"
+        human_feedback_collector=human_feedback_collector
     )
+    #trainer.compute_preference_loss(test_samples)
     
     # Load training data
-    #input_data = load_training_data(file_path)
-    input_data = load_training_data(file_path)
-    
-    # Optional: Load checkpoint
-    # start_epoch = trainer.load_checkpoint("models/ppo_training/checkpoints/model_epoch_X.weights.h5")
+    input_data,val_data = load_training_data(file_path)
+    print("len(input_data):",len(input_data))
     
     # Train
     history = trainer.train(
         input_data=input_data,
-        num_epochs=1,
-        steps_per_epoch=1,
-        save_freq=1
-        # start_epoch=start_epoch  # If loading from checkpoint
+        num_epochs=RLHFConstants.PPO_EPOCHS,
+        save_freq=RLHFConstants.PPO_SAVE_FREQ,
+        batch_size=RLHFConstants.PPO_BATCH_SIZE
     )
+    
+    # Validation
+    validator = PPOValidator()
+    test_x,test_y = val_data
+
+    valid_dataset = tf.data.Dataset.from_tensor_slices((
+        {
+            'monomer1_input': test_x['monomer1_input'],
+            'monomer2_input': test_x['monomer2_input'],
+            'group_input': test_x['group_input'],
+            'decoder_input1': test_x['decoder_input1'],
+            'decoder_input2': test_x['decoder_input2'],
+            'original_monomer1': test_x['original_monomer1'],
+            'original_monomer2': test_x['original_monomer2']
+        },
+        {
+            'decoder1': test_y['monomer1_output'],
+            'decoder2': test_y['monomer2_output']
+        })).shuffle(buffer_size=1000).batch(RLHFConstants.PPO_BATCH_SIZE)
+    
+    for x_batch, y_batch in valid_dataset:
+        results = validator.generate_molecules(x_batch)
+        print(results)
+
+
+
+
+
+
+
+
+    
+
+    
 
