@@ -1,0 +1,2530 @@
+[
+    {
+        "unique_pairs": [
+            {
+                "smile1": "C1OC1COC3COC4C(OC2CO2)COC34",
+                "smile2": "NCC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N",
+                "reaction": true,
+                "groups": [
+                    "C1OC1",
+                    "NC"
+                ],
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "CC(CN)CCCN",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "c3cc(N(CC1CO1)CC2CO2)ccc3Cc6ccc(N(CC4CO4)CC5CO5)cc6",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)OCC(O)CC(O)CC(O)CC(O)CCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)OCC(C)N",
+                "reaction": true,
+                "groups": [
+                    "C1OC1",
+                    "NC"
+                ],
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "CC(COc3ccc(C(C)(C)c2ccc(OCC(C)OCC1CO1)cc2)cc3)OCC4CO4",
+                "smile2": "NC(CN)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N",
+                "reaction": true,
+                "groups": [
+                    "C1OC1",
+                    "NC"
+                ],
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "CC(C(COc3ccc(C(C)(C)c2ccc(OCC(C)OCC1CO1)cc2)cc3)OCC4CO4)OCC5CO5",
+                "smile2": "CC(CN)CCCN",
+                "reaction": true,
+                "groups": [
+                    "C1OC1",
+                    "NC"
+                ],
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "CC(C/OCC1CO1)(COCC2CO2)COCC3CO3",
+                "smile2": "CC(N)COCC/C(=O)/O[C@@H]1CC[C@@H]2[C@@]1(C=CC3=C4CCC(=O)C=C4CC[C@@H]23)C",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "c3cc(NCC1CO1)ccc3Cc6ccc(NCC5CO5)cc6",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)N",
+                "reaction": true,
+                "groups": [
+                    "C1OC1",
+                    "NC"
+                ],
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.6
+            }
+        ],
+        "duplicates": [
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C1OC1COC3COC4C(OC2CO2)COC34",
+                "smile2": "NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4",
+                "smile2": "NCCOCCOCCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4",
+                "smile2": "CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4",
+                "smile2": "CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCc4ccc(OCC1CO1)c(c2cc(CC=C)ccc2OCC3CO3)c4",
+                "smile2": "NCCNCCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "Cc3cc(c2cc(C)c(OCC1CO1)c(C)c2)cc(C)c3OCC4CO4",
+                "smile2": "CC(CN)CCCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OC1CO1)cc2)c4ccc(OC3CO3)cc4",
+                "smile2": "NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+                "smile2": "NCCOCCOCCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCC1CO1)cc2)c4ccc(OCCOCC3CO3)cc4",
+                "smile2": "NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C1OC1COC3COC4C(OC2CO2)COC34",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "CC(C)(c4ccc(OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)cc4)c6ccc(OCC5CO5)cc6",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "c2cc(OCC1CO1)ccc2Cc4ccc(OCC3CO3)cc4",
+                "smile2": "CC1(C)CC(N)CC(C)(CN)C1",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4",
+                "smile2": "NCc1cccc(CN)c1",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+                "smile2": "NCCCOCCOCCCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4",
+                "smile2": "CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C1OC1COC3COC4C(OC2CO2)COC34",
+                "smile2": "CC1(C)CC(N)CC(C)(CN)C1",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OC1CO1)cc2)c4ccc(OC3CO3)cc4",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCC1CO1)cc2)c4ccc(OCCOCC3CO3)cc4",
+                "smile2": "NCCNCCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OC1CO1)cc2)c4ccc(OC3CO3)cc4",
+                "smile2": "CCC(COCC(C)COCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4",
+                "smile2": "NCCOCCOCCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "c2cc(OCC1CO1)ccc2Cc4ccc(OCC3CO3)cc4",
+                "smile2": "NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4",
+                "smile2": "NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4",
+                "smile2": "NCc1cccc(CN)c1",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "Cc3cc(c2cc(C)c(OCC1CO1)c(C)c2)cc(C)c3OCC4CO4",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+                "smile2": "CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4",
+                "smile2": "CC(CN)CCCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CCc4ccc(OCC1CO1)c(c2cc(CC=C)ccc2OCC3CO3)c4",
+                "smile2": "NCc1cccc(CN)c1",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4",
+                "smile2": "CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "CC(C)(C4CCC(OCC(O)COC3CCC(C(C)(C)C2CCC(OCC1CO1)CC2)CC3)CC4)C6CCC(OCC5CO5)CC6",
+                "smile2": "CCC(COCC(C)COCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "CC(COc3ccc(C(C)(C)c2ccc(OCC(C)OCC1CO1)cc2)cc3)OCC4CO4",
+                "smile2": "NCCNCCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "c3cc(N(CC1CC1)CC2CO2)ccc3OCC4CO4",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4",
+                "smile2": "CCC(COCC(C)COCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4",
+                "smile2": "CCC(COCC(C)COCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4",
+                "smile2": "NCCOCCOCCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOC1CO1)cc2)c4ccc(OCCOCCOCCC3CO3)cc4",
+                "smile2": "CC1(C)CC(N)CC(C)(CN)C1",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "c3cc(N(CC1CC1)CC2CO2)ccc3OCC4CO4",
+                "smile2": "CC(N)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)COCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C1OC1COC3COC4C(OC2CO2)COC34",
+                "smile2": "NCc1cccc(CN)c1",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4",
+                "smile2": "CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCc4ccc(OCC1CO1)c(c2cc(CC=C)ccc2OCC3CO3)c4",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCC1CO1)cc2)c4ccc(OCCOCC3CO3)cc4",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C1OC1COC3COC4C(OC2CO2)COC34",
+                "smile2": "NCCCOCCOCCCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4",
+                "smile2": "CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "c3cc(N(CC1CO1)CC2CO2)ccc3OCC4CO4",
+                "smile2": "NCc1cccc(CN)c1",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C1OC1COC3COC4C(OC2CO2)COC34",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "CC(COc3ccc(C(C)(C)c2ccc(OCC(C)OCC1CO1)cc2)cc3)OCC4CO4",
+                "smile2": "NCc1cccc(CN)c1",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "c1ccc3c(c1)c2ccccc2C3(c5ccc(OCCOCC4CO4)cc5)c7ccc(OCCOCC6CO6)cc7",
+                "smile2": "CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "c3cc(N(CC1CO1)CC2CO2)ccc3Cc6ccc(N(CC4CO4)CC5CO5)cc6",
+                "smile2": "CC1(C)CC(N)CC(C)(CN)C1",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4",
+                "smile2": "CCC(COCC(C)COCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "CC(C)(C4CCC(OCC(O)COC3CCC(C(C)(C)C2CCC(OCC1CO1)CC2)CC3)CC4)C6CCC(OCC5CO5)CC6",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "CC(C/C=C\\CC(=O)OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)C(=O)OCC(O)COc6ccc(C(C)(C)c5ccc(OCC4CO4)cc5)cc6",
+                "smile2": "NCCNCCN",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "C1OC1COC3COC4C(OC2CO2)COC34",
+                "smile2": "CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 40\u00b0C, Er = 80 MPa, and monomers featuring epoxy(C1OC1) and imine(NC) groups.",
+                "temperature": 1.6
+            }
+        ]
+    },
+    {
+        "unique_pairs": [
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "CC(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCCC",
+                "smile2": "C=COC(=O)CC(=O)OCCOCCOCCOCCOCCOC(=O)C(C)=O",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "C#CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC#C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "C1=CC(=O)N(C(=O)/C1=C(\\C)/Nc2ccccc2N)[O-]",
+                "smile2": "CC1=C([C@H](C(=C(O1)N)C(=O)OC)c2cccc(c2)[N+](=O)[O-])C(=O)C",
+                "reaction": true,
+                "groups": [
+                    "C=C",
+                    "C=C(C=O)"
+                ],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "C=CC1=C([O])C(=C(C(=O)C1=O)CC=C(Cl)Cl)[O-]",
+                "smile2": "CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.6
+            }
+        ],
+        "duplicates": [
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "smile2": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "smile2": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C=Cn1cc(c(=O)c2c1cc(c(c2)F)Cl)C(=O)[O-]",
+                "smile2": "CCOC(=O)/C(=C/c1ccc(cc1)Cl)/C(=O)C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "smile2": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "smile2": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CC(=O)OCCCC",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=COC(=O)CCCCCC(C)(C)C",
+                "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "smile2": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "smile2": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "smile2": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "CC(=O)O[C@@H]1CC[C@@H]2[C@@]1(C=CC3=C4CCC(=O)C=C4CC[C@@H]23)C",
+                "smile2": "CC\\1=CC(=O)N(C(=O)/C1=C(\\C)/Nc2ccccc2N)[O-]",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "C=C=Cn1cc(c(=O)c2c1cc(c(c2)F)Cl)C(=O)[O-]",
+                "smile2": "CC1=C([C@H](C(=C(O1)N)C(=O)OC)c2cccc(c2)[N+](=O)[O-])C(=O)C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and hydroxyl(=O) groups.",
+                "temperature": 1.6
+            }
+        ]
+    },
+    {
+        "unique_pairs": [
+            {
+                "smile1": "CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCCC3COC(=O)CC3C(=O)OCC2CO2",
+                "smile2": "OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCCOCC(C)OCCOCC(C)OCCOCC(C)OCCOCC(C)OCCOCC(C)OCCOCC(C)OCCOCC(C)OCCOCC",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C1CCC(=O)OCC1OC(=O)C2CCC(C=C)C2",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "reaction": true,
+                "groups": [
+                    "C=C",
+                    "CCS"
+                ],
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4",
+                "smile2": "c1cc(c2nccc(=O)n2c1)SC(=O)N3CCSCC3",
+                "reaction": true,
+                "groups": [
+                    "C1OC1",
+                    "NC"
+                ],
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4",
+                "smile2": "CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "CCC(C/C=C\\CC(=O)OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)C(=O)OCC(O)COc6ccc(C(C)(C)c5ccc(OCC4CO4)cc5)cc6",
+                "smile2": "CCCCCCCCCN",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCCC",
+                "smile2": "C",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "smile2": "OCCCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "reaction": true,
+                "groups": [
+                    "C=C",
+                    "CCS"
+                ],
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "C=CC(=O)C(=Cc1ccc(cc1)S(=O)(=O)C)C(=O)C",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "reaction": true,
+                "groups": [
+                    "C=C",
+                    "CCS"
+                ],
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.6
+            }
+        ],
+        "duplicates": [
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "smile2": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "smile2": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "CC(=O)O[C@@H]1CC[C@@H]2[C@@]1(C=CC3=C4CCC(=O)C=C4CC[C@@H]23)C",
+                "smile2": "C[C@H]([C@](Cn1cncn1)(c2ccc(cc2F)F)O)S(=O)(=O)C",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "CC(=O)O[C@@H]1CC[C@@H]2[C@@]1(C=CC3=C4CCC(=O)C=C4CC[C@@H]23)C",
+                "smile2": "c1c(c(nc(=O)n1CCN2[C@H](SCC2=O)CO)N)F",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=Cc1cccc(C=C)c1",
+                "smile2": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=Cc1ccccc1",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups.",
+                "temperature": 1.6
+            }
+        ]
+    },
+    {
+        "unique_pairs": [
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "CCC(C=C=Cn1cc(c(=O)c2c1cc(c(c2)F)Cl)C(=O)[O-])C(=O)C",
+                "reaction": true,
+                "groups": [
+                    "C=C(C=O)",
+                    "C=C"
+                ],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)C=C)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "reaction": true,
+                "groups": [
+                    "CCS",
+                    "C=C"
+                ],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "CCC(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "smile2": "C=C=Cn1cc(c(=O)c2c1cc3c(c2)OCO3)C(=O)[O-]",
+                "reaction": true,
+                "groups": [
+                    "CCS",
+                    "C=C"
+                ],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "smile2": "CC\\1=NC(=O)C(=C/C1=C\\2/C=CN3C=CNC3=C2)C#N",
+                "reaction": true,
+                "groups": [
+                    "CCS",
+                    "C=C"
+                ],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CC(O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "reaction": true,
+                "groups": [
+                    "C=C",
+                    "C=C(C=O)"
+                ],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CC(=O)OCCC(COC(=O)C=C)(COC(=O)C=C)COC(=O)C=C",
+                "smile2": "C=Cc1ccccc1",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "smile2": "CC\\1=CC(=O)N(C(=O)/C1=C(\\C)/Nc2ccccc2N)[O-]",
+                "reaction": true,
+                "groups": [
+                    "CCS",
+                    "C=C"
+                ],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+                "smile2": "c1ccc3c(c1)c2ccccc2C3=O",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)C=C)COC(=O)C=C",
+                "smile2": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+                "reaction": true,
+                "groups": [
+                    "C=C(C=O)",
+                    "C=C"
+                ],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.6
+            }
+        ],
+        "duplicates": [
+            {
+                "smile1": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(C)=O",
+                "smile2": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "smile2": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "c1cc(c2nccc(=O)n2c1)SC(=O)N3CCSCC3",
+                "smile2": "c1ccc2c(c1)CCC3=C2OC(=C([C@@H]3c4cccs4)C#N)N",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "c1cc(c2nccc(=O)n2c1)SC(=O)N3CCSCC3",
+                "smile2": "CC1=C([C@H](C(=C(O1)N)C(=O)OC)c2cccc(c2)[N+](=O)[O-])C(=O)C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups.",
+                "temperature": 1.6
+            }
+        ]
+    },
+    {
+        "unique_pairs": [
+            {
+                "smile1": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "smile2": "CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4",
+                "smile2": "CC(=O)O[C@@H]1CC[C@@H]2[C@@]1(C=CC3=C4CCC(=O)C=C4CC[C@@H]23)C",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CCc4ccc(OCC1CO1)c(c2cc(CC=C)ccc2OCC3CO3)c4",
+                "smile2": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C1OC1COC3COC4C(OC2CO2)COC34",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4",
+                "smile2": "CC(C=Cc1cccc(C=C=C)c1)(C=C=C)c3cccc(C=C=C)c3",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCCC",
+                "smile2": "CCC(C=C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C1OC1COC3COC4C(OC2CO2)COC34",
+                "smile2": "CC/N=C/c1ccc(cc1)Cl",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "NCc1ccccc1C(=O)OCC(O)COc2ccc(C(C)(C)c3ccc(OCC(O)COC(=O)C(=C)C)cc2)cc3",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCC(O)COc2ccc(C(C)(C)c1ccc(OCCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "reaction": true,
+                "groups": [
+                    "C=C(C=O)",
+                    "C=C"
+                ],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "O-CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4",
+                "smile2": "CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CCc4ccc(OCC1CO1)c(c2cc(CC=C)ccc2OCC3CO3)c4",
+                "smile2": "C=CCCCCC(C=O)OCC(CO)COC(=O)CCCCC(=O)OCC(CO)COC(=O)CCCCC(=O)OCC(CO)COC(=O)CCCCC(=O)OCC(CO)COC(=O)CCCCC(=O)OCC(CO)COC(=O)CCCCC(=O)OCC(CO)COC(=O)CCCCC(=O)OCC(CO)COC(=O)CCCCC(=O)OCC(CCO)",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "O=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "smile2": "C=COC(=O)CC(C)(C)C",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4",
+                "smile2": "NICCCOOCCCN",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "CCCCCCCCCn1cc(c(=O)c2ccccc2C1=O)C(=O)[O-]",
+                "smile2": "C=C=Cn1cc(c(=O)c2c1cc3c(c2)OCO3)C(=O)[O-]",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "smile2": "CCC(P)(P)N",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "OC1OC1COC3COC4C(OC2CO2)COC34",
+                "smile2": "CCC(C=CC(=O)OCC(C)CO)(C=CC(=O)OCC(C)CO)C=CC(=O)OCC(C)CO",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.6
+            }
+        ],
+        "duplicates": [
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "smile2": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "CC(C)(c4ccc(OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)cc4)c6ccc(OCC5CO5)cc6",
+                "smile2": "CC1(C)CC(N)CC(C)(CN)C1",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "smile2": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "smile2": "C=COC(=O)CCCCCC(C)(C)C",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "CC(C)(C4CCC(OCC(O)COC3CCC(C(C)(C)C2CCC(OCC1CO1)CC2)CC3)CC4)C6CCC(OCC5CO5)CC6",
+                "smile2": "NCCOCCOCCN",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "smile2": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "CC(COc3ccc(C(C)(C)c2ccc(OCC(C)OCC1CO1)cc2)cc3)OCC4CO4",
+                "smile2": "CC(N)COCC(C)OCC(C)OCC(C)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCC(C)OCC(C)OCC(C)N",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C1OC1COC3COC4C(OC2CO2)COC34",
+                "smile2": "NCc1cccc(CN)c1",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "CCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+                "prompt": "Create a thermoset polymer with Tg = 60\u00b0C, Er = 100 MPa, and monomers featuring vinyl(C=C) and vinyl(C=C) groups.",
+                "temperature": 1.6
+            }
+        ]
+    },
+    {
+        "unique_pairs": [
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "CCC(C=CCOCC(C)OCC(C)N)(C=CCOCC(C)OCC(C)N)C=CCOCC(C)OCC(C)N",
+                "reaction": true,
+                "groups": [
+                    "C=C(C=O)",
+                    "C=C"
+                ],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "reaction": true,
+                "groups": [
+                    "C=C",
+                    "C=C(C=O)"
+                ],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "CCC(C(=O)OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)C(=O)OCC(O)COc6ccc(C(C)(C)c5ccc(OCC4CO4)cc5)cc6",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=COC(=O)C(=C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "CCC(C=C(C)C(=O)OCCOCCOCCOCCOCC)C(=O)OCCOCCOCCOCCOCC",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C-C(=O)O-C(=O)C-C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=O)C=C",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=COC(=O)C(=C)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "reaction": true,
+                "groups": [
+                    "C=C(C=O)",
+                    "C=C"
+                ],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "CC(C)(c3ccc2OCN(c1ccccc1)Cc2c3)c6ccc5OCN(c4ccccc4)Cc5c6",
+                "smile2": "c1ccc2c(c1)CCC3=C2OC(=C([C@@H]3c4cccs4)C#N)N",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "C=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "smile2": "CC1=C([C@H](C(=C(O1)N)C(=O)OC)c2cccc(c2)[N+](=O)[O-])C(=O)C",
+                "reaction": true,
+                "groups": [
+                    "C=C",
+                    "C=C(C=O)"
+                ],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4",
+                "smile2": "c1ccc2c(c1)C(=C(C(=O)C2=O)CC=C(Cl)Cl)[O-]",
+                "reaction": false,
+                "groups": [],
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.6
+            }
+        ],
+        "duplicates": [
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.5
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 0.8
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.0
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=Cc1cccc(C=C)c1",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "CC(=O)C(=Cc1ccc(cc1)S(=O)(=O)C)C(=O)C",
+                "smile2": "C=C=Cn1cc(c(=O)c2c1cc(c(c2)F)Cl)C(=O)[O-]",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.3
+            },
+            {
+                "smile1": "C[C@@H](C(=O)N[C@H]1CCSC1=O)SC(=O)c2cccs2",
+                "smile2": "C=C=Cn1cc(c(=O)c2c1cc(c(c2)F)Cl)C(=O)[O-]",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+                "smile2": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.6
+            },
+            {
+                "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+                "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+                "prompt": "Propose two monomers that form a TSMP with Tg around 100\u00b0C, Er near 100 MPa, and containing acrylate(C=C(C=O)) and vinyl(C=C) groups.",
+                "temperature": 1.6
+            }
+        ]
+    }
+]

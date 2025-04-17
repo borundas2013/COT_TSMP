@@ -1,0 +1,322 @@
+[
+    [
+        {
+            "smile1": "C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+            "smile2": "NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Provide a pair of monomers suitable for TSMPs, one rich in epoxy(C1OC1) and the other in imine(NC) groups."
+        },
+        {
+            "smile1": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+            "smile2": "NCc1cccc(CN)c1",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Provide a pair of monomers suitable for TSMPs, one rich in epoxy(C1OC1) and the other in imine(NC) groups."
+        },
+        {
+            "smile1": "CCC(COC(=O)CCS)(c4ccc(OCC(O)COc3ccc(C(C)(C)C)cc3)cc4)c2ccc(OCC1CO1)cc2",
+            "smile2": "CC(N)COCC(C)OCC(C)OCC(C)N",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Provide a pair of monomers suitable for TSMPs, one rich in epoxy(C1OC1) and the other in imine(NC) groups."
+        },
+        {
+            "smile1": "O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4",
+            "smile2": "C1CCCC(C)(C)C1",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Provide a pair of monomers suitable for TSMPs, one rich in epoxy(C1OC1) and the other in imine(NC) groups."
+        },
+        {
+            "smile1": "CC(C)(c4ccc(OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)cc4)c6ccc(OCC5CO5)cc6",
+            "smile2": "NCCNCCCCN(CCNCCC(CN)CCN)CCN(CCNCCCCN)CCN(CCN)CCN",
+            "reaction": true,
+            "groups": [
+                "C1OC1",
+                "NC"
+            ],
+            "prompt": "Provide a pair of monomers suitable for TSMPs, one rich in epoxy(C1OC1) and the other in imine(NC) groups."
+        },
+        {
+            "smile1": "FC(O)(c3ccc(C(C)(C)c2ccccc2)cc3)Cc1ccc(OCCOCC4CO4)cc1",
+            "smile2": "CCC(COCC(C)OCC(C)N)(COCC(C)OCC(C)N)COCC(C)OCC(C)N",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Provide a pair of monomers suitable for TSMPs, one rich in epoxy(C1OC1) and the other in imine(NC) groups."
+        },
+        {
+            "smile1": "CC(C)(c4ccc(OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)cc4)c8ccc(OCC7CO7)cc8",
+            "smile2": "CC1(C)CC(N)(CO)CC1(C)",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Provide a pair of monomers suitable for TSMPs, one rich in epoxy(C1OC1) and the other in imine(NC) groups."
+        },
+        {
+            "smile1": "C=CCc4ccc(OCC1CO1)c(c2cc(CC=C)ccc2OCC3CO3)c4",
+            "smile2": "NCC",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Provide a pair of monomers suitable for TSMPs, one rich in epoxy(C1OC1) and the other in imine(NC) groups."
+        }
+    ],
+    [
+        {
+            "smile1": "CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS",
+            "smile2": "CCCC(=O)OCC(CC)(OCC(C)(COC(=O)CCS)COC(=O)CCS)OCC(C)(COC(=O)CCS)OCC(C)(COC(=O)CCS)C",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Generate two monomers for a TSMP, ensuring one includes vinyl(C=C) groups and the other includes hydroxyl(=O) groups."
+        },
+        {
+            "smile1": "C=CCc1ccccc1OCC(O)COc2ccccc2CC=C",
+            "smile2": "CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS",
+            "reaction": true,
+            "groups": [
+                "C=C",
+                "CCS"
+            ],
+            "prompt": "Generate two monomers for a TSMP, ensuring one includes vinyl(C=C) groups and the other includes hydroxyl(=O) groups."
+        },
+        {
+            "smile1": "C=CCc1ccccc1OCC(O)COC(=O)Cc3ccc(C(=O)OCC(O)COc2ccccc2CC=C)cc3",
+            "smile2": "C=O",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Generate two monomers for a TSMP, ensuring one includes vinyl(C=C) groups and the other includes hydroxyl(=O) groups."
+        }
+    ],
+    [
+        {
+            "smile1": "C=CC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(C)OCC(C)OCC(C)OC=C)CC(C)(C)C1",
+            "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(C)OCC(C)OCC(C)OCC=C)CC(C)(C)C1",
+            "reaction": true,
+            "groups": [
+                "C=C",
+                "CCS"
+            ],
+            "prompt": "Create a monomer pair for TSMPs where one contains vinyl(C=C) groups and the other contains thiol(CCS) groups."
+        },
+        {
+            "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+            "smile2": "OCCSCCOCCS",
+            "reaction": true,
+            "groups": [
+                "C=C",
+                "CCS"
+            ],
+            "prompt": "Create a monomer pair for TSMPs where one contains vinyl(C=C) groups and the other contains thiol(CCS) groups."
+        },
+        {
+            "smile1": "C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+            "smile2": "C=CCOCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+            "reaction": true,
+            "groups": [
+                "C=C(C=O)",
+                "C=C"
+            ],
+            "prompt": "Create a monomer pair for TSMPs where one contains vinyl(C=C) groups and the other contains thiol(CCS) groups."
+        },
+        {
+            "smile1": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+            "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCCIII",
+            "reaction": true,
+            "groups": [
+                "C=C",
+                "CCS"
+            ],
+            "prompt": "Create a monomer pair for TSMPs where one contains vinyl(C=C) groups and the other contains thiol(CCS) groups."
+        },
+        {
+            "smile1": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+            "smile2": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS",
+            "reaction": true,
+            "groups": [
+                "C=C",
+                "CCS"
+            ],
+            "prompt": "Create a monomer pair for TSMPs where one contains vinyl(C=C) groups and the other contains thiol(CCS) groups."
+        },
+        {
+            "smile1": "C=CC(C)(C)C",
+            "smile2": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Create a monomer pair for TSMPs where one contains vinyl(C=C) groups and the other contains thiol(CCS) groups."
+        }
+    ],
+    [
+        {
+            "smile1": "C=C(-OCC1CO1)CC(-OCC2CO2)C(=O)OCC3CO3",
+            "smile2": "C=CCCl",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Suggest a TSMP system with one monomer having thiol(CCS) groups and the other featuring vinyl(C=C) groups."
+        },
+        {
+            "smile1": "c3cc(N(CC1CO1)CC2CO2)ccc3OCC4CO4",
+            "smile2": "C=Cc1cccc(C=C)c1",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Suggest a TSMP system with one monomer having thiol(CCS) groups and the other featuring vinyl(C=C) groups."
+        },
+        {
+            "smile1": "CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS",
+            "smile2": "C=C(C)C(=C)OCOCCOC(=O)C(=C)C",
+            "reaction": true,
+            "groups": [
+                "CCS",
+                "C=C"
+            ],
+            "prompt": "Suggest a TSMP system with one monomer having thiol(CCS) groups and the other featuring vinyl(C=C) groups."
+        },
+        {
+            "smile1": "O=C(OCC1CO1)C3CC2OC2CC3C(=O)OCC4CO4",
+            "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Suggest a TSMP system with one monomer having thiol(CCS) groups and the other featuring vinyl(C=C) groups."
+        },
+        {
+            "smile1": "c1ccc3c(c1)c2ccccc2C3(c5ccc(OCCOCC4CO4)cc5)c7ccc(OCCOCC6CO6)cc7",
+            "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOC(=O)C(C)=O",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Suggest a TSMP system with one monomer having thiol(CCS) groups and the other featuring vinyl(C=C) groups."
+        },
+        {
+            "smile1": "c1ccc3c(c1)c2ccccc2C3(c5ccc(OCCOCC4CO4)cc5)c7ccc(OCCOCC6CO6)cc7",
+            "smile2": "CC(=O)OCC",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Suggest a TSMP system with one monomer having thiol(CCS) groups and the other featuring vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=CCc4ccc(OCC1CO1)c(c2cc(CC=C)ccc2OCC3CO3)c4",
+            "smile2": "CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS",
+            "reaction": true,
+            "groups": [
+                "C=C",
+                "CCS"
+            ],
+            "prompt": "Suggest a TSMP system with one monomer having thiol(CCS) groups and the other featuring vinyl(C=C) groups."
+        },
+        {
+            "smile1": "CC(C)(c4ccc(OCC(O)COc3ccc(C(C)(C)c2ccc(OCC1CO1)cc2)cc3)cc4)c6ccc(OCC5CO5)cc6",
+            "smile2": "C=Cc1cccc(C=C)c1",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Suggest a TSMP system with one monomer having thiol(CCS) groups and the other featuring vinyl(C=C) groups."
+        }
+    ],
+    [
+        {
+            "smile1": "C=C(C)C(=Cc3ccc(OCC2CO2)cc3)Cc6ccc(OCC5CO5)cc6",
+            "smile2": "C=CC(C)(C)C",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Generate two monomers for a TSMP, ensuring one includes vinyl(C=C) groups and the other includes vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(C(C)(C)c1ccccc1)cc2",
+            "smile2": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Generate two monomers for a TSMP, ensuring one includes vinyl(C=C) groups and the other includes vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=CCOC(CC)(CO)CO",
+            "smile2": "C=NCCCOCCOCCNC",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Generate two monomers for a TSMP, ensuring one includes vinyl(C=C) groups and the other includes vinyl(C=C) groups."
+        },
+        {
+            "smile1": "CCCCCCCCC1OC1CCCCCCCC(=O)OCC(COC(=O)CCCCCCCC2OC2CC3OC3CC4OC4CC)OC(=O)CCCCCCCC5OC5CC6OC6CC7OC7CC",
+            "smile2": "C1(C)CC(N)CC(C)(CN)C1",
+            "reaction": true,
+            "groups": [
+                "C1OC1",
+                "NC"
+            ],
+            "prompt": "Generate two monomers for a TSMP, ensuring one includes vinyl(C=C) groups and the other includes vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "smile2": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+            "reaction": true,
+            "groups": [
+                "C=C",
+                "C=C(C=O)"
+            ],
+            "prompt": "Generate two monomers for a TSMP, ensuring one includes vinyl(C=C) groups and the other includes vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+            "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "reaction": true,
+            "groups": [
+                "C=C",
+                "C=C(C=O)"
+            ],
+            "prompt": "Generate two monomers for a TSMP, ensuring one includes vinyl(C=C) groups and the other includes vinyl(C=C) groups."
+        }
+    ],
+    [
+        {
+            "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+            "smile2": "C=CCOc1cccc(C=C)c1",
+            "reaction": true,
+            "groups": [
+                "C=C(C=O)",
+                "C=C"
+            ],
+            "prompt": "Provide a pair of monomers suitable for TSMPs, one rich in acrylate(C=C(C=O)) and the other in vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)C=C)c(=O)n(CCOC(=O)C=C)c1=O",
+            "smile2": "C=C(c1ccccc1)c3ccc(cc3)c2ccccc2",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Provide a pair of monomers suitable for TSMPs, one rich in acrylate(C=C(C=O)) and the other in vinyl(C=C) groups."
+        },
+        {
+            "smile1": "O=C(OCC1CO1)C3CC2OC2Cc3C(=O)OCC4CO4",
+            "smile2": "O=c1ccc(=O)n1c4ccc(Cc3ccc(n2c(=O)ccc2=O)cc3)cc4",
+            "reaction": true,
+            "groups": [
+                "C1OC1",
+                "NC"
+            ],
+            "prompt": "Provide a pair of monomers suitable for TSMPs, one rich in acrylate(C=C(C=O)) and the other in vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=C(C)C(=C)O.C(=O)OCC(O)COc2ccc(C(C)(C)c1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+            "smile2": "C=C(C)C(=O)OCCOCCOCC",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Provide a pair of monomers suitable for TSMPs, one rich in acrylate(C=C(C=O)) and the other in vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=CCc5ccc(OCC1CO1)c(c2cc(CC=C)ccc2OCC3CO3)c5",
+            "smile2": "C=Cc1cccc(C=C)c1",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Provide a pair of monomers suitable for TSMPs, one rich in acrylate(C=C(C=O)) and the other in vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=CC(=O)OCCn1c(=O)n(CCOC(=O)CC=C)c(=O)n(CCOC(=O)CC=C)c1=O",
+            "smile2": "C=Cc1cccc(C=C)c1",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Provide a pair of monomers suitable for TSMPs, one rich in acrylate(C=C(C=O)) and the other in vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=CC(=O)OCCCC",
+            "smile2": "C=Cc1cccc(CC=C)c1",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Provide a pair of monomers suitable for TSMPs, one rich in acrylate(C=C(C=O)) and the other in vinyl(C=C) groups."
+        }
+    ]
+]

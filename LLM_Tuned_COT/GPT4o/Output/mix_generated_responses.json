@@ -1,0 +1,202 @@
+[
+    [
+        {
+            "smile1": "O=c1n(CCS)c(=O)n(CCS)c1=O",
+            "smile2": "NCCCOCCOCCCN",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Generate a TSMP with Tg = 40\u00b0C and Er = 80 MPa, using functional groups epoxy(C1OC1) and imine(NC)."
+        },
+        {
+            "smile1": "c2cc(OCC1CO1)ccc2Cc4ccc(OCC3CO3)cc4",
+            "smile2": "NCC",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Generate a TSMP with Tg = 40\u00b0C and Er = 80 MPa, using functional groups epoxy(C1OC1) and imine(NC)."
+        },
+        {
+            "smile1": "CC(C)(C2CCC(OCCOCC1CO1)CC2)C4CCC(OCCOCC3CO3)CC4",
+            "smile2": "NCCNCCN(CCNCCC(CN)CCN)CCN(CCNCCN)CCN(CCN)CCN",
+            "reaction": true,
+            "groups": [
+                "C1OC1",
+                "NC"
+            ],
+            "prompt": "Generate a TSMP with Tg = 40\u00b0C and Er = 80 MPa, using functional groups epoxy(C1OC1) and imine(NC)."
+        }
+    ],
+    [],
+    [
+        {
+            "smile1": "C=CCS",
+            "smile2": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups."
+        },
+        {
+            "smile1": "C=CCBr",
+            "smile2": "C=CC(C)(c4ccc(OCC3CO3)cc4)c2ccc(OCC1CO1)cc2",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups."
+        },
+        {
+            "smile1": "C=C(C)C(=O)OCC(O)COc2ccc(Cc1ccc(OCC(O)COC(=O)C(=C)C)cc1)cc2",
+            "smile2": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+            "reaction": true,
+            "groups": [
+                "C=C(C=O)",
+                "C=C"
+            ],
+            "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups."
+        },
+        {
+            "smile1": "C=C(CCS)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCSC(=O)NCC1(C)CC(NC(=O)SCCC(=O)OCC(COC(=O)CCS)(COC(=O)CCS)COC(=O)CCS)CC(C)(C)C1",
+            "smile2": "O=c1n(CCS)c(=O)n(CCS)c(=O)n1CCS",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Create a thermoset polymer with Tg = 150\u00b0C, Er = 200 MPa, and monomers featuring vinyl(C=C) and thiol(CCS) groups."
+        }
+    ],
+    [
+        {
+            "smile1": "C=CCc2ccc(OCCOCCOCCOC1CO1)cc2",
+            "smile2": "C=COC(=O)CCCCCC(C)(C)C",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups."
+        },
+        {
+            "smile1": "CCCC(=O)OCC(CC)(COC(=O)CCS)COC(=O)CCS",
+            "smile2": "C=C",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups."
+        },
+        {
+            "smile1": "CC(C)(c2ccc(OCC1CO1)cc2)c4ccc(OCC3CO3)cc4",
+            "smile2": "C=Cc1cccc(C=C)c1",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "smile2": "C=C(C)C(=O)OC",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups."
+        },
+        {
+            "smile1": "NC(C)(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "smile2": "C=CCOCCC(COCC=C)(COCC=C)COC(=O)NCC1(C)CC(NC(=O)OCC(COCC=C)(COCC=C)COCC=C)CC(C)(C)C1",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=CCc4ccc(OCC1CO1)c(c2cc(CCS)ccc2OCC3CO3)c4",
+            "smile2": "CCC(C=C)(C)C",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups."
+        },
+        {
+            "smile1": "CC(C)(c2ccc(OCCOCCOCCOCC1CO1)cc2)c4ccc(OCCOCCOCCOCC3CO3)cc4",
+            "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups."
+        },
+        {
+            "smile1": "CCCCCCCCC1OC1CCCCCCCC(=O)OCC(COC(=O)CCCCCCCC2OC2CC3OC3CC4OC4CC)OC(=O)CCCCCCCC5OC5CC6OC6CC7OC7CC",
+            "smile2": "C=Cc1cccc(C=C)c1",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Propose two monomers that form a TSMP with Tg around 140\u00b0C, Er near 80 MPa, and containing thiol(CCS) and vinyl(C=C) groups."
+        }
+    ],
+    [
+        {
+            "smile1": "C=Cc1cccc(C=C)c1",
+            "smile2": "C",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Propose two monomers that form a TSMP with Tg around 60\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "smile2": "C=C(C)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOC(=O)C(=C)C",
+            "reaction": true,
+            "groups": [
+                "C=C",
+                "C=C(C=O)"
+            ],
+            "prompt": "Propose two monomers that form a TSMP with Tg around 60\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=C(CCS)OCCn1c(=O)n(CCOC(=O)CCS)c(=O)n(CCOC(=O)CCS)c1=O",
+            "smile2": "C=CCc1ccccc1OCC(O)COC(=O)CCCCC(=O)OCC(O)COc2ccccc2CC=C",
+            "reaction": true,
+            "groups": [
+                "CCS",
+                "C=C"
+            ],
+            "prompt": "Propose two monomers that form a TSMP with Tg around 60\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+            "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+            "reaction": true,
+            "groups": [
+                "C=C(C=O)",
+                "C=C"
+            ],
+            "prompt": "Propose two monomers that form a TSMP with Tg around 60\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+            "smile2": "C=C(C)C(=O)OC",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Propose two monomers that form a TSMP with Tg around 60\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and vinyl(C=C) groups."
+        },
+        {
+            "smile1": "C=CCc1ccccc1OCC(O)COC(=O)c2ccc(C(=O)OCC(O)COc3ccccc3CC=C)cc2",
+            "smile2": "CCCC(=O)OCC(CC)(CC)OCC(=O)OCC(CC)(CC)OCC(=O)OCC(C)CC(C)CC(C)CC(C)CC(C)CC(C)CC(C)OCC(C)OCC(C)OCC(C)OCC(C)OCC(C)N",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Propose two monomers that form a TSMP with Tg around 60\u00b0C, Er near 100 MPa, and containing vinyl(C=C) and vinyl(C=C) groups."
+        }
+    ],
+    [
+        {
+            "smile1": "C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+            "smile2": "C",
+            "reaction": false,
+            "groups": [],
+            "prompt": "Suggest a TSMP system that satisfies Tg = 100\u00b0C and Er = 100 MPa, incorporating acrylate(C=C(C=O)) and vinyl(C=C) functionalities."
+        },
+        {
+            "smile1": "C=C(C)C(=O)OCCOCCOCCOC(=O)C(=C)C",
+            "smile2": "C=CCOCC(CO)(COCC=C)COCC=C",
+            "reaction": true,
+            "groups": [
+                "C=C(C=O)",
+                "C=C"
+            ],
+            "prompt": "Suggest a TSMP system that satisfies Tg = 100\u00b0C and Er = 100 MPa, incorporating acrylate(C=C(C=O)) and vinyl(C=C) functionalities."
+        },
+        {
+            "smile1": "CCC(=O)OCC(O)(COC(=O)CCS)COC(=O)CCS",
+            "smile2": "C=CCn1c(=O)n(CC=C)c(=O)n(CC=C)c1=O",
+            "reaction": true,
+            "groups": [
+                "CCS",
+                "C=C"
+            ],
+            "prompt": "Suggest a TSMP system that satisfies Tg = 100\u00b0C and Er = 100 MPa, incorporating acrylate(C=C(C=O)) and vinyl(C=C) functionalities."
+        }
+    ]
+]
